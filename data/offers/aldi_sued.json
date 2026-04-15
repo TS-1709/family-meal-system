@@ -1,0 +1,78 @@
+{
+  "store": "ALDI SÜD",
+  "date": "2026-04-15",
+  "kw": 16,
+  "offer_count": 5,
+  "offers": [
+    {
+      "name": "> Mehr lesen Zuletzt gab es  & Aktionen bei ALDI SÜD von Marken wie Almare , Zte , Golden Seafood . Prospekte  Prospekte   ALDI SÜD  Verpasst! Thunfischsalat",
+      "brand": "Almare",
+      "price": 1.39,
+      "old_price": null,
+      "discount_pct": null,
+      "unit": "",
+      "quantity": "",
+      "category": "fisch",
+      "store": "ALDI SÜD",
+      "store_key": "aldi_sued",
+      "valid_from": "29.03.",
+      "valid_until": "04.04."
+    },
+    {
+      "name": "ACAAAFAAGq1chRAAAAAElFTkSuQmCC\" alt loading=\"lazy\" width=\"32\" height=\"32\"/> Dieses Angebot ist leider nicht mehr verfügbar. Aktuelle : PENNY , Netto Marken-Discount , Lidl Verpasst! -17% Erdbeeren",
+      "brand": "Kleine Schätze",
+      "price": 2.99,
+      "old_price": null,
+      "discount_pct": 17,
+      "unit": "",
+      "quantity": "",
+      "category": "obst",
+      "store": "ALDI SÜD",
+      "store_key": "aldi_sued",
+      "valid_from": "01.04.",
+      "valid_until": "04.04."
+    },
+    {
+      "name": "mage-wrapper\"> Dieses Angebot ist leider nicht mehr verfügbar. Aktuelle : Beeren , Netto Marken-Discount , Lidl Verpasst! Lachsfilet-Portionen",
+      "brand": "Golden Seafood",
+      "price": 9.49,
+      "old_price": null,
+      "discount_pct": null,
+      "unit": "",
+      "quantity": "",
+      "category": "fisch",
+      "store": "ALDI SÜD",
+      "store_key": "aldi_sued",
+      "valid_from": "01.04.",
+      "valid_until": "04.04."
+    },
+    {
+      "name": "jYAACAAAFAAGq1chRAAAAAElFTkSuQmCC\" alt loading=\"lazy\" width=\"32\" height=\"32\"/> Dieses Angebot ist leider nicht mehr verfügbar. Aktuelle : Frischfisch , PENNY , Netto Marken-Discount Verpasst! Regenbogen-Forellenfilets",
+      "brand": "Almare",
+      "price": 2.49,
+      "old_price": null,
+      "discount_pct": null,
+      "unit": "",
+      "quantity": "",
+      "category": "fisch",
+      "store": "ALDI SÜD",
+      "store_key": "aldi_sued",
+      "valid_from": "29.03.",
+      "valid_until": "04.04."
+    },
+    {
+      "name": "dth=\"32\" height=\"32\"/> Dieses Angebot ist leider nicht mehr verfügbar. Aktuelle : PENNY , Netto Marken-Discount , Lidl Verpasst! Speisekartoffeln Drillinge",
+      "brand": "Kleine Schätze",
+      "price": 1.39,
+      "old_price": null,
+      "discount_pct": null,
+      "unit": "",
+      "quantity": "",
+      "category": "gemuese",
+      "store": "ALDI SÜD",
+      "store_key": "aldi_sued",
+      "valid_from": "29.03.",
+      "valid_until": "04.04."
+    }
+  ]
+}
