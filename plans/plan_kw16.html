@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Essensplan KW 16</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:-apple-system,sans-serif; background:#f8f8f8; color:#333; padding:16px; max-width:480px; margin:0 auto; }
+.hdr { background:#1a5c2e; color:#fff; padding:20px; border-radius:14px; text-align:center; margin-bottom:16px; }
+.hdr h1 { font-size:20px; }
+.hdr .sub { font-size:12px; opacity:.8; margin-top:4px; }
+.day { background:#fff; border-radius:12px; padding:14px; margin-bottom:10px; box-shadow:0 1px 4px rgba(0,0,0,.06); }
+.day h3 { color:#1a5c2e; font-size:14px; margin-bottom:8px; border-bottom:2px solid #e8f5e9; padding-bottom:4px; }
+.meal { font-size:13px; margin-bottom:4px; }
+.ml { color:#888; font-size:11px; display:inline-block; width:55px; }
+.tag { font-size:10px; padding:1px 6px; border-radius:8px; margin-left:4px; }
+.tv { background:#e8f5e9; color:#2d7a3a; }
+.tf { background:#e3f2fd; color:#1565c0; }
+.tm { background:#fff3e0; color:#e65100; }
+.section { background:#fff; border-radius:12px; padding:14px; margin-top:16px; box-shadow:0 1px 4px rgba(0,0,0,.06); }
+.section h2 { color:#1a5c2e; font-size:15px; margin-bottom:10px; }
+.cat { font-size:12px; font-weight:600; color:#555; margin-top:10px; margin-bottom:4px; }
+.chk { display:flex; align-items:center; padding:6px 0; border-bottom:1px solid #f5f5f5; font-size:13px; cursor:pointer; }
+.chk input { margin-right:8px; accent-color:#1a5c2e; width:18px; height:18px; }
+.chk label { flex:1; }
+.chk input:checked + label { text-decoration:line-through; color:#aaa; }
+.done { background:#e8f5e9; border-radius:10px; padding:10px; text-align:center; margin-top:12px; font-size:12px; color:#1a5c2e; }
+.ftr { text-align:center; color:#bbb; font-size:10px; margin-top:16px; }
+</style>
+</head>
+<body>
+<div class="hdr">
+<h1>Essensplan KW 16</h1>
+<div class="sub">13.04. – 19.04.2026 · ALDI SÜD · 92729</div>
+</div>
+<div class="day"><h3>Montag</h3>
+<div class="meal"><span class="ml">Mittag</span>Butter Chicken mit Naan/Reis <span class="tag tm">🍗</span></div>
+<div class="meal"><span class="ml">Abend</span>Nudeln mit Käse-Sahne-Soße <span class="tag tv">🌱</span></div>
+</div>
+<div class="day"><h3>Dienstag</h3>
+<div class="meal"><span class="ml">Mittag</span>Hähnchen Auflauf <span class="tag tm">🍗</span></div>
+<div class="meal"><span class="ml">Abend</span>Käsespätzle <span class="tag tv">🌱</span><span class="tag tv">👶</span></div>
+</div>
+<div class="day"><h3>Mittwoch</h3>
+<div class="meal"><span class="ml">Mittag</span>Tikka Masala <span class="tag tm">🍗</span></div>
+<div class="meal"><span class="ml">Abend</span>Kas-Press-Knödel <span class="tag tv">🌱</span></div>
+</div>
+<div class="day"><h3>Donnerstag</h3>
+<div class="meal"><span class="ml">Mittag</span>Asia Lunch </div>
+<div class="meal"><span class="ml">Abend</span>Zucchini Röllchen mit Reis <span class="tag tv">🌱</span></div>
+</div>
+<div class="day"><h3>Freitag</h3>
+<div class="meal"><span class="ml">Abend</span>Wraps </div>
+</div>
+<div class="day"><h3>Samstag</h3>
+<div class="meal"><span class="ml">Abend</span>Pizza selbst gemacht <span class="tag tv">👶</span></div>
+</div>
+<div class="day"><h3>Sonntag</h3>
+<div class="meal"><span class="ml">Abend</span>Strudel mit Lachs und Spinat <span class="tag tf">🐟</span></div>
+</div>
+<div class="section"><h2>🛒 Einkaufsliste</h2>
+<div class="cat">🥩 Fleisch & Fisch</div>
+<div class="chk">
+<input type="checkbox" id="i0" onchange="updateCount()">
+<label for="i0">Hähnchen (x3)</label>
+</div>
+<div class="chk">
+<input type="checkbox" id="i1" onchange="updateCount()">
+<label for="i1">Lachs</label>
+</div>
+<div class="cat">🧀 Milchprodukte</div>
+<div class="chk">
+<input type="checkbox" id="i2" onchange="updateCount()">
+<label for="i2">Butter</label>
+</div>
+<div class="chk">
+<input type="checkbox" id="i3" onchange="updateCount()">
+<label for="i3">Eier</label>
+</div>
+<div class="chk">
+<input type="checkbox" id="i4" onchange="updateCount()">
+<label for="i4">Joghurt</label>
+</div>
+<div class="chk">
+<input type="checkbox" id="i5" onchange="updateCount()">
+<label for="i5">Käse (x7)</label>
+</div>
+<div class="chk">
+<input type="checkbox" id="i6" onchange="updateCount()">
+<label for="i6">Milch</label>
+</div>
+<div class="chk">
+<input type="checkbox" id="i7" onchange="updateCount()">
+<label for="i7">Sahne (x4)</label>
+</div>
+<div class="chk">
+<input type="checkbox" id="i8" onchange="updateCount()">
+<label for="i8">Spätzle</label>
+</div>
+<div class="cat">🍝 Nudeln & Reis</div>
+<div class="chk">
+<input type="checkbox" id="i9" onchange="updateCount()">
+<label for="i9">Blätterteig</label>
+</div>
+<div class="chk">
+<input type="checkbox" id="i10" onchange="updateCount()">
+<label for="i10">Brot (x2)</label>
+</div>
+<div class="chk">
+<input type="checkbox" id="i11" onchange="updateCount()">
+<label for="i11">Mehl</label>
+</div>
+<div class="chk">
+<input type="checkbox" id="i12" onchange="updateCount()">
+<label for="i12">Nudeln</label>
+</div>
+<div class="chk">
+<input type="checkbox" id="i13" onchange="updateCount()">
+<label for="i13">Reis (x4)</label>
+</div>
+<div class="chk">
+<input type="checkbox" id="i14" onchange="updateCount()">
+<label for="i14">Tortilla Wraps</label>
+</div>
+<div class="cat">🥬 Obst & Gemüse</div>
+<div class="chk">
+<input type="checkbox" id="i15" onchange="updateCount()">
+<label for="i15">Kartoffeln</label>
+</div>
+<div class="chk">
+<input type="checkbox" id="i16" onchange="updateCount()">
+<label for="i16">Salat</label>
+</div>
+<div class="chk">
+<input type="checkbox" id="i17" onchange="updateCount()">
+<label for="i17">Spinat</label>
+</div>
+<div class="chk">
+<input type="checkbox" id="i18" onchange="updateCount()">
+<label for="i18">Tomaten (x2)</label>
+</div>
+<div class="chk">
+<input type="checkbox" id="i19" onchange="updateCount()">
+<label for="i19">Tomatensoße (x2)</label>
+</div>
+<div class="chk">
+<input type="checkbox" id="i20" onchange="updateCount()">
+<label for="i20">Zucchini</label>
+</div>
+<div class="chk">
+<input type="checkbox" id="i21" onchange="updateCount()">
+<label for="i21">Zwiebeln</label>
+</div>
+<div class="cat">📦 Sonstiges</div>
+<div class="chk">
+<input type="checkbox" id="i22" onchange="updateCount()">
+<label for="i22">Apfelmus</label>
+</div>
+<div class="chk">
+<input type="checkbox" id="i23" onchange="updateCount()">
+<label for="i23">Belag Nach Wahl</label>
+</div>
+<div class="chk">
+<input type="checkbox" id="i24" onchange="updateCount()">
+<label for="i24">Ei</label>
+</div>
+<div class="chk">
+<input type="checkbox" id="i25" onchange="updateCount()">
+<label for="i25">Fleisch Oder Gemüse</label>
+</div>
+<div class="chk">
+<input type="checkbox" id="i26" onchange="updateCount()">
+<label for="i26">Gemüse</label>
+</div>
+<div class="chk">
+<input type="checkbox" id="i27" onchange="updateCount()">
+<label for="i27">Knoblauch</label>
+</div>
+<div class="chk">
+<input type="checkbox" id="i28" onchange="updateCount()">
+<label for="i28">Leberwurst</label>
+</div>
+<div class="chk">
+<input type="checkbox" id="i29" onchange="updateCount()">
+<label for="i29">Sojasauce</label>
+</div>
+<div class="done" id="status">0 / 30 eingekauft</div>
+</div>
+
+<div class="ftr">
+Generiert von Hermes · KW 16 · ALDI SÜD 92729
+</div>
+
+<script>
+function updateCount() {
+  const all = document.querySelectorAll('.chk input');
+  const checked = document.querySelectorAll('.chk input:checked');
+  document.getElementById('status').textContent = checked.length + ' / ' + all.length + ' eingekauft';
+  // Save state
+  const state = {};
+  all.forEach(cb => state[cb.id] = cb.checked);
+  localStorage.setItem('shopping_' + '16', JSON.stringify(state));
+}
+// Restore state
+try {
+  const saved = JSON.parse(localStorage.getItem('shopping_' + '16') || '{}');
+  Object.entries(saved).forEach(([id, checked]) => {
+    const el = document.getElementById(id);
+    if (el) el.checked = checked;
+  });
+  updateCount();
+} catch(e) {}
+</script>
+</body>
+</html>
