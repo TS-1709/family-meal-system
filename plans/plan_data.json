@@ -2,15 +2,62 @@
   {
     "day": "Montag",
     "slot": "Mittag",
-    "name": "Butter Chicken mit Naan/Reis",
+    "name": "Paprika-Rinderhack-Pfanne",
     "tags": [
       "fleisch",
-      "indisch",
+      "schnell",
       "kind"
     ],
     "key_ingredients": [
-      "hähnchen",
+      "rinderhack",
+      "paprika",
+      "zwiebeln",
+      "reis"
+    ],
+    "category": "mittag",
+    "difficulty": "leicht",
+    "offer_score": 4,
+    "matched_ingredients": [
+      "rinderhack",
+      "paprika",
+      "zwiebeln",
+      "reis"
+    ]
+  },
+  {
+    "day": "Montag",
+    "slot": "Abend",
+    "name": "Kartoffelcremesuppe",
+    "tags": [
+      "vegetarisch",
+      "suppe",
+      "kind"
+    ],
+    "key_ingredients": [
+      "kartoffeln",
+      "zwiebeln",
       "sahne",
+      "brühe"
+    ],
+    "category": "abend",
+    "difficulty": "leicht",
+    "offer_score": 2,
+    "matched_ingredients": [
+      "kartoffeln",
+      "zwiebeln"
+    ]
+  },
+  {
+    "day": "Dienstag",
+    "slot": "Mittag",
+    "name": "Hähnchengulasch",
+    "tags": [
+      "fleisch",
+      "winter"
+    ],
+    "key_ingredients": [
+      "hähnchen",
+      "paprika",
       "tomaten",
       "reis"
     ],
@@ -19,76 +66,32 @@
     "offer_score": 3,
     "matched_ingredients": [
       "hähnchen",
-      "sahne",
+      "paprika",
       "reis"
     ]
   },
   {
-    "day": "Montag",
-    "slot": "Abend",
-    "name": "Kas-Press-Knödel",
-    "tags": [
-      "vegetarisch"
-    ],
-    "key_ingredients": [
-      "brot",
-      "käse",
-      "eier",
-      "milch"
-    ],
-    "category": "abend",
-    "difficulty": "mittel",
-    "offer_score": 2,
-    "matched_ingredients": [
-      "käse",
-      "milch"
-    ]
-  },
-  {
     "day": "Dienstag",
-    "slot": "Mittag",
-    "name": "Hähnchen Auflauf",
+    "slot": "Abend",
+    "name": "Tomatensuppe mit Reis",
     "tags": [
-      "fleisch",
-      "ofen",
+      "vegan",
+      "suppe",
+      "schnell",
       "kind"
     ],
     "key_ingredients": [
-      "hähnchen",
-      "kartoffeln",
-      "sahne",
-      "käse"
-    ],
-    "category": "mittag",
-    "difficulty": "mittel",
-    "offer_score": 3,
-    "matched_ingredients": [
-      "hähnchen",
-      "sahne",
-      "käse"
-    ]
-  },
-  {
-    "day": "Dienstag",
-    "slot": "Abend",
-    "name": "Zucchini Röllchen mit Reis",
-    "tags": [
-      "vegetarisch",
-      "gesund",
-      "ofen"
-    ],
-    "key_ingredients": [
-      "zucchini",
+      "tomaten_dose",
       "reis",
-      "käse",
-      "tomatensoße"
+      "zwiebeln",
+      "brühe"
     ],
     "category": "abend",
-    "difficulty": "mittel",
+    "difficulty": "leicht",
     "offer_score": 2,
     "matched_ingredients": [
       "reis",
-      "käse"
+      "zwiebeln"
     ]
   },
   {
@@ -118,27 +121,72 @@
   {
     "day": "Mittwoch",
     "slot": "Abend",
-    "name": "Gefüllte Zucchini mit Tomatenreis",
+    "name": "Grünkern-Chili-Cheese-Kartoffeln",
     "tags": [
       "vegetarisch",
-      "ofen"
+      "gesund"
     ],
     "key_ingredients": [
-      "zucchini",
-      "reis",
-      "tomaten",
-      "käse"
+      "grünkern",
+      "kartoffeln",
+      "käse",
+      "bohnen"
     ],
     "category": "abend",
     "difficulty": "mittel",
     "offer_score": 2,
     "matched_ingredients": [
-      "reis",
-      "käse"
+      "grünkern",
+      "kartoffeln"
     ]
   },
   {
     "day": "Donnerstag",
+    "slot": "Mittag",
+    "name": "Lachs Bowl",
+    "tags": [
+      "fisch",
+      "gesund"
+    ],
+    "key_ingredients": [
+      "lachs",
+      "reis",
+      "avocado",
+      "gemüse"
+    ],
+    "category": "mittag",
+    "difficulty": "mittel",
+    "offer_score": 2,
+    "matched_ingredients": [
+      "lachs",
+      "reis"
+    ]
+  },
+  {
+    "day": "Donnerstag",
+    "slot": "Abend",
+    "name": "Gemüsesticks mit Hummus",
+    "tags": [
+      "vegan",
+      "schnell",
+      "snack"
+    ],
+    "key_ingredients": [
+      "kichererbsen_dose",
+      "möhren",
+      "gurke",
+      "paprika"
+    ],
+    "category": "abend",
+    "difficulty": "leicht",
+    "offer_score": 2,
+    "matched_ingredients": [
+      "gurke",
+      "paprika"
+    ]
+  },
+  {
+    "day": "Freitag",
     "slot": "Mittag",
     "name": "Asia Lunch",
     "tags": [
@@ -160,69 +208,26 @@
     ]
   },
   {
-    "day": "Donnerstag",
+    "day": "Freitag",
     "slot": "Abend",
-    "name": "Käsespätzle",
+    "name": "Bratkartoffeln mit Spiegelei",
     "tags": [
       "vegetarisch",
-      "kind",
+      "schnell",
       "klassiker"
     ],
     "key_ingredients": [
-      "spätzle",
-      "käse",
+      "kartoffeln",
       "zwiebeln",
+      "eier",
       "butter"
-    ],
-    "category": "abend",
-    "difficulty": "mittel",
-    "offer_score": 2,
-    "matched_ingredients": [
-      "käse",
-      "butter"
-    ]
-  },
-  {
-    "day": "Freitag",
-    "slot": "Mittag",
-    "name": "Lachs Bowl",
-    "tags": [
-      "fisch",
-      "gesund"
-    ],
-    "key_ingredients": [
-      "lachs",
-      "reis",
-      "avocado",
-      "gemüse"
-    ],
-    "category": "mittag",
-    "difficulty": "mittel",
-    "offer_score": 1,
-    "matched_ingredients": [
-      "reis"
-    ]
-  },
-  {
-    "day": "Freitag",
-    "slot": "Abend",
-    "name": "Feta Nudeln",
-    "tags": [
-      "vegetarisch",
-      "schnell"
-    ],
-    "key_ingredients": [
-      "nudeln",
-      "feta",
-      "tomaten",
-      "olivenöl"
     ],
     "category": "abend",
     "difficulty": "leicht",
     "offer_score": 2,
     "matched_ingredients": [
-      "feta",
-      "olivenöl"
+      "kartoffeln",
+      "zwiebeln"
     ]
   },
   {
@@ -249,68 +254,67 @@
   {
     "day": "Samstag",
     "slot": "Abend",
-    "name": "Nudeln mit Käse-Sahne-Soße",
+    "name": "Ofenkartoffel mit Kräuterquark",
     "tags": [
       "vegetarisch",
       "schnell",
-      "kind"
+      "gesund"
     ],
     "key_ingredients": [
-      "nudeln",
-      "sahne",
-      "käse",
-      "knoblauch"
+      "kartoffeln",
+      "quark",
+      "kräuter",
+      "zwiebeln"
     ],
     "category": "abend",
     "difficulty": "leicht",
     "offer_score": 2,
     "matched_ingredients": [
-      "sahne",
-      "käse"
+      "kartoffeln",
+      "zwiebeln"
     ]
   },
   {
     "day": "Sonntag",
     "slot": "Mittag",
-    "name": "Reis Bowl mit Tofu",
+    "name": "Fisch mit Brokkoli und Kartoffelgratin",
     "tags": [
-      "vegan",
-      "gesund"
+      "fisch",
+      "gesund",
+      "ofen"
     ],
     "key_ingredients": [
-      "tofu",
-      "reis",
-      "gemüse",
-      "sojasauce"
+      "fischfilet",
+      "brokkoli",
+      "kartoffeln",
+      "sahne"
     ],
     "category": "mittag",
     "difficulty": "mittel",
     "offer_score": 1,
     "matched_ingredients": [
-      "reis"
+      "kartoffeln"
     ]
   },
   {
     "day": "Sonntag",
     "slot": "Abend",
-    "name": "Kürbiscremesuppe",
+    "name": "Kichererbsen Shakshuka",
     "tags": [
       "vegetarisch",
-      "suppe",
-      "kind",
-      "herbst"
+      "gesund"
     ],
     "key_ingredients": [
-      "kürbis",
-      "zwiebeln",
-      "sahne",
-      "brühe"
+      "kichererbsen",
+      "tomaten",
+      "eier",
+      "paprika"
     ],
     "category": "abend",
     "difficulty": "leicht",
     "offer_score": 1,
     "matched_ingredients": [
-      "sahne"
+      "paprika"
     ]
   }
 ]
