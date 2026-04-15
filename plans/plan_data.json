@@ -1,0 +1,316 @@
+[
+  {
+    "day": "Montag",
+    "slot": "Mittag",
+    "name": "Butter Chicken mit Naan/Reis",
+    "tags": [
+      "fleisch",
+      "indisch",
+      "kind"
+    ],
+    "key_ingredients": [
+      "hähnchen",
+      "sahne",
+      "tomaten",
+      "reis"
+    ],
+    "category": "mittag",
+    "difficulty": "mittel",
+    "offer_score": 3,
+    "matched_ingredients": [
+      "hähnchen",
+      "sahne",
+      "reis"
+    ]
+  },
+  {
+    "day": "Montag",
+    "slot": "Abend",
+    "name": "Kas-Press-Knödel",
+    "tags": [
+      "vegetarisch"
+    ],
+    "key_ingredients": [
+      "brot",
+      "käse",
+      "eier",
+      "milch"
+    ],
+    "category": "abend",
+    "difficulty": "mittel",
+    "offer_score": 2,
+    "matched_ingredients": [
+      "käse",
+      "milch"
+    ]
+  },
+  {
+    "day": "Dienstag",
+    "slot": "Mittag",
+    "name": "Hähnchen Auflauf",
+    "tags": [
+      "fleisch",
+      "ofen",
+      "kind"
+    ],
+    "key_ingredients": [
+      "hähnchen",
+      "kartoffeln",
+      "sahne",
+      "käse"
+    ],
+    "category": "mittag",
+    "difficulty": "mittel",
+    "offer_score": 3,
+    "matched_ingredients": [
+      "hähnchen",
+      "sahne",
+      "käse"
+    ]
+  },
+  {
+    "day": "Dienstag",
+    "slot": "Abend",
+    "name": "Zucchini Röllchen mit Reis",
+    "tags": [
+      "vegetarisch",
+      "gesund",
+      "ofen"
+    ],
+    "key_ingredients": [
+      "zucchini",
+      "reis",
+      "käse",
+      "tomatensoße"
+    ],
+    "category": "abend",
+    "difficulty": "mittel",
+    "offer_score": 2,
+    "matched_ingredients": [
+      "reis",
+      "käse"
+    ]
+  },
+  {
+    "day": "Mittwoch",
+    "slot": "Mittag",
+    "name": "Tikka Masala",
+    "tags": [
+      "fleisch",
+      "indisch",
+      "kind"
+    ],
+    "key_ingredients": [
+      "hähnchen",
+      "joghurt",
+      "tomaten",
+      "reis"
+    ],
+    "category": "mittag",
+    "difficulty": "mittel",
+    "offer_score": 3,
+    "matched_ingredients": [
+      "hähnchen",
+      "joghurt",
+      "reis"
+    ]
+  },
+  {
+    "day": "Mittwoch",
+    "slot": "Abend",
+    "name": "Gefüllte Zucchini mit Tomatenreis",
+    "tags": [
+      "vegetarisch",
+      "ofen"
+    ],
+    "key_ingredients": [
+      "zucchini",
+      "reis",
+      "tomaten",
+      "käse"
+    ],
+    "category": "abend",
+    "difficulty": "mittel",
+    "offer_score": 2,
+    "matched_ingredients": [
+      "reis",
+      "käse"
+    ]
+  },
+  {
+    "day": "Donnerstag",
+    "slot": "Mittag",
+    "name": "Asia Lunch",
+    "tags": [
+      "asien",
+      "schnell"
+    ],
+    "key_ingredients": [
+      "reis",
+      "gemüse",
+      "sojasauce",
+      "ei"
+    ],
+    "category": "mittag",
+    "difficulty": "leicht",
+    "offer_score": 2,
+    "matched_ingredients": [
+      "reis",
+      "ei"
+    ]
+  },
+  {
+    "day": "Donnerstag",
+    "slot": "Abend",
+    "name": "Käsespätzle",
+    "tags": [
+      "vegetarisch",
+      "kind",
+      "klassiker"
+    ],
+    "key_ingredients": [
+      "spätzle",
+      "käse",
+      "zwiebeln",
+      "butter"
+    ],
+    "category": "abend",
+    "difficulty": "mittel",
+    "offer_score": 2,
+    "matched_ingredients": [
+      "käse",
+      "butter"
+    ]
+  },
+  {
+    "day": "Freitag",
+    "slot": "Mittag",
+    "name": "Lachs Bowl",
+    "tags": [
+      "fisch",
+      "gesund"
+    ],
+    "key_ingredients": [
+      "lachs",
+      "reis",
+      "avocado",
+      "gemüse"
+    ],
+    "category": "mittag",
+    "difficulty": "mittel",
+    "offer_score": 1,
+    "matched_ingredients": [
+      "reis"
+    ]
+  },
+  {
+    "day": "Freitag",
+    "slot": "Abend",
+    "name": "Feta Nudeln",
+    "tags": [
+      "vegetarisch",
+      "schnell"
+    ],
+    "key_ingredients": [
+      "nudeln",
+      "feta",
+      "tomaten",
+      "olivenöl"
+    ],
+    "category": "abend",
+    "difficulty": "leicht",
+    "offer_score": 2,
+    "matched_ingredients": [
+      "feta",
+      "olivenöl"
+    ]
+  },
+  {
+    "day": "Samstag",
+    "slot": "Mittag",
+    "name": "Indisches Curry (Gemüse)",
+    "tags": [
+      "vegetarisch",
+      "indisch"
+    ],
+    "key_ingredients": [
+      "kichererbsen",
+      "kokosmilch",
+      "gemüse",
+      "reis"
+    ],
+    "category": "mittag",
+    "difficulty": "mittel",
+    "offer_score": 1,
+    "matched_ingredients": [
+      "reis"
+    ]
+  },
+  {
+    "day": "Samstag",
+    "slot": "Abend",
+    "name": "Nudeln mit Käse-Sahne-Soße",
+    "tags": [
+      "vegetarisch",
+      "schnell",
+      "kind"
+    ],
+    "key_ingredients": [
+      "nudeln",
+      "sahne",
+      "käse",
+      "knoblauch"
+    ],
+    "category": "abend",
+    "difficulty": "leicht",
+    "offer_score": 2,
+    "matched_ingredients": [
+      "sahne",
+      "käse"
+    ]
+  },
+  {
+    "day": "Sonntag",
+    "slot": "Mittag",
+    "name": "Reis Bowl mit Tofu",
+    "tags": [
+      "vegan",
+      "gesund"
+    ],
+    "key_ingredients": [
+      "tofu",
+      "reis",
+      "gemüse",
+      "sojasauce"
+    ],
+    "category": "mittag",
+    "difficulty": "mittel",
+    "offer_score": 1,
+    "matched_ingredients": [
+      "reis"
+    ]
+  },
+  {
+    "day": "Sonntag",
+    "slot": "Abend",
+    "name": "Kürbiscremesuppe",
+    "tags": [
+      "vegetarisch",
+      "suppe",
+      "kind",
+      "herbst"
+    ],
+    "key_ingredients": [
+      "kürbis",
+      "zwiebeln",
+      "sahne",
+      "brühe"
+    ],
+    "category": "abend",
+    "difficulty": "leicht",
+    "offer_score": 1,
+    "matched_ingredients": [
+      "sahne"
+    ]
+  }
+]
