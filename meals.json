@@ -36,7 +36,76 @@
         "parmesan"
       ],
       "category": "mittag",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 25,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Risottoreis (Arborio)",
+            "amount": 300,
+            "unit": "g"
+          },
+          {
+            "item": "Lachsfilet",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Kirschtomaten",
+            "amount": 200,
+            "unit": "g"
+          },
+          {
+            "item": "Zwiebeln",
+            "amount": 1,
+            "unit": "Stück"
+          },
+          {
+            "item": "Gemüsebrühe (warm)",
+            "amount": 800,
+            "unit": "ml"
+          },
+          {
+            "item": "Weißwein (optional)",
+            "amount": 100,
+            "unit": "ml"
+          },
+          {
+            "item": "Parmesan",
+            "amount": 80,
+            "unit": "g"
+          },
+          {
+            "item": "Butter",
+            "amount": 30,
+            "unit": "g"
+          },
+          {
+            "item": "Olivenöl",
+            "amount": 2,
+            "unit": "EL"
+          },
+          {
+            "item": "Salz, Pfeffer, Zitronensaft",
+            "amount": 1,
+            "unit": "Prise"
+          }
+        ],
+        "steps": [
+          "Gemüsebrühe in einem Topf warm halten (nicht kochen!).",
+          "Zwiebel fein würfeln, in Butter und Öl glasig dünsten.",
+          "Risottoreis dazu, 1 Min unter Rösten (wird glasig).",
+          "Weißwein (oder Brühe) eingießen, einrühren bis aufgesogen.",
+          "Nach und nach Brühe löffelweise dazu geben, immer rühren.",
+          "Nach ca. 15 Min: Lachs in Stücke schneiden, zum Risotto geben.",
+          "Kirschtomaten halbieren, auch dazu geben.",
+          "Weitere 8-10 Min fertig garen, weiterhin Brühe nach Bedarf.",
+          "Parmesan und Butter unterrühren, mit Zitronensaft abschmecken.",
+          "Kinder-Variante: Lachs in sehr kleine Stücke, extra Parmesan!"
+        ]
+      }
     },
     {
       "name": "Penne mit Thunfisch Bolognese",
@@ -52,7 +121,65 @@
         "zwiebeln"
       ],
       "category": "mittag",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 20,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Penne",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Thunfisch im eigenen Saft",
+            "amount": 2,
+            "unit": "Dosen (à 160g)"
+          },
+          {
+            "item": "Gehackte Tomaten (Dose)",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Zwiebeln",
+            "amount": 1,
+            "unit": "Stück"
+          },
+          {
+            "item": "Knoblauch",
+            "amount": 1,
+            "unit": "Zehe"
+          },
+          {
+            "item": "Olivenöl",
+            "amount": 2,
+            "unit": "EL"
+          },
+          {
+            "item": "Kapern (optional)",
+            "amount": 1,
+            "unit": "EL"
+          },
+          {
+            "item": "Salz, Pfeffer, Oregano",
+            "amount": 1,
+            "unit": "Prise"
+          }
+        ],
+        "steps": [
+          "Penne nach Packungsanleitung kochen.",
+          "Zwiebeln und Knoblauch fein würfeln.",
+          "Olivenöl erhitzen, Zwiebeln und Knoblauch glasig dünsten.",
+          "Thunfisch abgießen, zerpflücken und dazu geben.",
+          "Gehackte Tomaten eingießen, würzen.",
+          "10 Min köcheln lassen.",
+          "Kapern (wenn gewünscht) unterrühren.",
+          "Penne abgießen, mit der Soße vermischen.",
+          "Kinder-Tipp: Thunfisch vorher probieren — manche Kinder mögen ihn nicht pur."
+        ]
+      }
     },
     {
       "name": "Cremiger Gnocchi Topf",
@@ -83,7 +210,63 @@
         "fleisch_oder_gemüse"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 10,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Tortilla Wraps",
+            "amount": 8,
+            "unit": "Stück"
+          },
+          {
+            "item": "Hähnchenbrust (oder Hackfleisch)",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Salat (Eisberg)",
+            "amount": 1,
+            "unit": "Handvoll"
+          },
+          {
+            "item": "Tomaten",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Gurke",
+            "amount": 1,
+            "unit": "Stück"
+          },
+          {
+            "item": "Käse gerieben",
+            "amount": 100,
+            "unit": "g"
+          },
+          {
+            "item": "Tsatsiki oder Sour Cream",
+            "amount": 200,
+            "unit": "g"
+          },
+          {
+            "item": "Salz, Pfeffer, Paprika",
+            "amount": 1,
+            "unit": "Prise"
+          }
+        ],
+        "steps": [
+          "Hähnchen in Streifen würzen und in der Pfanne durchbraten.",
+          "Salat waschen, Tomaten und Gurke in Scheiben schneiden.",
+          "Wraps kurz in der Pfanne oder Mikro warm machen.",
+          "Auf jeden Wrap: Tsatsiki, Salat, Fleisch, Gemüse, Käse.",
+          "Zusammenrollen — fest aber nicht zu stramm.",
+          "Kinder-Variante: Nur Käse und Tomate, Soße extra.",
+          "Tipp: Jeder belegt seinen Wrap selber — macht mehr Spaß!"
+        ]
+      }
     },
     {
       "name": "Kartoffelsuppe mit Wiener",
@@ -99,7 +282,66 @@
         "möhren"
       ],
       "category": "mittag",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 15,
+        "time_cook": 25,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Kartoffeln (mehlig)",
+            "amount": 800,
+            "unit": "g"
+          },
+          {
+            "item": "Wiener Würstchen",
+            "amount": 6,
+            "unit": "Stück"
+          },
+          {
+            "item": "Zwiebeln",
+            "amount": 1,
+            "unit": "Stück"
+          },
+          {
+            "item": "Möhren",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Gemüsebrühe",
+            "amount": 1,
+            "unit": "l"
+          },
+          {
+            "item": "Sahne oder Crème fraîche",
+            "amount": 100,
+            "unit": "ml"
+          },
+          {
+            "item": "Butter",
+            "amount": 30,
+            "unit": "g"
+          },
+          {
+            "item": "Salz, Pfeffer, Majoran, Petersilie",
+            "amount": 1,
+            "unit": "Prise"
+          }
+        ],
+        "steps": [
+          "Kartoffeln und Möhren schälen, in Würfel schneiden.",
+          "Zwiebel fein würfeln, in Butter glasig dünsten.",
+          "Kartoffeln und Möhren dazu, kurz mitbraten.",
+          "Brühe eingießen, aufkochen.",
+          "20 Min köcheln lassen bis Kartoffeln weich sind.",
+          "Teilweise pürieren (oder ganz, je nach Vorliebe).",
+          "Wiener in Scheiben schneiden, in die Suppe geben.",
+          "Sahne einrühren, mit Salz, Pfeffer und Majoran würzen.",
+          "Mit frischer Petersilie servieren.",
+          "Kinder-Tipp: Wiener extra auf den Teller — die wollen die selber reingeben!"
+        ]
+      }
     },
     {
       "name": "Halloumi Burger",
@@ -147,7 +389,63 @@
         "reis"
       ],
       "category": "mittag",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 20,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Rinderhack",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "item": "Paprika (rot, gelb, grün)",
+            "amount": 3,
+            "unit": "Stück"
+          },
+          {
+            "item": "Zwiebeln",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Reis",
+            "amount": 300,
+            "unit": "g"
+          },
+          {
+            "item": "Tomatensoße",
+            "amount": 200,
+            "unit": "ml"
+          },
+          {
+            "item": "Paprikapulver",
+            "amount": 2,
+            "unit": "TL"
+          },
+          {
+            "item": "Olivenöl",
+            "amount": 2,
+            "unit": "EL"
+          },
+          {
+            "item": "Salz, Pfeffer",
+            "amount": 1,
+            "unit": "Prise"
+          }
+        ],
+        "steps": [
+          "Reis nach Packungsanleitung kochen.",
+          "Paprika und Zwiebeln in Streifen/Würfel schneiden.",
+          "Hack in einer großen Pfanne krümelig braten.",
+          "Zwiebeln und Paprika dazu, 5 Min mitbraten.",
+          "Tomatensoße und Paprikapulver einrühren.",
+          "10 Min köcheln lassen, abschmecken.",
+          "Mit Reis servieren. Fertig in 20 Min!"
+        ]
+      }
     },
     {
       "name": "Lachs Bowl",
@@ -254,7 +552,66 @@
         "belag_nach_wahl"
       ],
       "category": "abend",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 20,
+        "time_cook": 12,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Mehl",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Wasser (lauwarm)",
+            "amount": 200,
+            "unit": "ml"
+          },
+          {
+            "item": "Hefe (frisch oder Trockenhefe)",
+            "amount": 1,
+            "unit": "Würfel/1 Päckchen"
+          },
+          {
+            "item": "Olivenöl",
+            "amount": 2,
+            "unit": "EL"
+          },
+          {
+            "item": "Salz",
+            "amount": 1,
+            "unit": "TL"
+          },
+          {
+            "item": "Tomatensoße oder passierte Tomaten",
+            "amount": 200,
+            "unit": "ml"
+          },
+          {
+            "item": "Mozzarella",
+            "amount": 200,
+            "unit": "g"
+          },
+          {
+            "item": "Belag nach Wahl (Salami, Schinken, Mais, Paprika...)",
+            "amount": 1,
+            "unit": "nach Geschmack"
+          }
+        ],
+        "steps": [
+          "Hefe in lauwarmem Wasser auflösen.",
+          "Mehl, Salz, Hefewasser und Olivenöl verkneten.",
+          "Teig 30 Min gehen lassen (abgedeckt, warmer Ort).",
+          "Backofen auf 250°C (Ober-/Unterhitze) vorheizen.",
+          "Teig in 4 Portionen teilen, dünn ausrollen.",
+          "Tomatensoße darauf verteilen, nicht bis zum Rand.",
+          "Mozzarella zerreißen, obendrauf.",
+          "Belag nach Wahl drauf — Kinder dürfen selber belegen!",
+          "Im Ofen 10-12 Min bei 250°C backen.",
+          "Tipp: Wer keine Zeit hat: fertigen Pizzateig vom Kühlregal nehmen!"
+        ]
+      }
     },
     {
       "name": "Avocado Nudeln",
@@ -346,7 +703,61 @@
         "käse"
       ],
       "category": "mittag",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 15,
+        "time_cook": 30,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Hähnchenbrust",
+            "amount": 600,
+            "unit": "g"
+          },
+          {
+            "item": "Kartoffeln (festkochend)",
+            "amount": 800,
+            "unit": "g"
+          },
+          {
+            "item": "Sahne",
+            "amount": 200,
+            "unit": "ml"
+          },
+          {
+            "item": "Käse gerieben",
+            "amount": 150,
+            "unit": "g"
+          },
+          {
+            "item": "Zwiebeln",
+            "amount": 1,
+            "unit": "Stück"
+          },
+          {
+            "item": "Salz, Pfeffer, Paprikapulver",
+            "amount": 1,
+            "unit": "Prise"
+          },
+          {
+            "item": "Butter für die Form",
+            "amount": 1,
+            "unit": "Stück"
+          }
+        ],
+        "steps": [
+          "Backofen auf 200°C Ober-/Unterhitze vorheizen.",
+          "Kartoffeln schälen und in dünne Scheiben schneiden (ca. 3mm).",
+          "Hähnchenbrust in Streifen oder kleine Stücke schneiden.",
+          "Zwiebeln in Ringe schneiden.",
+          "Eine Auflaufform mit Butter einfetten.",
+          "Kartoffelschichten unten, Hähnchenstücke drauf, Zwiebelringe obendrauf.",
+          "Sahne mit Salz, Pfeffer und Paprika verrühren, darüber gießen.",
+          "Mit geriebenem Käse bestreuen.",
+          "Im Ofen 25-30 Min backen bis der Käse goldbraun ist.",
+          "Kinder-Tipp: Kleine Hähnchenstücke werden schneller gar — nach 20 Min prüfen!"
+        ]
+      }
     },
     {
       "name": "Fischstäbchen mit Kräuterkartoffeln und Spinat",
@@ -391,7 +802,86 @@
         "reis"
       ],
       "category": "mittag",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 20,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Kichererbsen (Dose)",
+            "amount": 2,
+            "unit": "Dosen (à 240g)"
+          },
+          {
+            "item": "Kokosmilch",
+            "amount": 400,
+            "unit": "ml"
+          },
+          {
+            "item": "Tomaten (Dose)",
+            "amount": 200,
+            "unit": "g"
+          },
+          {
+            "item": "Zwiebeln",
+            "amount": 1,
+            "unit": "Stück"
+          },
+          {
+            "item": "Knoblauch",
+            "amount": 2,
+            "unit": "Zehen"
+          },
+          {
+            "item": "Ingwer (frisch)",
+            "amount": 1,
+            "unit": "Stück (ca. 2cm)"
+          },
+          {
+            "item": "Currypulver",
+            "amount": 2,
+            "unit": "TL"
+          },
+          {
+            "item": "Kurkuma",
+            "amount": 1,
+            "unit": "TL"
+          },
+          {
+            "item": "Olivenöl",
+            "amount": 2,
+            "unit": "EL"
+          },
+          {
+            "item": "Salz, Pfeffer, Limettensaft",
+            "amount": 1,
+            "unit": "Prise"
+          },
+          {
+            "item": "Reis als Beilage",
+            "amount": 300,
+            "unit": "g"
+          },
+          {
+            "item": "Frischer Koriander (optional)",
+            "amount": 1,
+            "unit": "Bund"
+          }
+        ],
+        "steps": [
+          "Reis nach Packungsanleitung kochen.",
+          "Zwiebeln fein würfeln, Knoblauch und Ingwer fein hacken.",
+          "Olivenöl erhitzen, Zwiebeln 3 Min dünsten.",
+          "Knoblauch, Ingwer, Curry und Kurkuma dazu, 1 Min rösten.",
+          "Kichererbsen (abgetropft) und Tomaten dazu.",
+          "Kokosmilch eingießen, aufkochen.",
+          "15 Min bei niedriger Hitze köcheln lassen.",
+          "Mit Salz, Pfeffer und Limettensaft abschmecken.",
+          "Mit Reis servieren. Koriander obendrauf.",
+          "Kinder-Variante: Nur 1 TL Curry, extra Kokosmilch für milderen Geschmack!"
+        ]
+      }
     },
     {
       "name": "Kartoffelsuppe/Zucchinisuppe",
@@ -438,7 +928,64 @@
         "salat"
       ],
       "category": "abend",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Hackfleisch",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "item": "Burgerbrötchen",
+            "amount": 4,
+            "unit": "Stück"
+          },
+          {
+            "item": "Käse (Scheiben)",
+            "amount": 4,
+            "unit": "Stück"
+          },
+          {
+            "item": "Tomaten",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Salat (Eisberg oder Feldsalat)",
+            "amount": 1,
+            "unit": "Handvoll"
+          },
+          {
+            "item": "Gurke",
+            "amount": 0.5,
+            "unit": "Stück"
+          },
+          {
+            "item": "Ketchup, Mayo, Senf",
+            "amount": 1,
+            "unit": "nach Geschmack"
+          },
+          {
+            "item": "Salz, Pfeffer",
+            "amount": 1,
+            "unit": "Prise"
+          }
+        ],
+        "steps": [
+          "Hackfleisch mit Salz und Pfeffer würzen.",
+          "4 Patties formen (ca. 125g pro Patty).",
+          "In einer heißen Pfanne oder Grill 4 Min pro Seite braten.",
+          "In der letzten Minute Käse obendrauf legen.",
+          "Burgerbrötchen aufschneiden und kurz toasten.",
+          "Untere Brötchenhälfte: Ketchup/Mayo, Salat, Patty.",
+          "Oben: Tomate, Gurke, obere Brötchenhälfte.",
+          "Kinder-Burger: Extra Käse, nur Ketchup, Gurke weglassen 😉"
+        ]
+      }
     },
     {
       "name": "Strudel mit Lachs und Spinat",
@@ -469,7 +1016,49 @@
         "pinienkerne"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 12,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Nudeln (Spaghetti oder Penne)",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Pesto (Glas oder frisch)",
+            "amount": 200,
+            "unit": "g"
+          },
+          {
+            "item": "Parmesan",
+            "amount": 50,
+            "unit": "g"
+          },
+          {
+            "item": "Kirschtomaten (optional)",
+            "amount": 150,
+            "unit": "g"
+          },
+          {
+            "item": "Pinienkerne (optional)",
+            "amount": 30,
+            "unit": "g"
+          }
+        ],
+        "steps": [
+          "Nudeln nach Packungsanleitung kochen.",
+          "In der Zwischenzeit Kirschtomaten halbieren.",
+          "Pinienkerne in einer trockenen Pfanne leicht anrösten.",
+          "Nudeln abgießen, 1-2 Kochlöffel Nudelwasser aufheben.",
+          "Nudeln mit Pesto und etwas Nudelwasser vermischen.",
+          "Mit Tomaten und Pinienkerne obendrauf servieren.",
+          "Frisch geriebener Parmesan dazu — fertig!",
+          "Kinder-Variante: Pesto nur halb portionieren, nicht zu viel Grün 😉"
+        ]
+      }
     },
     {
       "name": "Nudeln mit Käse-Sahne-Soße",
@@ -485,7 +1074,53 @@
         "knoblauch"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Nudeln (Penne oder Schneckennudeln)",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Sahne",
+            "amount": 300,
+            "unit": "ml"
+          },
+          {
+            "item": "Käse gerieben (Gouda oder Emmentaler)",
+            "amount": 150,
+            "unit": "g"
+          },
+          {
+            "item": "Knoblauch",
+            "amount": 1,
+            "unit": "Zehe"
+          },
+          {
+            "item": "Butter",
+            "amount": 30,
+            "unit": "g"
+          },
+          {
+            "item": "Salz, Pfeffer, Muskat",
+            "amount": 1,
+            "unit": "Prise"
+          }
+        ],
+        "steps": [
+          "Nudeln nach Packungsanleitung kochen.",
+          "Butter in einer Pfanne schmelzen, Knoblauch fein hacken und kurz andünsten.",
+          "Sahne eingießen, aufkochen.",
+          "Käse einrühren bis er geschmolzen ist.",
+          "Mit Salz, Pfeffer und Muskat würzen.",
+          "Nudeln abgießen, mit der Soße vermischen.",
+          "Kinder-Liebling Nr. 1! Extra Käse auf den Teller."
+        ]
+      }
     },
     {
       "name": "Putengeschnetzltes",
@@ -561,7 +1196,66 @@
         "béchamel"
       ],
       "category": "mittag",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 20,
+        "time_cook": 35,
+        "servings": 6,
+        "ingredients": [
+          {
+            "item": "Lasagneplatten",
+            "amount": 250,
+            "unit": "g"
+          },
+          {
+            "item": "Hackfleisch",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "item": "Zwiebeln",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Gehackte Tomaten (Dose)",
+            "amount": 800,
+            "unit": "g"
+          },
+          {
+            "item": "Tomatenmark",
+            "amount": 2,
+            "unit": "EL"
+          },
+          {
+            "item": "Béchamel-Soße: Butter, Mehl, Milch",
+            "amount": 1,
+            "unit": "siehe Schritte"
+          },
+          {
+            "item": "Käse gerieben (Gouda)",
+            "amount": 200,
+            "unit": "g"
+          },
+          {
+            "item": "Salz, Pfeffer, Oregano, Basilikum",
+            "amount": 1,
+            "unit": "Prise"
+          }
+        ],
+        "steps": [
+          "Hackfleisch mit gewürfelten Zwiebeln krümelig braten.",
+          "Tomatenmark einrühren, gehackte Tomaten dazu.",
+          "Mit Salz, Pfeffer, Oregano würzen, 10 Min köcheln.",
+          "Béchamel: 40g Butter schmelzen, 40g Mehl einrühren, 500ml Milch langsam dazu.",
+          "Béchamel rühren bis sie eindickt, salzen.",
+          "Backofen: 180°C.",
+          "Auflaufform: Schicht Béchamel → Lasagneplatten → Fleischsoße → Käse.",
+          "Wiederholen bis alles aufgebraucht. Oben abschließend Käse.",
+          "35 Min im Ofen backen bis goldbraun.",
+          "10 Min ruhen lassen bevor schneiden — sonst zerfällt sie!"
+        ]
+      }
     },
     {
       "name": "Spaghetti Bolognese",
@@ -577,7 +1271,70 @@
         "zwiebeln"
       ],
       "category": "mittag",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 25,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Spaghetti",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Hackfleisch (Rind oder gemischt)",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "item": "Zwiebeln",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Knoblauch",
+            "amount": 2,
+            "unit": "Zehen"
+          },
+          {
+            "item": "Gehackte Tomaten (Dose)",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Tomatenmark",
+            "amount": 2,
+            "unit": "EL"
+          },
+          {
+            "item": "Olivenöl",
+            "amount": 2,
+            "unit": "EL"
+          },
+          {
+            "item": "Salz, Pfeffer, Oregano, Basilikum",
+            "amount": 1,
+            "unit": "Prise"
+          },
+          {
+            "item": "Parmesan zum Servieren",
+            "amount": 50,
+            "unit": "g"
+          }
+        ],
+        "steps": [
+          "Zwiebeln und Knoblauch fein würfeln.",
+          "Olivenöl in einer großen Pfanne erhitzen. Zwiebeln und Knoblauch 3 Min glasig dünsten.",
+          "Hackfleisch dazu, krümelig braten bis es braun ist (ca. 5 Min).",
+          "Tomatenmark einrühren, 1 Min mitbraten.",
+          "Gehackte Tomaten dazu, mit Salz, Pfeffer, Oregano und Basilikum würzen.",
+          "Bei mittlerer Hitze 15 Min köcheln lassen, gelegentlich umrühren.",
+          "In der Zwischenzeit Spaghetti nach Packungsanleitung kochen (ca. 10 Min).",
+          "Spaghetti abgießen, mit der Soße vermischen oder daneben anrichten.",
+          "Mit frisch geriebenem Parmesan servieren. Kinder: extra Käse oben drauf!"
+        ]
+      }
     },
     {
       "name": "Tikka Masala",
@@ -761,7 +1518,51 @@
         "butter"
       ],
       "category": "abend",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 20,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Spätzle (frisch oder TK)",
+            "amount": 600,
+            "unit": "g"
+          },
+          {
+            "item": "Käse gerieben (Emmentaler oder Bergkäse)",
+            "amount": 250,
+            "unit": "g"
+          },
+          {
+            "item": "Zwiebeln",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Butter",
+            "amount": 60,
+            "unit": "g"
+          },
+          {
+            "item": "Salz, Pfeffer, Muskat",
+            "amount": 1,
+            "unit": "Prise"
+          }
+        ],
+        "steps": [
+          "Spätzle nach Packungsanleitung kochen, abgießen.",
+          "Zwiebeln in Ringe schneiden.",
+          "30g Butter in einer großen Pfanne schmelzen.",
+          "Spätzle in die Pfanne, 2 Min anbraten.",
+          "Schichtweise: Spätzle, Käse, Spätzle, Käse.",
+          "Deckel drauf, bei niedriger Hitze 5 Min bis Käse schmilzt.",
+          "In der Zwischenzeit: Restliche Butter in einer kleinen Pfanne schmelzen.",
+          "Zwiebelringe darin goldbraun braten (Röstzwiebeln).",
+          "Spätzle mit Röstzwiebeln obendrauf servieren.",
+          "Schwäbischer Kinder-Klassiker! Extra Röstzwiebeln für die Großen."
+        ]
+      }
     },
     {
       "name": "Kas-Press-Knödel",
@@ -1202,7 +2003,65 @@
         "reis"
       ],
       "category": "mittag",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 15,
+        "time_cook": 30,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Hähnchenbrust oder -schenkel",
+            "amount": 600,
+            "unit": "g"
+          },
+          {
+            "item": "Paprika (rot, gelb)",
+            "amount": 3,
+            "unit": "Stück"
+          },
+          {
+            "item": "Zwiebeln",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Tomaten (Dose)",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Paprikapulver (edelsüß)",
+            "amount": 2,
+            "unit": "TL"
+          },
+          {
+            "item": "Olivenöl",
+            "amount": 2,
+            "unit": "EL"
+          },
+          {
+            "item": "Salz, Pfeffer",
+            "amount": 1,
+            "unit": "Prise"
+          },
+          {
+            "item": "Reis als Beilage",
+            "amount": 300,
+            "unit": "g"
+          }
+        ],
+        "steps": [
+          "Hähnchen in mundgerechte Würfel schneiden.",
+          "Zwiebeln fein würfeln, Paprika in Streifen schneiden.",
+          "Öl in einem großen Topf erhitzen, Hähnchen rundherum anbraten.",
+          "Zwiebeln dazu, 2 Min mitbraten.",
+          "Paprikapulver einrühren (wichtig: nicht zu lange, wird bitter!).",
+          "Tomaten und Paprikastreifen dazu, Salz und Pfeffer.",
+          "Bei mittlerer Hitze 25 Min köcheln lassen.",
+          "In der Zwischenzeit Reis kochen.",
+          "Gulasch mit Reis servieren. Kinder: Reis extra auf den Teller!"
+        ]
+      }
     },
     {
       "name": "Pfannkuchen",
@@ -1356,7 +2215,54 @@
         "käse"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Gnocchi (Kühlregal)",
+            "amount": 600,
+            "unit": "g"
+          },
+          {
+            "item": "Paprika (rot, gelb)",
+            "amount": 3,
+            "unit": "Stück"
+          },
+          {
+            "item": "Tomatensoße oder passierte Tomaten",
+            "amount": 200,
+            "unit": "ml"
+          },
+          {
+            "item": "Käse gerieben",
+            "amount": 100,
+            "unit": "g"
+          },
+          {
+            "item": "Olivenöl",
+            "amount": 2,
+            "unit": "EL"
+          },
+          {
+            "item": "Salz, Pfeffer, Paprikapulver",
+            "amount": 1,
+            "unit": "Prise"
+          }
+        ],
+        "steps": [
+          "Paprika in kleine Würfel schneiden.",
+          "Olivenöl in einer großen Pfanne erhitzen.",
+          "Gnocchi hineingeben, 3-4 Min von jeder Seite goldbraun braten.",
+          "Paprikawürfel dazu, 3 Min mitbraten.",
+          "Tomatensoße einrühren, mit Salz, Pfeffer und Paprika würzen.",
+          "Käse obendrauf streuen, Deckel drauf, 2 Min bis der Käse schmilzt.",
+          "Direkt aus der Pfanne servieren!",
+          "Kinder lieben das: Gnocchi sind wie kleine Kartoffelknödel!"
+        ]
+      }
     },
     {
       "name": "Fisch & Chips",
@@ -2012,7 +2918,69 @@
         "knoblauch"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 20,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Nudeln",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Gehackte Tomaten (Dose)",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Zwiebeln",
+            "amount": 1,
+            "unit": "Stück"
+          },
+          {
+            "item": "Knoblauch",
+            "amount": 2,
+            "unit": "Zehen"
+          },
+          {
+            "item": "Olivenöl",
+            "amount": 2,
+            "unit": "EL"
+          },
+          {
+            "item": "Tomatenmark",
+            "amount": 1,
+            "unit": "EL"
+          },
+          {
+            "item": "Zucker (gegen Säure)",
+            "amount": 1,
+            "unit": "TL"
+          },
+          {
+            "item": "Salz, Pfeffer, Oregano",
+            "amount": 1,
+            "unit": "Prise"
+          },
+          {
+            "item": "Frisches Basilikum",
+            "amount": 1,
+            "unit": "Bund"
+          }
+        ],
+        "steps": [
+          "Zwiebeln und Knoblauch fein würfeln.",
+          "Olivenöl erhitzen, Zwiebeln glasig dünsten.",
+          "Knoblauch und Tomatenmark dazu, 1 Min mitbraten.",
+          "Gehackte Tomaten eingießen, Zucker, Salz, Pfeffer, Oregano dazu.",
+          "15 Min bei niedriger Hitze köcheln lassen.",
+          "Nudeln kochen, abgießen.",
+          "Nudeln mit Soße vermischen, mit frischem Basilikum garnieren.",
+          "Kinder-Tipp: Extra Zucker hilft bei zu saurer Tomate!"
+        ]
+      }
     },
     {
       "name": "Reis mit Spiegelei und Gemüse",
@@ -2093,7 +3061,55 @@
         "zwiebeln"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 25,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Nudeln (Penne oder Fusilli)",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Käse gerieben (Gouda oder Emmentaler)",
+            "amount": 200,
+            "unit": "g"
+          },
+          {
+            "item": "Sahne",
+            "amount": 250,
+            "unit": "ml"
+          },
+          {
+            "item": "Zwiebeln",
+            "amount": 1,
+            "unit": "Stück"
+          },
+          {
+            "item": "Butter",
+            "amount": 30,
+            "unit": "g"
+          },
+          {
+            "item": "Salz, Pfeffer, Muskat",
+            "amount": 1,
+            "unit": "Prise"
+          }
+        ],
+        "steps": [
+          "Nudeln nach Packungsanleitung kochen, abgießen.",
+          "Backofen auf 180°C vorheizen.",
+          "Zwiebel fein würfeln, in Butter glasig dünsten.",
+          "Sahne dazu, aufkochen, mit Salz, Pfeffer und Muskat würzen.",
+          "Die Hälfte des Käses einrühren bis er geschmolzen ist.",
+          "Nudeln in eine Auflaufform geben, Soße darüber gießen.",
+          "Restlichen Käse obendrauf streuen.",
+          "Im Ofen 15-20 Min backen bis der Käse blubbert.",
+          "Kinder lieben das: Extra Käse auf ihre Ecke!"
+        ]
+      }
     },
     {
       "name": "Quesadillas",
