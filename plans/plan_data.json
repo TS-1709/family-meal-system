@@ -2,20 +2,26 @@
   {
     "day": "Montag",
     "slot": "Mittag",
-    "name": "Putengeschnetzltes",
+    "name": "Spaghetti Bolognese",
     "tags": [
       "fleisch",
-      "schnell"
+      "kind",
+      "klassiker"
     ],
     "key_ingredients": [
-      "putenbrust",
-      "zwiebeln",
-      "sahne",
-      "reis_oder_spätzle"
+      "spaghetti",
+      "hackfleisch",
+      "tomatensoße",
+      "zwiebeln"
     ],
     "category": "mittag",
-    "difficulty": "mittel",
-    "offer_score": 3
+    "difficulty": "leicht",
+    "offer_score": 3,
+    "matched_ingredients": [
+      "hackfleisch",
+      "tomatensoße",
+      "zwiebeln"
+    ]
   },
   {
     "day": "Montag",
@@ -34,122 +40,112 @@
     ],
     "category": "abend",
     "difficulty": "leicht",
-    "offer_score": 3
+    "offer_score": 4,
+    "matched_ingredients": [
+      "nudeln",
+      "käse",
+      "sahne",
+      "zwiebeln"
+    ]
   },
   {
     "day": "Dienstag",
     "slot": "Mittag",
-    "name": "Paprika-Rinderhack-Pfanne",
+    "name": "Hähnchen Auflauf",
     "tags": [
       "fleisch",
+      "ofen",
+      "kind"
+    ],
+    "key_ingredients": [
+      "hähnchen",
+      "kartoffeln",
+      "sahne",
+      "käse"
+    ],
+    "category": "mittag",
+    "difficulty": "mittel",
+    "offer_score": 3,
+    "matched_ingredients": [
+      "hähnchen",
+      "sahne",
+      "käse"
+    ]
+  },
+  {
+    "day": "Dienstag",
+    "slot": "Abend",
+    "name": "Nudeln mit Pesto",
+    "tags": [
+      "vegetarisch",
       "schnell",
       "kind"
     ],
     "key_ingredients": [
-      "rinderhack",
-      "paprika",
-      "zwiebeln",
-      "reis"
-    ],
-    "category": "mittag",
-    "difficulty": "leicht",
-    "offer_score": 3
-  },
-  {
-    "day": "Dienstag",
-    "slot": "Abend",
-    "name": "Kichererbsen Shakshuka",
-    "tags": [
-      "vegetarisch",
-      "gesund"
-    ],
-    "key_ingredients": [
-      "kichererbsen",
-      "tomaten",
-      "eier",
-      "paprika"
+      "nudeln",
+      "pesto",
+      "parmesan",
+      "pinienkerne"
     ],
     "category": "abend",
     "difficulty": "leicht",
-    "offer_score": 2
+    "offer_score": 3,
+    "matched_ingredients": [
+      "nudeln",
+      "pesto",
+      "parmesan"
+    ]
   },
   {
     "day": "Mittwoch",
     "slot": "Mittag",
-    "name": "Spaghetti Bolognese",
+    "name": "Hähnchengulasch",
     "tags": [
       "fleisch",
+      "winter"
+    ],
+    "key_ingredients": [
+      "hähnchen",
+      "paprika",
+      "tomaten",
+      "reis"
+    ],
+    "category": "mittag",
+    "difficulty": "mittel",
+    "offer_score": 3,
+    "matched_ingredients": [
+      "hähnchen",
+      "paprika",
+      "tomaten"
+    ]
+  },
+  {
+    "day": "Mittwoch",
+    "slot": "Abend",
+    "name": "Nudeln mit Tomatensoße",
+    "tags": [
+      "vegan",
+      "schnell",
       "kind",
       "klassiker"
     ],
     "key_ingredients": [
-      "spaghetti",
-      "hackfleisch",
-      "tomatensoße",
+      "nudeln",
+      "tomaten_dose",
+      "zwiebeln",
+      "knoblauch"
+    ],
+    "category": "abend",
+    "difficulty": "leicht",
+    "offer_score": 3,
+    "matched_ingredients": [
+      "nudeln",
+      "tomaten_dose",
       "zwiebeln"
-    ],
-    "category": "mittag",
-    "difficulty": "leicht",
-    "offer_score": 2
-  },
-  {
-    "day": "Mittwoch",
-    "slot": "Abend",
-    "name": "Kartoffelcremesuppe",
-    "tags": [
-      "vegetarisch",
-      "suppe",
-      "kind"
-    ],
-    "key_ingredients": [
-      "kartoffeln",
-      "zwiebeln",
-      "sahne",
-      "brühe"
-    ],
-    "category": "abend",
-    "difficulty": "leicht",
-    "offer_score": 2
+    ]
   },
   {
     "day": "Donnerstag",
-    "slot": "Mittag",
-    "name": "Kartoffelsuppe mit Wiener",
-    "tags": [
-      "suppe",
-      "kind",
-      "winter"
-    ],
-    "key_ingredients": [
-      "kartoffeln",
-      "wiener_würstchen",
-      "zwiebeln",
-      "möhren"
-    ],
-    "category": "mittag",
-    "difficulty": "leicht",
-    "offer_score": 2
-  },
-  {
-    "day": "Donnerstag",
-    "slot": "Abend",
-    "name": "Ofenkartoffeln mit Avocadocreme/Quark",
-    "tags": [
-      "vegetarisch",
-      "gesund"
-    ],
-    "key_ingredients": [
-      "kartoffeln",
-      "avocado_oder_quark",
-      "kräuter",
-      "tomaten"
-    ],
-    "category": "abend",
-    "difficulty": "leicht",
-    "offer_score": 2
-  },
-  {
-    "day": "Freitag",
     "slot": "Mittag",
     "name": "Risotto mit Lachs und Tomaten",
     "tags": [
@@ -165,10 +161,15 @@
     ],
     "category": "mittag",
     "difficulty": "mittel",
-    "offer_score": 2
+    "offer_score": 3,
+    "matched_ingredients": [
+      "lachs",
+      "tomaten",
+      "parmesan"
+    ]
   },
   {
-    "day": "Freitag",
+    "day": "Donnerstag",
     "slot": "Abend",
     "name": "Gnocchi Paprika Pfanne",
     "tags": [
@@ -183,7 +184,58 @@
     ],
     "category": "abend",
     "difficulty": "leicht",
-    "offer_score": 2
+    "offer_score": 3,
+    "matched_ingredients": [
+      "paprika",
+      "tomatensoße",
+      "käse"
+    ]
+  },
+  {
+    "day": "Freitag",
+    "slot": "Mittag",
+    "name": "Penne mit Thunfisch Bolognese",
+    "tags": [
+      "fisch",
+      "nudeln",
+      "schnell"
+    ],
+    "key_ingredients": [
+      "penne",
+      "thunfisch",
+      "tomatensoße",
+      "zwiebeln"
+    ],
+    "category": "mittag",
+    "difficulty": "leicht",
+    "offer_score": 2,
+    "matched_ingredients": [
+      "tomatensoße",
+      "zwiebeln"
+    ]
+  },
+  {
+    "day": "Freitag",
+    "slot": "Abend",
+    "name": "Pink Pasta",
+    "tags": [
+      "vegetarisch",
+      "schnell"
+    ],
+    "key_ingredients": [
+      "nudeln",
+      "tomatensoße",
+      "sahne",
+      "basilikum"
+    ],
+    "category": "abend",
+    "difficulty": "leicht",
+    "offer_score": 3,
+    "matched_ingredients": [
+      "nudeln",
+      "tomatensoße",
+      "sahne"
+    ]
   },
   {
     "day": "Samstag",
@@ -201,60 +253,79 @@
     ],
     "category": "mittag",
     "difficulty": "leicht",
-    "offer_score": 1
+    "offer_score": 1,
+    "matched_ingredients": [
+      "tomaten"
+    ]
   },
   {
     "day": "Samstag",
     "slot": "Abend",
-    "name": "Strudel mit Lachs und Spinat",
+    "name": "Nudeln mit Käse-Sahne-Soße",
     "tags": [
-      "fisch",
-      "ofen"
+      "vegetarisch",
+      "schnell",
+      "kind"
     ],
     "key_ingredients": [
-      "lachs",
-      "spinat",
-      "blätterteig",
-      "sahne"
+      "nudeln",
+      "sahne",
+      "käse",
+      "knoblauch"
     ],
     "category": "abend",
-    "difficulty": "mittel",
-    "offer_score": 2
+    "difficulty": "leicht",
+    "offer_score": 3,
+    "matched_ingredients": [
+      "nudeln",
+      "sahne",
+      "käse"
+    ]
   },
   {
     "day": "Sonntag",
     "slot": "Mittag",
-    "name": "Asia Lunch",
+    "name": "Kartoffelsuppe mit Wiener",
     "tags": [
-      "asien",
-      "schnell"
+      "suppe",
+      "kind",
+      "winter"
     ],
     "key_ingredients": [
-      "reis",
-      "gemüse",
-      "sojasauce",
-      "ei"
+      "kartoffeln",
+      "wiener_würstchen",
+      "zwiebeln",
+      "möhren"
     ],
     "category": "mittag",
     "difficulty": "leicht",
-    "offer_score": 1
+    "offer_score": 1,
+    "matched_ingredients": [
+      "zwiebeln"
+    ]
   },
   {
     "day": "Sonntag",
     "slot": "Abend",
-    "name": "Grünkern-Chili-Cheese-Kartoffeln",
+    "name": "Käsespätzle",
     "tags": [
       "vegetarisch",
-      "gesund"
+      "kind",
+      "klassiker"
     ],
     "key_ingredients": [
-      "grünkern",
-      "kartoffeln",
+      "spätzle",
       "käse",
-      "bohnen"
+      "zwiebeln",
+      "butter"
     ],
     "category": "abend",
     "difficulty": "mittel",
-    "offer_score": 2
+    "offer_score": 3,
+    "matched_ingredients": [
+      "käse",
+      "zwiebeln",
+      "butter"
+    ]
   }
 ]

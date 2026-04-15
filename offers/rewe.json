@@ -1,0 +1,169 @@
+{
+  "store": "REWE",
+  "date": "2026-04-15",
+  "valid_from": "2026-04-13",
+  "valid_until": "2026-04-18",
+  "offers": [
+    {
+      "name": "Barilla Pesto Rosso 200g",
+      "price": 1.99,
+      "old_price": null,
+      "unit": "200g",
+      "category": "sonstiges"
+    },
+    {
+      "name": "Barilla Pasta Sauce Basilico 400g",
+      "price": 1.99,
+      "old_price": null,
+      "unit": "400g",
+      "category": "trockenwaren"
+    },
+    {
+      "name": "Barilla Pasta Spezialitäten 500g",
+      "price": 1.69,
+      "old_price": null,
+      "unit": "500g",
+      "category": "trockenwaren"
+    },
+    {
+      "name": "REWE Beste Wahl Rindfleisch-Tortelloni 250g",
+      "price": 1.59,
+      "old_price": null,
+      "unit": "250g",
+      "category": "trockenwaren"
+    },
+    {
+      "name": "Delverde Pasta 500g",
+      "price": 0.69,
+      "old_price": null,
+      "unit": "500g",
+      "category": "trockenwaren"
+    },
+    {
+      "name": "Rote Tafeläpfel 2kg",
+      "price": 1.99,
+      "old_price": null,
+      "unit": "2kg",
+      "category": "obst"
+    },
+    {
+      "name": "Géramont Weichkäse 200g",
+      "price": 2.22,
+      "old_price": null,
+      "unit": "200g",
+      "category": "milchprodukte"
+    },
+    {
+      "name": "Géramont Scheiben mit Skyr 150g",
+      "price": 2.22,
+      "old_price": null,
+      "unit": "150g",
+      "category": "milchprodukte"
+    },
+    {
+      "name": "Dallmayr Prodomo Kaffee 500g",
+      "price": 5.99,
+      "old_price": null,
+      "unit": "500g",
+      "category": "sonstiges"
+    },
+    {
+      "name": "Schwartau Konfitüre Extra Erdbeere 340g",
+      "price": 1.99,
+      "old_price": null,
+      "unit": "340g",
+      "category": "sonstiges"
+    },
+    {
+      "name": "Schwartau Samt Konfitüre Himbeere 270g",
+      "price": 1.99,
+      "old_price": null,
+      "unit": "270g",
+      "category": "sonstiges"
+    },
+    {
+      "name": "Tante Fanny Butter Blätterteig 280g",
+      "price": 1.99,
+      "old_price": null,
+      "unit": "280g",
+      "category": "trockenwaren"
+    },
+    {
+      "name": "Bio-Bananen 1kg",
+      "price": 1.69,
+      "old_price": null,
+      "unit": "1kg",
+      "category": "obst"
+    },
+    {
+      "name": "Cherrytomaten 250g",
+      "price": 0.99,
+      "old_price": null,
+      "unit": "250g",
+      "category": "gemuese"
+    },
+    {
+      "name": "Gurke Stück",
+      "price": 0.69,
+      "old_price": null,
+      "unit": "Stück",
+      "category": "gemuese"
+    },
+    {
+      "name": "Rispentomaten 500g",
+      "price": 1.49,
+      "old_price": null,
+      "unit": "500g",
+      "category": "gemuese"
+    },
+    {
+      "name": "Karotten 1kg",
+      "price": 0.89,
+      "old_price": null,
+      "unit": "1kg",
+      "category": "gemuese"
+    },
+    {
+      "name": "Paprika 500g",
+      "price": 1.69,
+      "old_price": null,
+      "unit": "500g",
+      "category": "gemuese"
+    },
+    {
+      "name": "Hähnchenbrustfilet 500g",
+      "price": 4.49,
+      "old_price": null,
+      "unit": "500g",
+      "category": "fleisch"
+    },
+    {
+      "name": "Lachsfilet 300g",
+      "price": 4.99,
+      "old_price": null,
+      "unit": "300g",
+      "category": "fisch"
+    },
+    {
+      "name": "Hackfleisch Rind 500g",
+      "price": 4.99,
+      "old_price": null,
+      "unit": "500g",
+      "category": "fleisch"
+    },
+    {
+      "name": "Joghurt 3,5% 4x150g",
+      "price": 0.89,
+      "old_price": null,
+      "unit": "600g",
+      "category": "milchprodukte"
+    },
+    {
+      "name": "Vollmilch 1,5l",
+      "price": 1.19,
+      "old_price": null,
+      "unit": "1,5l",
+      "category": "milchprodukte"
+    }
+  ]
+}

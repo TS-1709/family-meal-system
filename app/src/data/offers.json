@@ -1,199 +1,1334 @@
 {
-  "store": "ALDI SÜD",
+  "stores": [
+    "ALDI SÜD",
+    "REWE"
+  ],
   "date": "2026-04-15",
   "valid_from": "2026-04-13",
   "valid_until": "2026-04-18",
-  "source": "aldi-sued.de (browser)",
-  "scraped_at": "2026-04-15T18:17:17.467630",
+  "total_products": 36,
   "offers": [
     {
-      "name": "Karotten 2 kg",
-      "price": 1.79,
+      "name": "arganöl",
+      "price": 2.39,
       "old_price": null,
-      "unit": "2 kg",
-      "category": "gemuese"
+      "unit": "",
+      "category": "sonstiges",
+      "store": "ALDI SÜD",
+      "all_stores": [
+        {
+          "store": "ALDI SÜD",
+          "name": "Arganöl Mix, Tagescreme",
+          "price": 2.39,
+          "old_price": null,
+          "unit": ""
+        }
+      ]
     },
     {
-      "name": "Mix Paprika 500 g",
-      "price": 2.19,
+      "name": "backfisch",
+      "price": 5.49,
       "old_price": null,
-      "unit": "500 g",
-      "category": "gemuese"
+      "unit": "560 g",
+      "category": "fisch",
+      "store": "ALDI SÜD",
+      "all_stores": [
+        {
+          "store": "ALDI SÜD",
+          "name": "GOLDEN SEAFOOD Backfisch XXL 560 g",
+          "price": 5.49,
+          "old_price": null,
+          "unit": "560 g"
+        }
+      ]
     },
     {
-      "name": "Champignons 400 g",
-      "price": 1.35,
-      "old_price": 1.99,
-      "unit": "400 g",
-      "category": "gemuese"
-    },
-    {
-      "name": "Orangen 2 kg",
-      "price": 2.49,
-      "old_price": null,
-      "unit": "2 kg",
-      "category": "obst"
-    },
-    {
-      "name": "Cocktailrispentomaten 500 g",
-      "price": 2.19,
-      "old_price": null,
-      "unit": "500 g",
-      "category": "gemuese"
-    },
-    {
-      "name": "Norwegisches Lachsfilet 300 g",
-      "price": 4.49,
-      "old_price": 5.79,
-      "unit": "300 g",
-      "category": "fisch"
-    },
-    {
-      "name": "Bio-Hackfleisch vom Rind 400 g",
-      "price": 4.79,
-      "old_price": 6.49,
-      "unit": "400 g",
-      "category": "fleisch"
-    },
-    {
-      "name": "Lauchzwiebeln Bund",
-      "price": 0.75,
-      "old_price": null,
-      "unit": "Bund",
-      "category": "gemuese"
-    },
-    {
-      "name": "Kiwi grün Stück",
-      "price": 0.29,
-      "old_price": null,
-      "unit": "Stück",
-      "category": "obst"
-    },
-    {
-      "name": "Erdbeeren 400 g",
-      "price": 2.49,
-      "old_price": null,
-      "unit": "400 g",
-      "category": "obst"
-    },
-    {
-      "name": "Bunter Salat mit Wurzelballen",
-      "price": 1.11,
-      "old_price": null,
-      "unit": "Stück",
-      "category": "gemuese"
-    },
-    {
-      "name": "Heidelbeeren 150g",
+      "name": "banane",
       "price": 1.69,
       "old_price": null,
-      "unit": "150 g",
-      "category": "obst"
+      "unit": "1kg",
+      "category": "obst",
+      "store": "REWE",
+      "all_stores": [
+        {
+          "store": "REWE",
+          "name": "Bio-Bananen 1kg",
+          "price": 1.69,
+          "old_price": null,
+          "unit": "1kg"
+        }
+      ]
     },
     {
-      "name": "Bio-Speisekartoffeln 2kg",
+      "name": "bunter",
+      "price": 1.11,
+      "old_price": null,
+      "unit": "",
+      "category": "gemuese",
+      "store": "ALDI SÜD",
+      "all_stores": [
+        {
+          "store": "ALDI SÜD",
+          "name": "BESTES AUS DER REGION Bunter Salat mit Wurzelballen, Stück",
+          "price": 1.11,
+          "old_price": null,
+          "unit": ""
+        }
+      ]
+    },
+    {
+      "name": "butter",
       "price": 1.99,
       "old_price": null,
-      "unit": "2 kg",
-      "category": "gemuese"
+      "unit": "280g",
+      "category": "trockenwaren",
+      "store": "REWE",
+      "all_stores": [
+        {
+          "store": "REWE",
+          "name": "Tante Fanny Butter Blätterteig 280g",
+          "price": 1.99,
+          "old_price": null,
+          "unit": "280g"
+        }
+      ]
     },
     {
-      "name": "Hähnchen-Filetspieß 400 g Kräuter",
-      "price": 4.29,
-      "old_price": 5.29,
-      "unit": "400 g",
-      "category": "fleisch"
+      "name": "dallmayr",
+      "price": 5.99,
+      "old_price": null,
+      "unit": "500g",
+      "category": "sonstiges",
+      "store": "REWE",
+      "all_stores": [
+        {
+          "store": "REWE",
+          "name": "Dallmayr Prodomo Kaffee 500g",
+          "price": 5.99,
+          "old_price": null,
+          "unit": "500g"
+        }
+      ]
     },
     {
-      "name": "Hähnchen-Filetspieß 400 g Paprika",
-      "price": 4.29,
-      "old_price": 5.29,
-      "unit": "400 g",
-      "category": "fleisch"
-    },
-    {
-      "name": "Schweine-Nackensteak 600 g Paprika",
-      "price": 3.99,
-      "old_price": 4.79,
-      "unit": "600 g",
-      "category": "fleisch"
-    },
-    {
-      "name": "Schweine-Nackensteak 600 g Kräuter",
-      "price": 3.99,
-      "old_price": 4.79,
-      "unit": "600 g",
-      "category": "fleisch"
-    },
-    {
-      "name": "Schweine-Minutensteaks 400 g",
+      "name": "erdbeeren",
       "price": 2.49,
-      "old_price": 3.19,
+      "old_price": null,
       "unit": "400 g",
-      "category": "fleisch"
+      "category": "obst",
+      "store": "ALDI SÜD",
+      "all_stores": [
+        {
+          "store": "ALDI SÜD",
+          "name": "KLEINE SCHÄTZE Erdbeeren 400 g",
+          "price": 2.49,
+          "old_price": null,
+          "unit": "400 g"
+        }
+      ]
     },
     {
-      "name": "Bio-Joghurt 1,8%",
-      "price": 1.19,
+      "name": "erdnusskerne",
+      "price": 3.33,
       "old_price": null,
-      "unit": "500 g",
-      "category": "milchprodukte"
+      "unit": "450 g",
+      "category": "sonstiges",
+      "store": "ALDI SÜD",
+      "all_stores": [
+        {
+          "store": "ALDI SÜD",
+          "name": "Erdnusskerne 450 g",
+          "price": 3.33,
+          "old_price": null,
+          "unit": "450 g"
+        }
+      ]
     },
     {
-      "name": "Bio-Joghurt 3,8%",
-      "price": 1.19,
-      "old_price": null,
-      "unit": "500 g",
-      "category": "milchprodukte"
-    },
-    {
-      "name": "Bio-Almbutter",
-      "price": 2.79,
-      "old_price": null,
-      "unit": "250 g",
-      "category": "milchprodukte"
-    },
-    {
-      "name": "Salakis Feta",
-      "price": 1.99,
-      "old_price": null,
-      "unit": "150 g",
-      "category": "milchprodukte"
-    },
-    {
-      "name": "Grana Padano gerieben",
-      "price": 3.99,
-      "old_price": null,
-      "unit": "150 g",
-      "category": "milchprodukte"
-    },
-    {
-      "name": "Landkäse sahnig",
-      "price": 1.49,
-      "old_price": null,
-      "unit": "150 g",
-      "category": "milchprodukte"
-    },
-    {
-      "name": "Buttermilch",
+      "name": "gurke",
       "price": 0.69,
       "old_price": null,
-      "unit": "500 ml",
-      "category": "milchprodukte"
+      "unit": "Stück",
+      "category": "gemuese",
+      "store": "REWE",
+      "all_stores": [
+        {
+          "store": "REWE",
+          "name": "Gurke Stück",
+          "price": 0.69,
+          "old_price": null,
+          "unit": "Stück"
+        }
+      ]
     },
     {
-      "name": "Bertolli Olivenöl",
+      "name": "géramont",
+      "price": 2.22,
+      "old_price": null,
+      "unit": "200g",
+      "category": "milchprodukte",
+      "store": "REWE",
+      "all_stores": [
+        {
+          "store": "REWE",
+          "name": "Géramont Weichkäse 200g",
+          "price": 2.22,
+          "old_price": null,
+          "unit": "200g"
+        },
+        {
+          "store": "REWE",
+          "name": "Géramont Scheiben mit Skyr 150g",
+          "price": 2.22,
+          "old_price": null,
+          "unit": "150g"
+        }
+      ]
+    },
+    {
+      "name": "hackfleisch",
+      "price": 4.79,
+      "old_price": null,
+      "unit": "400 g",
+      "category": "fleisch",
+      "store": "ALDI SÜD",
+      "all_stores": [
+        {
+          "store": "ALDI SÜD",
+          "name": "BIO Bio-Hackfleisch vom Rind 400 g",
+          "price": 4.79,
+          "old_price": null,
+          "unit": "400 g"
+        },
+        {
+          "store": "REWE",
+          "name": "Hackfleisch Rind 500g",
+          "price": 4.99,
+          "old_price": null,
+          "unit": "500g"
+        }
+      ]
+    },
+    {
+      "name": "heidelbeeren",
+      "price": 1.69,
+      "old_price": null,
+      "unit": "150g",
+      "category": "obst",
+      "store": "ALDI SÜD",
+      "all_stores": [
+        {
+          "store": "ALDI SÜD",
+          "name": "Heidelbeeren 150g",
+          "price": 1.69,
+          "old_price": null,
+          "unit": "150g"
+        }
+      ]
+    },
+    {
+      "name": "hähnchen",
+      "price": 4.49,
+      "old_price": null,
+      "unit": "500g",
+      "category": "fleisch",
+      "store": "REWE",
+      "all_stores": [
+        {
+          "store": "REWE",
+          "name": "Hähnchenbrustfilet 500g",
+          "price": 4.49,
+          "old_price": null,
+          "unit": "500g"
+        }
+      ]
+    },
+    {
+      "name": "irischer",
+      "price": 2.19,
+      "old_price": null,
+      "unit": "200 g",
+      "category": "milchprodukte",
+      "store": "ALDI SÜD",
+      "all_stores": [
+        {
+          "store": "ALDI SÜD",
+          "name": "Irischer Cheddar 200 g, Reibekäse",
+          "price": 2.19,
+          "old_price": null,
+          "unit": "200 g"
+        }
+      ]
+    },
+    {
+      "name": "joghurt",
+      "price": 0.89,
+      "old_price": null,
+      "unit": "600g",
+      "category": "milchprodukte",
+      "store": "REWE",
+      "all_stores": [
+        {
+          "store": "REWE",
+          "name": "Joghurt 3,5% 4x150g",
+          "price": 0.89,
+          "old_price": null,
+          "unit": "600g"
+        }
+      ]
+    },
+    {
+      "name": "karotten",
+      "price": 0.89,
+      "old_price": null,
+      "unit": "1kg",
+      "category": "gemuese",
+      "store": "REWE",
+      "all_stores": [
+        {
+          "store": "REWE",
+          "name": "Karotten 1kg",
+          "price": 0.89,
+          "old_price": null,
+          "unit": "1kg"
+        },
+        {
+          "store": "ALDI SÜD",
+          "name": "NATUR LIEBLINGE Karotten 2 kg",
+          "price": 1.79,
+          "old_price": null,
+          "unit": "2 kg"
+        }
+      ]
+    },
+    {
+      "name": "kiwi",
+      "price": 0.29,
+      "old_price": null,
+      "unit": "",
+      "category": "obst",
+      "store": "ALDI SÜD",
+      "all_stores": [
+        {
+          "store": "ALDI SÜD",
+          "name": "Kiwi grün Stück",
+          "price": 0.29,
+          "old_price": null,
+          "unit": ""
+        }
+      ]
+    },
+    {
+      "name": "lachs",
+      "price": 4.49,
+      "old_price": null,
+      "unit": "300 g",
+      "category": "fisch",
+      "store": "ALDI SÜD",
+      "all_stores": [
+        {
+          "store": "ALDI SÜD",
+          "name": "GOLDEN SEAFOOD Norwegisches Lachsfilet 300 g",
+          "price": 4.49,
+          "old_price": null,
+          "unit": "300 g"
+        },
+        {
+          "store": "REWE",
+          "name": "Lachsfilet 300g",
+          "price": 4.99,
+          "old_price": null,
+          "unit": "300g"
+        }
+      ]
+    },
+    {
+      "name": "nudeln",
+      "price": 0.69,
+      "old_price": null,
+      "unit": "500g",
+      "category": "trockenwaren",
+      "store": "REWE",
+      "all_stores": [
+        {
+          "store": "REWE",
+          "name": "Delverde Pasta 500g",
+          "price": 0.69,
+          "old_price": null,
+          "unit": "500g"
+        },
+        {
+          "store": "REWE",
+          "name": "Barilla Pasta Spezialitäten 500g",
+          "price": 1.69,
+          "old_price": null,
+          "unit": "500g"
+        },
+        {
+          "store": "REWE",
+          "name": "Barilla Pasta Sauce Basilico 400g",
+          "price": 1.99,
+          "old_price": null,
+          "unit": "400g"
+        }
+      ]
+    },
+    {
+      "name": "orangen",
+      "price": 2.49,
+      "old_price": null,
+      "unit": "2 kg",
+      "category": "obst",
+      "store": "ALDI SÜD",
+      "all_stores": [
+        {
+          "store": "ALDI SÜD",
+          "name": "NATUR LIEBLINGE Orangen 2 kg",
+          "price": 2.49,
+          "old_price": null,
+          "unit": "2 kg"
+        }
+      ]
+    },
+    {
+      "name": "paprika",
+      "price": 1.69,
+      "old_price": null,
+      "unit": "500g",
+      "category": "gemuese",
+      "store": "REWE",
+      "all_stores": [
+        {
+          "store": "REWE",
+          "name": "Paprika 500g",
+          "price": 1.69,
+          "old_price": null,
+          "unit": "500g"
+        },
+        {
+          "store": "ALDI SÜD",
+          "name": "NATUR LIEBLINGE Mix Paprika 500 g",
+          "price": 2.19,
+          "old_price": null,
+          "unit": "500 g"
+        }
+      ]
+    },
+    {
+      "name": "parmesan",
       "price": 4.99,
       "old_price": null,
-      "unit": "500 ml",
-      "category": "sonstiges"
+      "unit": "250 g",
+      "category": "milchprodukte",
+      "store": "ALDI SÜD",
+      "all_stores": [
+        {
+          "store": "ALDI SÜD",
+          "name": "Grana Padano Hartkäse DOP 16 Monate 250 g",
+          "price": 4.99,
+          "old_price": null,
+          "unit": "250 g"
+        }
+      ]
     },
     {
-      "name": "Knusper Müsli",
+      "name": "pesto",
+      "price": 1.99,
+      "old_price": null,
+      "unit": "200g",
+      "category": "sonstiges",
+      "store": "REWE",
+      "all_stores": [
+        {
+          "store": "REWE",
+          "name": "Barilla Pesto Rosso 200g",
+          "price": 1.99,
+          "old_price": null,
+          "unit": "200g"
+        }
+      ]
+    },
+    {
+      "name": "pilze",
+      "price": 1.35,
+      "old_price": null,
+      "unit": "400 g",
+      "category": "gemuese",
+      "store": "ALDI SÜD",
+      "all_stores": [
+        {
+          "store": "ALDI SÜD",
+          "name": "NATUR LIEBLINGE Champignons 400 g, weiß",
+          "price": 1.35,
+          "old_price": null,
+          "unit": "400 g"
+        }
+      ]
+    },
+    {
+      "name": "puten",
+      "price": 7.49,
+      "old_price": null,
+      "unit": "800 g",
+      "category": "fleisch",
+      "store": "ALDI SÜD",
+      "all_stores": [
+        {
+          "store": "ALDI SÜD",
+          "name": "MEINE METZGEREI Puten Schnitzel Wiener Art 800 g",
+          "price": 7.49,
+          "old_price": null,
+          "unit": "800 g"
+        }
+      ]
+    },
+    {
+      "name": "sahne",
+      "price": 1.49,
+      "old_price": null,
+      "unit": "200 g",
+      "category": "milchprodukte",
+      "store": "ALDI SÜD",
+      "all_stores": [
+        {
+          "store": "ALDI SÜD",
+          "name": "Schmelzkäsezubereitung 200 g, Sahne",
+          "price": 1.49,
+          "old_price": null,
+          "unit": "200 g"
+        }
+      ]
+    },
+    {
+      "name": "salami",
+      "price": 1.89,
+      "old_price": null,
+      "unit": "100 g",
+      "category": "fleisch",
+      "store": "ALDI SÜD",
+      "all_stores": [
+        {
+          "store": "ALDI SÜD",
+          "name": "Salami Chips 100 g, Klassik",
+          "price": 1.89,
+          "old_price": null,
+          "unit": "100 g"
+        }
+      ]
+    },
+    {
+      "name": "schmelzkäsezubereitung",
+      "price": 1.49,
+      "old_price": null,
+      "unit": "200 g",
+      "category": "milchprodukte",
+      "store": "ALDI SÜD",
+      "all_stores": [
+        {
+          "store": "ALDI SÜD",
+          "name": "Schmelzkäsezubereitung 200 g, Kräuter",
+          "price": 1.49,
+          "old_price": null,
+          "unit": "200 g"
+        },
+        {
+          "store": "ALDI SÜD",
+          "name": "Schmelzkäsezubereitung 200 g, Leicht",
+          "price": 1.49,
+          "old_price": null,
+          "unit": "200 g"
+        },
+        {
+          "store": "ALDI SÜD",
+          "name": "Schmelzkäsezubereitung 200 g, Gouda",
+          "price": 1.49,
+          "old_price": null,
+          "unit": "200 g"
+        }
+      ]
+    },
+    {
+      "name": "schwartau",
+      "price": 1.99,
+      "old_price": null,
+      "unit": "340g",
+      "category": "sonstiges",
+      "store": "REWE",
+      "all_stores": [
+        {
+          "store": "REWE",
+          "name": "Schwartau Konfitüre Extra Erdbeere 340g",
+          "price": 1.99,
+          "old_price": null,
+          "unit": "340g"
+        },
+        {
+          "store": "REWE",
+          "name": "Schwartau Samt Konfitüre Himbeere 270g",
+          "price": 1.99,
+          "old_price": null,
+          "unit": "270g"
+        }
+      ]
+    },
+    {
+      "name": "tomaten",
+      "price": 0.99,
+      "old_price": null,
+      "unit": "250g",
+      "category": "gemuese",
+      "store": "REWE",
+      "all_stores": [
+        {
+          "store": "REWE",
+          "name": "Cherrytomaten 250g",
+          "price": 0.99,
+          "old_price": null,
+          "unit": "250g"
+        },
+        {
+          "store": "REWE",
+          "name": "Rispentomaten 500g",
+          "price": 1.49,
+          "old_price": null,
+          "unit": "500g"
+        },
+        {
+          "store": "ALDI SÜD",
+          "name": "NATUR LIEBLINGE Cocktailrispentomaten 500 g",
+          "price": 2.19,
+          "old_price": null,
+          "unit": "500 g"
+        }
+      ]
+    },
+    {
+      "name": "tortellini",
+      "price": 1.59,
+      "old_price": null,
+      "unit": "250g",
+      "category": "trockenwaren",
+      "store": "REWE",
+      "all_stores": [
+        {
+          "store": "REWE",
+          "name": "REWE Beste Wahl Rindfleisch-Tortelloni 250g",
+          "price": 1.59,
+          "old_price": null,
+          "unit": "250g"
+        }
+      ]
+    },
+    {
+      "name": "vitalis",
       "price": 5.49,
       "old_price": null,
       "unit": "1,5 kg",
-      "category": "trockenwaren"
+      "category": "trockenwaren",
+      "store": "ALDI SÜD",
+      "all_stores": [
+        {
+          "store": "ALDI SÜD",
+          "name": "Vitalis 1,5 kg, Knusper Müsli Klassisch",
+          "price": 5.49,
+          "old_price": null,
+          "unit": "1,5 kg"
+        }
+      ]
+    },
+    {
+      "name": "vollmilch",
+      "price": 1.19,
+      "old_price": null,
+      "unit": "1,5l",
+      "category": "milchprodukte",
+      "store": "REWE",
+      "all_stores": [
+        {
+          "store": "REWE",
+          "name": "Vollmilch 1,5l",
+          "price": 1.19,
+          "old_price": null,
+          "unit": "1,5l"
+        }
+      ]
+    },
+    {
+      "name": "weißkäse",
+      "price": 6.99,
+      "old_price": null,
+      "unit": "1 kg",
+      "category": "milchprodukte",
+      "store": "ALDI SÜD",
+      "all_stores": [
+        {
+          "store": "ALDI SÜD",
+          "name": "Weißkäse in Salzlake 1 kg",
+          "price": 6.99,
+          "old_price": null,
+          "unit": "1 kg"
+        }
+      ]
+    },
+    {
+      "name": "zwiebeln",
+      "price": 0.75,
+      "old_price": null,
+      "unit": "",
+      "category": "gemuese",
+      "store": "ALDI SÜD",
+      "all_stores": [
+        {
+          "store": "ALDI SÜD",
+          "name": "Lauchzwiebeln, Bund",
+          "price": 0.75,
+          "old_price": null,
+          "unit": ""
+        }
+      ]
+    },
+    {
+      "name": "äpfel",
+      "price": 1.99,
+      "old_price": null,
+      "unit": "2kg",
+      "category": "obst",
+      "store": "REWE",
+      "all_stores": [
+        {
+          "store": "REWE",
+          "name": "Rote Tafeläpfel 2kg",
+          "price": 1.99,
+          "old_price": null,
+          "unit": "2kg"
+        }
+      ]
+    }
+  ],
+  "comparison": [
+    {
+      "product": "arganöl",
+      "cheapest_store": "ALDI SÜD",
+      "cheapest_price": 2.39,
+      "category": "sonstiges",
+      "offers": [
+        {
+          "store": "ALDI SÜD",
+          "name": "Arganöl Mix, Tagescreme",
+          "price": 2.39,
+          "old_price": null,
+          "unit": ""
+        }
+      ]
+    },
+    {
+      "product": "backfisch",
+      "cheapest_store": "ALDI SÜD",
+      "cheapest_price": 5.49,
+      "category": "fisch",
+      "offers": [
+        {
+          "store": "ALDI SÜD",
+          "name": "GOLDEN SEAFOOD Backfisch XXL 560 g",
+          "price": 5.49,
+          "old_price": null,
+          "unit": "560 g"
+        }
+      ]
+    },
+    {
+      "product": "banane",
+      "cheapest_store": "REWE",
+      "cheapest_price": 1.69,
+      "category": "obst",
+      "offers": [
+        {
+          "store": "REWE",
+          "name": "Bio-Bananen 1kg",
+          "price": 1.69,
+          "old_price": null,
+          "unit": "1kg"
+        }
+      ]
+    },
+    {
+      "product": "bunter",
+      "cheapest_store": "ALDI SÜD",
+      "cheapest_price": 1.11,
+      "category": "gemuese",
+      "offers": [
+        {
+          "store": "ALDI SÜD",
+          "name": "BESTES AUS DER REGION Bunter Salat mit Wurzelballen, Stück",
+          "price": 1.11,
+          "old_price": null,
+          "unit": ""
+        }
+      ]
+    },
+    {
+      "product": "butter",
+      "cheapest_store": "REWE",
+      "cheapest_price": 1.99,
+      "category": "trockenwaren",
+      "offers": [
+        {
+          "store": "REWE",
+          "name": "Tante Fanny Butter Blätterteig 280g",
+          "price": 1.99,
+          "old_price": null,
+          "unit": "280g"
+        }
+      ]
+    },
+    {
+      "product": "dallmayr",
+      "cheapest_store": "REWE",
+      "cheapest_price": 5.99,
+      "category": "sonstiges",
+      "offers": [
+        {
+          "store": "REWE",
+          "name": "Dallmayr Prodomo Kaffee 500g",
+          "price": 5.99,
+          "old_price": null,
+          "unit": "500g"
+        }
+      ]
+    },
+    {
+      "product": "erdbeeren",
+      "cheapest_store": "ALDI SÜD",
+      "cheapest_price": 2.49,
+      "category": "obst",
+      "offers": [
+        {
+          "store": "ALDI SÜD",
+          "name": "KLEINE SCHÄTZE Erdbeeren 400 g",
+          "price": 2.49,
+          "old_price": null,
+          "unit": "400 g"
+        }
+      ]
+    },
+    {
+      "product": "erdnusskerne",
+      "cheapest_store": "ALDI SÜD",
+      "cheapest_price": 3.33,
+      "category": "sonstiges",
+      "offers": [
+        {
+          "store": "ALDI SÜD",
+          "name": "Erdnusskerne 450 g",
+          "price": 3.33,
+          "old_price": null,
+          "unit": "450 g"
+        }
+      ]
+    },
+    {
+      "product": "gurke",
+      "cheapest_store": "REWE",
+      "cheapest_price": 0.69,
+      "category": "gemuese",
+      "offers": [
+        {
+          "store": "REWE",
+          "name": "Gurke Stück",
+          "price": 0.69,
+          "old_price": null,
+          "unit": "Stück"
+        }
+      ]
+    },
+    {
+      "product": "géramont",
+      "cheapest_store": "REWE",
+      "cheapest_price": 2.22,
+      "category": "milchprodukte",
+      "offers": [
+        {
+          "store": "REWE",
+          "name": "Géramont Weichkäse 200g",
+          "price": 2.22,
+          "old_price": null,
+          "unit": "200g"
+        },
+        {
+          "store": "REWE",
+          "name": "Géramont Scheiben mit Skyr 150g",
+          "price": 2.22,
+          "old_price": null,
+          "unit": "150g"
+        }
+      ]
+    },
+    {
+      "product": "hackfleisch",
+      "cheapest_store": "ALDI SÜD",
+      "cheapest_price": 4.79,
+      "category": "fleisch",
+      "offers": [
+        {
+          "store": "ALDI SÜD",
+          "name": "BIO Bio-Hackfleisch vom Rind 400 g",
+          "price": 4.79,
+          "old_price": null,
+          "unit": "400 g"
+        },
+        {
+          "store": "REWE",
+          "name": "Hackfleisch Rind 500g",
+          "price": 4.99,
+          "old_price": null,
+          "unit": "500g"
+        }
+      ]
+    },
+    {
+      "product": "heidelbeeren",
+      "cheapest_store": "ALDI SÜD",
+      "cheapest_price": 1.69,
+      "category": "obst",
+      "offers": [
+        {
+          "store": "ALDI SÜD",
+          "name": "Heidelbeeren 150g",
+          "price": 1.69,
+          "old_price": null,
+          "unit": "150g"
+        }
+      ]
+    },
+    {
+      "product": "hähnchen",
+      "cheapest_store": "REWE",
+      "cheapest_price": 4.49,
+      "category": "fleisch",
+      "offers": [
+        {
+          "store": "REWE",
+          "name": "Hähnchenbrustfilet 500g",
+          "price": 4.49,
+          "old_price": null,
+          "unit": "500g"
+        }
+      ]
+    },
+    {
+      "product": "irischer",
+      "cheapest_store": "ALDI SÜD",
+      "cheapest_price": 2.19,
+      "category": "milchprodukte",
+      "offers": [
+        {
+          "store": "ALDI SÜD",
+          "name": "Irischer Cheddar 200 g, Reibekäse",
+          "price": 2.19,
+          "old_price": null,
+          "unit": "200 g"
+        }
+      ]
+    },
+    {
+      "product": "joghurt",
+      "cheapest_store": "REWE",
+      "cheapest_price": 0.89,
+      "category": "milchprodukte",
+      "offers": [
+        {
+          "store": "REWE",
+          "name": "Joghurt 3,5% 4x150g",
+          "price": 0.89,
+          "old_price": null,
+          "unit": "600g"
+        }
+      ]
+    },
+    {
+      "product": "karotten",
+      "cheapest_store": "REWE",
+      "cheapest_price": 0.89,
+      "category": "gemuese",
+      "offers": [
+        {
+          "store": "REWE",
+          "name": "Karotten 1kg",
+          "price": 0.89,
+          "old_price": null,
+          "unit": "1kg"
+        },
+        {
+          "store": "ALDI SÜD",
+          "name": "NATUR LIEBLINGE Karotten 2 kg",
+          "price": 1.79,
+          "old_price": null,
+          "unit": "2 kg"
+        }
+      ]
+    },
+    {
+      "product": "kiwi",
+      "cheapest_store": "ALDI SÜD",
+      "cheapest_price": 0.29,
+      "category": "obst",
+      "offers": [
+        {
+          "store": "ALDI SÜD",
+          "name": "Kiwi grün Stück",
+          "price": 0.29,
+          "old_price": null,
+          "unit": ""
+        }
+      ]
+    },
+    {
+      "product": "lachs",
+      "cheapest_store": "ALDI SÜD",
+      "cheapest_price": 4.49,
+      "category": "fisch",
+      "offers": [
+        {
+          "store": "ALDI SÜD",
+          "name": "GOLDEN SEAFOOD Norwegisches Lachsfilet 300 g",
+          "price": 4.49,
+          "old_price": null,
+          "unit": "300 g"
+        },
+        {
+          "store": "REWE",
+          "name": "Lachsfilet 300g",
+          "price": 4.99,
+          "old_price": null,
+          "unit": "300g"
+        }
+      ]
+    },
+    {
+      "product": "nudeln",
+      "cheapest_store": "REWE",
+      "cheapest_price": 0.69,
+      "category": "trockenwaren",
+      "offers": [
+        {
+          "store": "REWE",
+          "name": "Delverde Pasta 500g",
+          "price": 0.69,
+          "old_price": null,
+          "unit": "500g"
+        },
+        {
+          "store": "REWE",
+          "name": "Barilla Pasta Spezialitäten 500g",
+          "price": 1.69,
+          "old_price": null,
+          "unit": "500g"
+        },
+        {
+          "store": "REWE",
+          "name": "Barilla Pasta Sauce Basilico 400g",
+          "price": 1.99,
+          "old_price": null,
+          "unit": "400g"
+        }
+      ]
+    },
+    {
+      "product": "orangen",
+      "cheapest_store": "ALDI SÜD",
+      "cheapest_price": 2.49,
+      "category": "obst",
+      "offers": [
+        {
+          "store": "ALDI SÜD",
+          "name": "NATUR LIEBLINGE Orangen 2 kg",
+          "price": 2.49,
+          "old_price": null,
+          "unit": "2 kg"
+        }
+      ]
+    },
+    {
+      "product": "paprika",
+      "cheapest_store": "REWE",
+      "cheapest_price": 1.69,
+      "category": "gemuese",
+      "offers": [
+        {
+          "store": "REWE",
+          "name": "Paprika 500g",
+          "price": 1.69,
+          "old_price": null,
+          "unit": "500g"
+        },
+        {
+          "store": "ALDI SÜD",
+          "name": "NATUR LIEBLINGE Mix Paprika 500 g",
+          "price": 2.19,
+          "old_price": null,
+          "unit": "500 g"
+        }
+      ]
+    },
+    {
+      "product": "parmesan",
+      "cheapest_store": "ALDI SÜD",
+      "cheapest_price": 4.99,
+      "category": "milchprodukte",
+      "offers": [
+        {
+          "store": "ALDI SÜD",
+          "name": "Grana Padano Hartkäse DOP 16 Monate 250 g",
+          "price": 4.99,
+          "old_price": null,
+          "unit": "250 g"
+        }
+      ]
+    },
+    {
+      "product": "pesto",
+      "cheapest_store": "REWE",
+      "cheapest_price": 1.99,
+      "category": "sonstiges",
+      "offers": [
+        {
+          "store": "REWE",
+          "name": "Barilla Pesto Rosso 200g",
+          "price": 1.99,
+          "old_price": null,
+          "unit": "200g"
+        }
+      ]
+    },
+    {
+      "product": "pilze",
+      "cheapest_store": "ALDI SÜD",
+      "cheapest_price": 1.35,
+      "category": "gemuese",
+      "offers": [
+        {
+          "store": "ALDI SÜD",
+          "name": "NATUR LIEBLINGE Champignons 400 g, weiß",
+          "price": 1.35,
+          "old_price": null,
+          "unit": "400 g"
+        }
+      ]
+    },
+    {
+      "product": "puten",
+      "cheapest_store": "ALDI SÜD",
+      "cheapest_price": 7.49,
+      "category": "fleisch",
+      "offers": [
+        {
+          "store": "ALDI SÜD",
+          "name": "MEINE METZGEREI Puten Schnitzel Wiener Art 800 g",
+          "price": 7.49,
+          "old_price": null,
+          "unit": "800 g"
+        }
+      ]
+    },
+    {
+      "product": "sahne",
+      "cheapest_store": "ALDI SÜD",
+      "cheapest_price": 1.49,
+      "category": "milchprodukte",
+      "offers": [
+        {
+          "store": "ALDI SÜD",
+          "name": "Schmelzkäsezubereitung 200 g, Sahne",
+          "price": 1.49,
+          "old_price": null,
+          "unit": "200 g"
+        }
+      ]
+    },
+    {
+      "product": "salami",
+      "cheapest_store": "ALDI SÜD",
+      "cheapest_price": 1.89,
+      "category": "fleisch",
+      "offers": [
+        {
+          "store": "ALDI SÜD",
+          "name": "Salami Chips 100 g, Klassik",
+          "price": 1.89,
+          "old_price": null,
+          "unit": "100 g"
+        }
+      ]
+    },
+    {
+      "product": "schmelzkäsezubereitung",
+      "cheapest_store": "ALDI SÜD",
+      "cheapest_price": 1.49,
+      "category": "milchprodukte",
+      "offers": [
+        {
+          "store": "ALDI SÜD",
+          "name": "Schmelzkäsezubereitung 200 g, Kräuter",
+          "price": 1.49,
+          "old_price": null,
+          "unit": "200 g"
+        },
+        {
+          "store": "ALDI SÜD",
+          "name": "Schmelzkäsezubereitung 200 g, Leicht",
+          "price": 1.49,
+          "old_price": null,
+          "unit": "200 g"
+        },
+        {
+          "store": "ALDI SÜD",
+          "name": "Schmelzkäsezubereitung 200 g, Gouda",
+          "price": 1.49,
+          "old_price": null,
+          "unit": "200 g"
+        }
+      ]
+    },
+    {
+      "product": "schwartau",
+      "cheapest_store": "REWE",
+      "cheapest_price": 1.99,
+      "category": "sonstiges",
+      "offers": [
+        {
+          "store": "REWE",
+          "name": "Schwartau Konfitüre Extra Erdbeere 340g",
+          "price": 1.99,
+          "old_price": null,
+          "unit": "340g"
+        },
+        {
+          "store": "REWE",
+          "name": "Schwartau Samt Konfitüre Himbeere 270g",
+          "price": 1.99,
+          "old_price": null,
+          "unit": "270g"
+        }
+      ]
+    },
+    {
+      "product": "tomaten",
+      "cheapest_store": "REWE",
+      "cheapest_price": 0.99,
+      "category": "gemuese",
+      "offers": [
+        {
+          "store": "REWE",
+          "name": "Cherrytomaten 250g",
+          "price": 0.99,
+          "old_price": null,
+          "unit": "250g"
+        },
+        {
+          "store": "REWE",
+          "name": "Rispentomaten 500g",
+          "price": 1.49,
+          "old_price": null,
+          "unit": "500g"
+        },
+        {
+          "store": "ALDI SÜD",
+          "name": "NATUR LIEBLINGE Cocktailrispentomaten 500 g",
+          "price": 2.19,
+          "old_price": null,
+          "unit": "500 g"
+        }
+      ]
+    },
+    {
+      "product": "tortellini",
+      "cheapest_store": "REWE",
+      "cheapest_price": 1.59,
+      "category": "trockenwaren",
+      "offers": [
+        {
+          "store": "REWE",
+          "name": "REWE Beste Wahl Rindfleisch-Tortelloni 250g",
+          "price": 1.59,
+          "old_price": null,
+          "unit": "250g"
+        }
+      ]
+    },
+    {
+      "product": "vitalis",
+      "cheapest_store": "ALDI SÜD",
+      "cheapest_price": 5.49,
+      "category": "trockenwaren",
+      "offers": [
+        {
+          "store": "ALDI SÜD",
+          "name": "Vitalis 1,5 kg, Knusper Müsli Klassisch",
+          "price": 5.49,
+          "old_price": null,
+          "unit": "1,5 kg"
+        }
+      ]
+    },
+    {
+      "product": "vollmilch",
+      "cheapest_store": "REWE",
+      "cheapest_price": 1.19,
+      "category": "milchprodukte",
+      "offers": [
+        {
+          "store": "REWE",
+          "name": "Vollmilch 1,5l",
+          "price": 1.19,
+          "old_price": null,
+          "unit": "1,5l"
+        }
+      ]
+    },
+    {
+      "product": "weißkäse",
+      "cheapest_store": "ALDI SÜD",
+      "cheapest_price": 6.99,
+      "category": "milchprodukte",
+      "offers": [
+        {
+          "store": "ALDI SÜD",
+          "name": "Weißkäse in Salzlake 1 kg",
+          "price": 6.99,
+          "old_price": null,
+          "unit": "1 kg"
+        }
+      ]
+    },
+    {
+      "product": "zwiebeln",
+      "cheapest_store": "ALDI SÜD",
+      "cheapest_price": 0.75,
+      "category": "gemuese",
+      "offers": [
+        {
+          "store": "ALDI SÜD",
+          "name": "Lauchzwiebeln, Bund",
+          "price": 0.75,
+          "old_price": null,
+          "unit": ""
+        }
+      ]
+    },
+    {
+      "product": "äpfel",
+      "cheapest_store": "REWE",
+      "cheapest_price": 1.99,
+      "category": "obst",
+      "offers": [
+        {
+          "store": "REWE",
+          "name": "Rote Tafeläpfel 2kg",
+          "price": 1.99,
+          "old_price": null,
+          "unit": "2kg"
+        }
+      ]
     }
   ]
 }
