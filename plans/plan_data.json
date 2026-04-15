@@ -2,49 +2,48 @@
   {
     "day": "Montag",
     "slot": "Mittag",
-    "name": "Paprika-Rinderhack-Pfanne",
+    "name": "Hähnchen Auflauf",
     "tags": [
       "fleisch",
-      "schnell",
+      "ofen",
       "kind"
     ],
     "key_ingredients": [
-      "rinderhack",
-      "paprika",
-      "zwiebeln",
-      "reis"
+      "hähnchen",
+      "kartoffeln",
+      "sahne",
+      "käse"
     ],
     "category": "mittag",
-    "difficulty": "leicht",
-    "offer_score": 4,
+    "difficulty": "mittel",
+    "offer_score": 3,
     "matched_ingredients": [
-      "rinderhack",
-      "paprika",
-      "zwiebeln",
-      "reis"
+      "hähnchen",
+      "kartoffeln",
+      "käse"
     ]
   },
   {
     "day": "Montag",
     "slot": "Abend",
-    "name": "Kartoffelcremesuppe",
+    "name": "Ofenkartoffeln mit Avocadocreme/Quark",
     "tags": [
       "vegetarisch",
-      "suppe",
-      "kind"
+      "gesund"
     ],
     "key_ingredients": [
       "kartoffeln",
-      "zwiebeln",
-      "sahne",
-      "brühe"
+      "avocado_oder_quark",
+      "kräuter",
+      "tomaten"
     ],
     "category": "abend",
     "difficulty": "leicht",
-    "offer_score": 2,
+    "offer_score": 3,
     "matched_ingredients": [
       "kartoffeln",
-      "zwiebeln"
+      "kräuter",
+      "tomaten"
     ]
   },
   {
@@ -67,55 +66,55 @@
     "matched_ingredients": [
       "hähnchen",
       "paprika",
-      "reis"
+      "tomaten"
     ]
   },
   {
     "day": "Dienstag",
     "slot": "Abend",
-    "name": "Tomatensuppe mit Reis",
+    "name": "Ofengemüse",
     "tags": [
       "vegan",
-      "suppe",
-      "schnell",
-      "kind"
+      "gesund",
+      "ofen"
     ],
     "key_ingredients": [
-      "tomaten_dose",
-      "reis",
-      "zwiebeln",
-      "brühe"
+      "gemüse_mix",
+      "olivenöl",
+      "kräuter",
+      "kartoffeln"
     ],
     "category": "abend",
     "difficulty": "leicht",
-    "offer_score": 2,
+    "offer_score": 3,
     "matched_ingredients": [
-      "reis",
-      "zwiebeln"
+      "olivenöl",
+      "kräuter",
+      "kartoffeln"
     ]
   },
   {
     "day": "Mittwoch",
     "slot": "Mittag",
-    "name": "Tikka Masala",
+    "name": "Paprika-Rinderhack-Pfanne",
     "tags": [
       "fleisch",
-      "indisch",
+      "schnell",
       "kind"
     ],
     "key_ingredients": [
-      "hähnchen",
-      "joghurt",
-      "tomaten",
+      "rinderhack",
+      "paprika",
+      "zwiebeln",
       "reis"
     ],
     "category": "mittag",
-    "difficulty": "mittel",
+    "difficulty": "leicht",
     "offer_score": 3,
     "matched_ingredients": [
-      "hähnchen",
-      "joghurt",
-      "reis"
+      "rinderhack",
+      "paprika",
+      "zwiebeln"
     ]
   },
   {
@@ -134,81 +133,132 @@
     ],
     "category": "abend",
     "difficulty": "mittel",
-    "offer_score": 2,
+    "offer_score": 3,
     "matched_ingredients": [
       "grünkern",
-      "kartoffeln"
+      "kartoffeln",
+      "käse"
     ]
   },
   {
     "day": "Donnerstag",
     "slot": "Mittag",
-    "name": "Lachs Bowl",
+    "name": "Kartoffelsuppe mit Wiener",
     "tags": [
-      "fisch",
-      "gesund"
+      "suppe",
+      "kind",
+      "winter"
     ],
     "key_ingredients": [
-      "lachs",
-      "reis",
-      "avocado",
-      "gemüse"
+      "kartoffeln",
+      "wiener_würstchen",
+      "zwiebeln",
+      "möhren"
     ],
     "category": "mittag",
-    "difficulty": "mittel",
+    "difficulty": "leicht",
     "offer_score": 2,
     "matched_ingredients": [
-      "lachs",
-      "reis"
+      "kartoffeln",
+      "zwiebeln"
     ]
   },
   {
     "day": "Donnerstag",
     "slot": "Abend",
-    "name": "Gemüsesticks mit Hummus",
+    "name": "Griechischer Bauernsalat mit Fladenbrot",
     "tags": [
-      "vegan",
+      "vegetarisch",
       "schnell",
-      "snack"
+      "gesund"
     ],
     "key_ingredients": [
-      "kichererbsen_dose",
-      "möhren",
+      "tomaten",
       "gurke",
-      "paprika"
+      "feta",
+      "oliven"
     ],
     "category": "abend",
     "difficulty": "leicht",
-    "offer_score": 2,
+    "offer_score": 3,
     "matched_ingredients": [
-      "gurke",
-      "paprika"
+      "tomaten",
+      "feta",
+      "oliven"
     ]
   },
   {
     "day": "Freitag",
     "slot": "Mittag",
-    "name": "Asia Lunch",
+    "name": "Lachsfilet mit Ofengemüse (Blumenkohl)",
     "tags": [
-      "asien",
-      "schnell"
+      "fisch",
+      "gesund",
+      "ofen"
     ],
     "key_ingredients": [
-      "reis",
-      "gemüse",
-      "sojasauce",
-      "ei"
+      "lachs",
+      "blumenkohl",
+      "olivenöl",
+      "zitrone"
     ],
     "category": "mittag",
     "difficulty": "leicht",
     "offer_score": 2,
     "matched_ingredients": [
-      "reis",
-      "ei"
+      "lachs",
+      "olivenöl"
     ]
   },
   {
     "day": "Freitag",
+    "slot": "Abend",
+    "name": "Käsespätzle",
+    "tags": [
+      "vegetarisch",
+      "kind",
+      "klassiker"
+    ],
+    "key_ingredients": [
+      "spätzle",
+      "käse",
+      "zwiebeln",
+      "butter"
+    ],
+    "category": "abend",
+    "difficulty": "mittel",
+    "offer_score": 3,
+    "matched_ingredients": [
+      "käse",
+      "zwiebeln",
+      "butter"
+    ]
+  },
+  {
+    "day": "Samstag",
+    "slot": "Mittag",
+    "name": "Lachsfilet mit Ofengemüse",
+    "tags": [
+      "fisch",
+      "gesund",
+      "ofen"
+    ],
+    "key_ingredients": [
+      "lachs",
+      "gemüse_mix",
+      "olivenöl",
+      "zitrone"
+    ],
+    "category": "mittag",
+    "difficulty": "leicht",
+    "offer_score": 2,
+    "matched_ingredients": [
+      "lachs",
+      "olivenöl"
+    ]
+  },
+  {
+    "day": "Samstag",
     "slot": "Abend",
     "name": "Bratkartoffeln mit Spiegelei",
     "tags": [
@@ -224,35 +274,36 @@
     ],
     "category": "abend",
     "difficulty": "leicht",
-    "offer_score": 2,
+    "offer_score": 3,
     "matched_ingredients": [
       "kartoffeln",
-      "zwiebeln"
+      "zwiebeln",
+      "butter"
     ]
   },
   {
-    "day": "Samstag",
+    "day": "Sonntag",
     "slot": "Mittag",
-    "name": "Indisches Curry (Gemüse)",
+    "name": "Kichererbsen Curry",
     "tags": [
-      "vegetarisch",
+      "vegan",
       "indisch"
     ],
     "key_ingredients": [
       "kichererbsen",
       "kokosmilch",
-      "gemüse",
+      "tomaten",
       "reis"
     ],
     "category": "mittag",
-    "difficulty": "mittel",
+    "difficulty": "leicht",
     "offer_score": 1,
     "matched_ingredients": [
-      "reis"
+      "tomaten"
     ]
   },
   {
-    "day": "Samstag",
+    "day": "Sonntag",
     "slot": "Abend",
     "name": "Ofenkartoffel mit Kräuterquark",
     "tags": [
@@ -268,53 +319,11 @@
     ],
     "category": "abend",
     "difficulty": "leicht",
-    "offer_score": 2,
+    "offer_score": 3,
     "matched_ingredients": [
       "kartoffeln",
+      "kräuter",
       "zwiebeln"
-    ]
-  },
-  {
-    "day": "Sonntag",
-    "slot": "Mittag",
-    "name": "Fisch mit Brokkoli und Kartoffelgratin",
-    "tags": [
-      "fisch",
-      "gesund",
-      "ofen"
-    ],
-    "key_ingredients": [
-      "fischfilet",
-      "brokkoli",
-      "kartoffeln",
-      "sahne"
-    ],
-    "category": "mittag",
-    "difficulty": "mittel",
-    "offer_score": 1,
-    "matched_ingredients": [
-      "kartoffeln"
-    ]
-  },
-  {
-    "day": "Sonntag",
-    "slot": "Abend",
-    "name": "Kichererbsen Shakshuka",
-    "tags": [
-      "vegetarisch",
-      "gesund"
-    ],
-    "key_ingredients": [
-      "kichererbsen",
-      "tomaten",
-      "eier",
-      "paprika"
-    ],
-    "category": "abend",
-    "difficulty": "leicht",
-    "offer_score": 1,
-    "matched_ingredients": [
-      "paprika"
     ]
   }
 ]
