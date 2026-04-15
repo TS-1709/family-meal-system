@@ -1,12 +1,14 @@
 {
   "stores": [
+    "Netto",
     "ALDI SÜD",
+    "Kaufland",
     "REWE"
   ],
   "date": "2026-04-15",
   "valid_from": "2026-04-13",
   "valid_until": "2026-04-18",
-  "total_products": 36,
+  "total_products": 48,
   "offers": [
     {
       "name": "arganöl",
@@ -44,18 +46,59 @@
     },
     {
       "name": "banane",
-      "price": 1.69,
+      "price": 1.39,
       "old_price": null,
       "unit": "1kg",
       "category": "obst",
-      "store": "REWE",
+      "store": "Netto",
       "all_stores": [
+        {
+          "store": "Netto",
+          "name": "Bananen 1kg",
+          "price": 1.39,
+          "old_price": null,
+          "unit": "1kg"
+        },
         {
           "store": "REWE",
           "name": "Bio-Bananen 1kg",
           "price": 1.69,
           "old_price": null,
           "unit": "1kg"
+        }
+      ]
+    },
+    {
+      "name": "barilla",
+      "price": 1.59,
+      "old_price": null,
+      "unit": "190g",
+      "category": "sonstiges",
+      "store": "Kaufland",
+      "all_stores": [
+        {
+          "store": "Kaufland",
+          "name": "Barilla Pesto 190g",
+          "price": 1.59,
+          "old_price": null,
+          "unit": "190g"
+        }
+      ]
+    },
+    {
+      "name": "bergader",
+      "price": 1.88,
+      "old_price": null,
+      "unit": "175g",
+      "category": "milchprodukte",
+      "store": "Kaufland",
+      "all_stores": [
+        {
+          "store": "Kaufland",
+          "name": "Bergader Weichkäse 175g",
+          "price": 1.88,
+          "old_price": null,
+          "unit": "175g"
         }
       ]
     },
@@ -78,12 +121,26 @@
     },
     {
       "name": "butter",
-      "price": 1.99,
-      "old_price": null,
-      "unit": "280g",
-      "category": "trockenwaren",
-      "store": "REWE",
+      "price": 1.11,
+      "old_price": 2.89,
+      "unit": "250g",
+      "category": "milchprodukte",
+      "store": "Kaufland",
       "all_stores": [
+        {
+          "store": "Kaufland",
+          "name": "Weihenstephan Butter 250g",
+          "price": 1.11,
+          "old_price": 2.89,
+          "unit": "250g"
+        },
+        {
+          "store": "Netto",
+          "name": "Butter 250g",
+          "price": 1.29,
+          "old_price": null,
+          "unit": "250g"
+        },
         {
           "store": "REWE",
           "name": "Tante Fanny Butter Blätterteig 280g",
@@ -95,12 +152,19 @@
     },
     {
       "name": "dallmayr",
-      "price": 5.99,
-      "old_price": null,
+      "price": 5.49,
+      "old_price": 10.49,
       "unit": "500g",
       "category": "sonstiges",
-      "store": "REWE",
+      "store": "Kaufland",
       "all_stores": [
+        {
+          "store": "Kaufland",
+          "name": "Dallmayr Kaffee 500g",
+          "price": 5.49,
+          "old_price": 10.49,
+          "unit": "500g"
+        },
         {
           "store": "REWE",
           "name": "Dallmayr Prodomo Kaffee 500g",
@@ -145,13 +209,37 @@
       ]
     },
     {
+      "name": "grüner",
+      "price": 2.99,
+      "old_price": null,
+      "unit": "500g",
+      "category": "gemuese",
+      "store": "Kaufland",
+      "all_stores": [
+        {
+          "store": "Kaufland",
+          "name": "Grüner Spargel 500g",
+          "price": 2.99,
+          "old_price": null,
+          "unit": "500g"
+        }
+      ]
+    },
+    {
       "name": "gurke",
-      "price": 0.69,
+      "price": 0.59,
       "old_price": null,
       "unit": "Stück",
       "category": "gemuese",
-      "store": "REWE",
+      "store": "Netto",
       "all_stores": [
+        {
+          "store": "Netto",
+          "name": "Gurke Stück",
+          "price": 0.59,
+          "old_price": null,
+          "unit": "Stück"
+        },
         {
           "store": "REWE",
           "name": "Gurke Stück",
@@ -187,12 +275,19 @@
     },
     {
       "name": "hackfleisch",
-      "price": 4.79,
+      "price": 3.79,
       "old_price": null,
-      "unit": "400 g",
+      "unit": "500g",
       "category": "fleisch",
-      "store": "ALDI SÜD",
+      "store": "Netto",
       "all_stores": [
+        {
+          "store": "Netto",
+          "name": "Hackfleisch gemischt 500g",
+          "price": 3.79,
+          "old_price": null,
+          "unit": "500g"
+        },
         {
           "store": "ALDI SÜD",
           "name": "BIO Bio-Hackfleisch vom Rind 400 g",
@@ -210,13 +305,37 @@
       ]
     },
     {
-      "name": "heidelbeeren",
-      "price": 1.69,
+      "name": "haltbare",
+      "price": 5.55,
       "old_price": null,
-      "unit": "150g",
-      "category": "obst",
-      "store": "ALDI SÜD",
+      "unit": "6l",
+      "category": "milchprodukte",
+      "store": "Kaufland",
       "all_stores": [
+        {
+          "store": "Kaufland",
+          "name": "Haltbare Milch 6x1l",
+          "price": 5.55,
+          "old_price": null,
+          "unit": "6l"
+        }
+      ]
+    },
+    {
+      "name": "heidelbeeren",
+      "price": 1.49,
+      "old_price": 2.49,
+      "unit": "125g",
+      "category": "obst",
+      "store": "Kaufland",
+      "all_stores": [
+        {
+          "store": "Kaufland",
+          "name": "Heidelbeeren 125g",
+          "price": 1.49,
+          "old_price": 2.49,
+          "unit": "125g"
+        },
         {
           "store": "ALDI SÜD",
           "name": "Heidelbeeren 150g",
@@ -227,13 +346,37 @@
       ]
     },
     {
-      "name": "hähnchen",
-      "price": 4.49,
+      "name": "herta",
+      "price": 1.29,
       "old_price": null,
+      "unit": "100g",
+      "category": "fleisch",
+      "store": "Kaufland",
+      "all_stores": [
+        {
+          "store": "Kaufland",
+          "name": "Herta Finesse Aufschnitt 100g",
+          "price": 1.29,
+          "old_price": null,
+          "unit": "100g"
+        }
+      ]
+    },
+    {
+      "name": "hähnchen",
+      "price": 3.99,
+      "old_price": 4.99,
       "unit": "500g",
       "category": "fleisch",
-      "store": "REWE",
+      "store": "Netto",
       "all_stores": [
+        {
+          "store": "Netto",
+          "name": "Hähnchenbrustfilet 500g",
+          "price": 3.99,
+          "old_price": 4.99,
+          "unit": "500g"
+        },
         {
           "store": "REWE",
           "name": "Hähnchenbrustfilet 500g",
@@ -262,12 +405,26 @@
     },
     {
       "name": "joghurt",
-      "price": 0.89,
+      "price": 0.33,
       "old_price": null,
-      "unit": "600g",
+      "unit": "150g",
       "category": "milchprodukte",
-      "store": "REWE",
+      "store": "Kaufland",
       "all_stores": [
+        {
+          "store": "Kaufland",
+          "name": "Müller Joghurt mit der Ecke",
+          "price": 0.33,
+          "old_price": null,
+          "unit": "150g"
+        },
+        {
+          "store": "Netto",
+          "name": "Joghurt Natur 500g",
+          "price": 0.59,
+          "old_price": null,
+          "unit": "500g"
+        },
         {
           "store": "REWE",
           "name": "Joghurt 3,5% 4x150g",
@@ -279,12 +436,19 @@
     },
     {
       "name": "karotten",
-      "price": 0.89,
+      "price": 0.79,
       "old_price": null,
       "unit": "1kg",
       "category": "gemuese",
-      "store": "REWE",
+      "store": "Netto",
       "all_stores": [
+        {
+          "store": "Netto",
+          "name": "Karotten 1kg",
+          "price": 0.79,
+          "old_price": null,
+          "unit": "1kg"
+        },
         {
           "store": "REWE",
           "name": "Karotten 1kg",
@@ -302,6 +466,23 @@
       ]
     },
     {
+      "name": "kartoffeln",
+      "price": 1.79,
+      "old_price": null,
+      "unit": "2,5kg",
+      "category": "gemuese",
+      "store": "Netto",
+      "all_stores": [
+        {
+          "store": "Netto",
+          "name": "Kartoffeln 2,5kg",
+          "price": 1.79,
+          "old_price": null,
+          "unit": "2,5kg"
+        }
+      ]
+    },
+    {
       "name": "kiwi",
       "price": 0.29,
       "old_price": null,
@@ -315,6 +496,23 @@
           "price": 0.29,
           "old_price": null,
           "unit": ""
+        }
+      ]
+    },
+    {
+      "name": "käse",
+      "price": 1.39,
+      "old_price": null,
+      "unit": "200g",
+      "category": "milchprodukte",
+      "store": "Netto",
+      "all_stores": [
+        {
+          "store": "Netto",
+          "name": "Käse gerieben 200g",
+          "price": 1.39,
+          "old_price": null,
+          "unit": "200g"
         }
       ]
     },
@@ -406,6 +604,13 @@
           "unit": "500g"
         },
         {
+          "store": "Netto",
+          "name": "Paprika Mix 500g",
+          "price": 1.89,
+          "old_price": null,
+          "unit": "500g"
+        },
+        {
           "store": "ALDI SÜD",
           "name": "NATUR LIEBLINGE Mix Paprika 500 g",
           "price": 2.19,
@@ -479,6 +684,23 @@
           "price": 7.49,
           "old_price": null,
           "unit": "800 g"
+        }
+      ]
+    },
+    {
+      "name": "reis",
+      "price": 1.49,
+      "old_price": null,
+      "unit": "1kg",
+      "category": "trockenwaren",
+      "store": "Netto",
+      "all_stores": [
+        {
+          "store": "Netto",
+          "name": "Reis 1kg",
+          "price": 1.49,
+          "old_price": null,
+          "unit": "1kg"
         }
       ]
     },
@@ -572,19 +794,101 @@
       ]
     },
     {
+      "name": "schweinefilet",
+      "price": 7.77,
+      "old_price": null,
+      "unit": "kg",
+      "category": "fleisch",
+      "store": "Kaufland",
+      "all_stores": [
+        {
+          "store": "Kaufland",
+          "name": "Schweinefilet pro kg",
+          "price": 7.77,
+          "old_price": null,
+          "unit": "kg"
+        }
+      ]
+    },
+    {
+      "name": "spaghetti",
+      "price": 0.49,
+      "old_price": null,
+      "unit": "500g",
+      "category": "trockenwaren",
+      "store": "Netto",
+      "all_stores": [
+        {
+          "store": "Netto",
+          "name": "Spaghetti 500g",
+          "price": 0.49,
+          "old_price": null,
+          "unit": "500g"
+        }
+      ]
+    },
+    {
+      "name": "tafeltrauben",
+      "price": 0.79,
+      "old_price": null,
+      "unit": "500g",
+      "category": "obst",
+      "store": "Kaufland",
+      "all_stores": [
+        {
+          "store": "Kaufland",
+          "name": "Tafeltrauben 500g",
+          "price": 0.79,
+          "old_price": null,
+          "unit": "500g"
+        }
+      ]
+    },
+    {
+      "name": "thüringer",
+      "price": 1.99,
+      "old_price": null,
+      "unit": "400g",
+      "category": "fleisch",
+      "store": "Kaufland",
+      "all_stores": [
+        {
+          "store": "Kaufland",
+          "name": "Thüringer Rostbratwurst 400g",
+          "price": 1.99,
+          "old_price": null,
+          "unit": "400g"
+        }
+      ]
+    },
+    {
       "name": "tomaten",
-      "price": 0.99,
+      "price": 0.89,
       "old_price": null,
       "unit": "250g",
       "category": "gemuese",
-      "store": "REWE",
+      "store": "Netto",
       "all_stores": [
+        {
+          "store": "Netto",
+          "name": "Cocktailtomaten 250g",
+          "price": 0.89,
+          "old_price": null,
+          "unit": "250g"
+        },
         {
           "store": "REWE",
           "name": "Cherrytomaten 250g",
           "price": 0.99,
           "old_price": null,
           "unit": "250g"
+        },
+        {
+          "store": "Kaufland",
+          "name": "Cocktail-Rispentomaten 500g",
+          "price": 1.49,
+          "old_price": null,
+          "unit": "500g"
         },
         {
           "store": "REWE",
@@ -689,12 +993,19 @@
     },
     {
       "name": "äpfel",
-      "price": 1.99,
+      "price": 1.49,
       "old_price": null,
-      "unit": "2kg",
+      "unit": "1kg",
       "category": "obst",
-      "store": "REWE",
+      "store": "Netto",
       "all_stores": [
+        {
+          "store": "Netto",
+          "name": "Äpfel 1kg",
+          "price": 1.49,
+          "old_price": null,
+          "unit": "1kg"
+        },
         {
           "store": "REWE",
           "name": "Rote Tafeläpfel 2kg",
@@ -738,16 +1049,53 @@
     },
     {
       "product": "banane",
-      "cheapest_store": "REWE",
-      "cheapest_price": 1.69,
+      "cheapest_store": "Netto",
+      "cheapest_price": 1.39,
       "category": "obst",
       "offers": [
+        {
+          "store": "Netto",
+          "name": "Bananen 1kg",
+          "price": 1.39,
+          "old_price": null,
+          "unit": "1kg"
+        },
         {
           "store": "REWE",
           "name": "Bio-Bananen 1kg",
           "price": 1.69,
           "old_price": null,
           "unit": "1kg"
+        }
+      ]
+    },
+    {
+      "product": "barilla",
+      "cheapest_store": "Kaufland",
+      "cheapest_price": 1.59,
+      "category": "sonstiges",
+      "offers": [
+        {
+          "store": "Kaufland",
+          "name": "Barilla Pesto 190g",
+          "price": 1.59,
+          "old_price": null,
+          "unit": "190g"
+        }
+      ]
+    },
+    {
+      "product": "bergader",
+      "cheapest_store": "Kaufland",
+      "cheapest_price": 1.88,
+      "category": "milchprodukte",
+      "offers": [
+        {
+          "store": "Kaufland",
+          "name": "Bergader Weichkäse 175g",
+          "price": 1.88,
+          "old_price": null,
+          "unit": "175g"
         }
       ]
     },
@@ -768,10 +1116,24 @@
     },
     {
       "product": "butter",
-      "cheapest_store": "REWE",
-      "cheapest_price": 1.99,
-      "category": "trockenwaren",
+      "cheapest_store": "Kaufland",
+      "cheapest_price": 1.11,
+      "category": "milchprodukte",
       "offers": [
+        {
+          "store": "Kaufland",
+          "name": "Weihenstephan Butter 250g",
+          "price": 1.11,
+          "old_price": 2.89,
+          "unit": "250g"
+        },
+        {
+          "store": "Netto",
+          "name": "Butter 250g",
+          "price": 1.29,
+          "old_price": null,
+          "unit": "250g"
+        },
         {
           "store": "REWE",
           "name": "Tante Fanny Butter Blätterteig 280g",
@@ -783,10 +1145,17 @@
     },
     {
       "product": "dallmayr",
-      "cheapest_store": "REWE",
-      "cheapest_price": 5.99,
+      "cheapest_store": "Kaufland",
+      "cheapest_price": 5.49,
       "category": "sonstiges",
       "offers": [
+        {
+          "store": "Kaufland",
+          "name": "Dallmayr Kaffee 500g",
+          "price": 5.49,
+          "old_price": 10.49,
+          "unit": "500g"
+        },
         {
           "store": "REWE",
           "name": "Dallmayr Prodomo Kaffee 500g",
@@ -827,11 +1196,33 @@
       ]
     },
     {
-      "product": "gurke",
-      "cheapest_store": "REWE",
-      "cheapest_price": 0.69,
+      "product": "grüner",
+      "cheapest_store": "Kaufland",
+      "cheapest_price": 2.99,
       "category": "gemuese",
       "offers": [
+        {
+          "store": "Kaufland",
+          "name": "Grüner Spargel 500g",
+          "price": 2.99,
+          "old_price": null,
+          "unit": "500g"
+        }
+      ]
+    },
+    {
+      "product": "gurke",
+      "cheapest_store": "Netto",
+      "cheapest_price": 0.59,
+      "category": "gemuese",
+      "offers": [
+        {
+          "store": "Netto",
+          "name": "Gurke Stück",
+          "price": 0.59,
+          "old_price": null,
+          "unit": "Stück"
+        },
         {
           "store": "REWE",
           "name": "Gurke Stück",
@@ -865,10 +1256,17 @@
     },
     {
       "product": "hackfleisch",
-      "cheapest_store": "ALDI SÜD",
-      "cheapest_price": 4.79,
+      "cheapest_store": "Netto",
+      "cheapest_price": 3.79,
       "category": "fleisch",
       "offers": [
+        {
+          "store": "Netto",
+          "name": "Hackfleisch gemischt 500g",
+          "price": 3.79,
+          "old_price": null,
+          "unit": "500g"
+        },
         {
           "store": "ALDI SÜD",
           "name": "BIO Bio-Hackfleisch vom Rind 400 g",
@@ -886,11 +1284,33 @@
       ]
     },
     {
+      "product": "haltbare",
+      "cheapest_store": "Kaufland",
+      "cheapest_price": 5.55,
+      "category": "milchprodukte",
+      "offers": [
+        {
+          "store": "Kaufland",
+          "name": "Haltbare Milch 6x1l",
+          "price": 5.55,
+          "old_price": null,
+          "unit": "6l"
+        }
+      ]
+    },
+    {
       "product": "heidelbeeren",
-      "cheapest_store": "ALDI SÜD",
-      "cheapest_price": 1.69,
+      "cheapest_store": "Kaufland",
+      "cheapest_price": 1.49,
       "category": "obst",
       "offers": [
+        {
+          "store": "Kaufland",
+          "name": "Heidelbeeren 125g",
+          "price": 1.49,
+          "old_price": 2.49,
+          "unit": "125g"
+        },
         {
           "store": "ALDI SÜD",
           "name": "Heidelbeeren 150g",
@@ -901,11 +1321,33 @@
       ]
     },
     {
-      "product": "hähnchen",
-      "cheapest_store": "REWE",
-      "cheapest_price": 4.49,
+      "product": "herta",
+      "cheapest_store": "Kaufland",
+      "cheapest_price": 1.29,
       "category": "fleisch",
       "offers": [
+        {
+          "store": "Kaufland",
+          "name": "Herta Finesse Aufschnitt 100g",
+          "price": 1.29,
+          "old_price": null,
+          "unit": "100g"
+        }
+      ]
+    },
+    {
+      "product": "hähnchen",
+      "cheapest_store": "Netto",
+      "cheapest_price": 3.99,
+      "category": "fleisch",
+      "offers": [
+        {
+          "store": "Netto",
+          "name": "Hähnchenbrustfilet 500g",
+          "price": 3.99,
+          "old_price": 4.99,
+          "unit": "500g"
+        },
         {
           "store": "REWE",
           "name": "Hähnchenbrustfilet 500g",
@@ -932,10 +1374,24 @@
     },
     {
       "product": "joghurt",
-      "cheapest_store": "REWE",
-      "cheapest_price": 0.89,
+      "cheapest_store": "Kaufland",
+      "cheapest_price": 0.33,
       "category": "milchprodukte",
       "offers": [
+        {
+          "store": "Kaufland",
+          "name": "Müller Joghurt mit der Ecke",
+          "price": 0.33,
+          "old_price": null,
+          "unit": "150g"
+        },
+        {
+          "store": "Netto",
+          "name": "Joghurt Natur 500g",
+          "price": 0.59,
+          "old_price": null,
+          "unit": "500g"
+        },
         {
           "store": "REWE",
           "name": "Joghurt 3,5% 4x150g",
@@ -947,10 +1403,17 @@
     },
     {
       "product": "karotten",
-      "cheapest_store": "REWE",
-      "cheapest_price": 0.89,
+      "cheapest_store": "Netto",
+      "cheapest_price": 0.79,
       "category": "gemuese",
       "offers": [
+        {
+          "store": "Netto",
+          "name": "Karotten 1kg",
+          "price": 0.79,
+          "old_price": null,
+          "unit": "1kg"
+        },
         {
           "store": "REWE",
           "name": "Karotten 1kg",
@@ -968,6 +1431,21 @@
       ]
     },
     {
+      "product": "kartoffeln",
+      "cheapest_store": "Netto",
+      "cheapest_price": 1.79,
+      "category": "gemuese",
+      "offers": [
+        {
+          "store": "Netto",
+          "name": "Kartoffeln 2,5kg",
+          "price": 1.79,
+          "old_price": null,
+          "unit": "2,5kg"
+        }
+      ]
+    },
+    {
       "product": "kiwi",
       "cheapest_store": "ALDI SÜD",
       "cheapest_price": 0.29,
@@ -979,6 +1457,21 @@
           "price": 0.29,
           "old_price": null,
           "unit": ""
+        }
+      ]
+    },
+    {
+      "product": "käse",
+      "cheapest_store": "Netto",
+      "cheapest_price": 1.39,
+      "category": "milchprodukte",
+      "offers": [
+        {
+          "store": "Netto",
+          "name": "Käse gerieben 200g",
+          "price": 1.39,
+          "old_price": null,
+          "unit": "200g"
         }
       ]
     },
@@ -1062,6 +1555,13 @@
           "unit": "500g"
         },
         {
+          "store": "Netto",
+          "name": "Paprika Mix 500g",
+          "price": 1.89,
+          "old_price": null,
+          "unit": "500g"
+        },
+        {
           "store": "ALDI SÜD",
           "name": "NATUR LIEBLINGE Mix Paprika 500 g",
           "price": 2.19,
@@ -1127,6 +1627,21 @@
           "price": 7.49,
           "old_price": null,
           "unit": "800 g"
+        }
+      ]
+    },
+    {
+      "product": "reis",
+      "cheapest_store": "Netto",
+      "cheapest_price": 1.49,
+      "category": "trockenwaren",
+      "offers": [
+        {
+          "store": "Netto",
+          "name": "Reis 1kg",
+          "price": 1.49,
+          "old_price": null,
+          "unit": "1kg"
         }
       ]
     },
@@ -1212,17 +1727,91 @@
       ]
     },
     {
+      "product": "schweinefilet",
+      "cheapest_store": "Kaufland",
+      "cheapest_price": 7.77,
+      "category": "fleisch",
+      "offers": [
+        {
+          "store": "Kaufland",
+          "name": "Schweinefilet pro kg",
+          "price": 7.77,
+          "old_price": null,
+          "unit": "kg"
+        }
+      ]
+    },
+    {
+      "product": "spaghetti",
+      "cheapest_store": "Netto",
+      "cheapest_price": 0.49,
+      "category": "trockenwaren",
+      "offers": [
+        {
+          "store": "Netto",
+          "name": "Spaghetti 500g",
+          "price": 0.49,
+          "old_price": null,
+          "unit": "500g"
+        }
+      ]
+    },
+    {
+      "product": "tafeltrauben",
+      "cheapest_store": "Kaufland",
+      "cheapest_price": 0.79,
+      "category": "obst",
+      "offers": [
+        {
+          "store": "Kaufland",
+          "name": "Tafeltrauben 500g",
+          "price": 0.79,
+          "old_price": null,
+          "unit": "500g"
+        }
+      ]
+    },
+    {
+      "product": "thüringer",
+      "cheapest_store": "Kaufland",
+      "cheapest_price": 1.99,
+      "category": "fleisch",
+      "offers": [
+        {
+          "store": "Kaufland",
+          "name": "Thüringer Rostbratwurst 400g",
+          "price": 1.99,
+          "old_price": null,
+          "unit": "400g"
+        }
+      ]
+    },
+    {
       "product": "tomaten",
-      "cheapest_store": "REWE",
-      "cheapest_price": 0.99,
+      "cheapest_store": "Netto",
+      "cheapest_price": 0.89,
       "category": "gemuese",
       "offers": [
+        {
+          "store": "Netto",
+          "name": "Cocktailtomaten 250g",
+          "price": 0.89,
+          "old_price": null,
+          "unit": "250g"
+        },
         {
           "store": "REWE",
           "name": "Cherrytomaten 250g",
           "price": 0.99,
           "old_price": null,
           "unit": "250g"
+        },
+        {
+          "store": "Kaufland",
+          "name": "Cocktail-Rispentomaten 500g",
+          "price": 1.49,
+          "old_price": null,
+          "unit": "500g"
         },
         {
           "store": "REWE",
@@ -1317,10 +1906,17 @@
     },
     {
       "product": "äpfel",
-      "cheapest_store": "REWE",
-      "cheapest_price": 1.99,
+      "cheapest_store": "Netto",
+      "cheapest_price": 1.49,
       "category": "obst",
       "offers": [
+        {
+          "store": "Netto",
+          "name": "Äpfel 1kg",
+          "price": 1.49,
+          "old_price": null,
+          "unit": "1kg"
+        },
         {
           "store": "REWE",
           "name": "Rote Tafeläpfel 2kg",

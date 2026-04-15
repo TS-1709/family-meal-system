@@ -1,0 +1,99 @@
+{
+  "store": "Kaufland",
+  "date": "2026-04-15",
+  "valid_from": "2026-04-13",
+  "valid_until": "2026-04-18",
+  "offers": [
+    {
+      "name": "Cocktail-Rispentomaten 500g",
+      "price": 1.49,
+      "old_price": null,
+      "unit": "500g",
+      "category": "gemuese"
+    },
+    {
+      "name": "Grüner Spargel 500g",
+      "price": 2.99,
+      "old_price": null,
+      "unit": "500g",
+      "category": "gemuese"
+    },
+    {
+      "name": "Müller Joghurt mit der Ecke",
+      "price": 0.33,
+      "old_price": null,
+      "unit": "150g",
+      "category": "milchprodukte"
+    },
+    {
+      "name": "Thüringer Rostbratwurst 400g",
+      "price": 1.99,
+      "old_price": null,
+      "unit": "400g",
+      "category": "fleisch"
+    },
+    {
+      "name": "Bergader Weichkäse 175g",
+      "price": 1.88,
+      "old_price": null,
+      "unit": "175g",
+      "category": "milchprodukte"
+    },
+    {
+      "name": "Herta Finesse Aufschnitt 100g",
+      "price": 1.29,
+      "old_price": null,
+      "unit": "100g",
+      "category": "fleisch"
+    },
+    {
+      "name": "Schweinefilet pro kg",
+      "price": 7.77,
+      "old_price": null,
+      "unit": "kg",
+      "category": "fleisch"
+    },
+    {
+      "name": "Heidelbeeren 125g",
+      "price": 1.49,
+      "old_price": 2.49,
+      "unit": "125g",
+      "category": "obst"
+    },
+    {
+      "name": "Tafeltrauben 500g",
+      "price": 0.79,
+      "old_price": null,
+      "unit": "500g",
+      "category": "obst"
+    },
+    {
+      "name": "Barilla Pesto 190g",
+      "price": 1.59,
+      "old_price": null,
+      "unit": "190g",
+      "category": "sonstiges"
+    },
+    {
+      "name": "Weihenstephan Butter 250g",
+      "price": 1.11,
+      "old_price": 2.89,
+      "unit": "250g",
+      "category": "milchprodukte"
+    },
+    {
+      "name": "Haltbare Milch 6x1l",
+      "price": 5.55,
+      "old_price": null,
+      "unit": "6l",
+      "category": "milchprodukte"
+    },
+    {
+      "name": "Dallmayr Kaffee 500g",
+      "price": 5.49,
+      "old_price": 10.49,
+      "unit": "500g",
+      "category": "sonstiges"
+    }
+  ]
+}

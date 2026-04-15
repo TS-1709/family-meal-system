@@ -16,12 +16,70 @@
     ],
     "category": "mittag",
     "difficulty": "leicht",
-    "offer_score": 3,
-    "matched_ingredients": [
-      "hackfleisch",
-      "tomatensoße",
-      "zwiebeln"
-    ]
+    "recipe": {
+      "time_prep": 10,
+      "time_cook": 25,
+      "servings": 4,
+      "ingredients": [
+        {
+          "item": "Spaghetti",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "item": "Hackfleisch (Rind oder gemischt)",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "item": "Zwiebeln",
+          "amount": 2,
+          "unit": "Stück"
+        },
+        {
+          "item": "Knoblauch",
+          "amount": 2,
+          "unit": "Zehen"
+        },
+        {
+          "item": "Gehackte Tomaten (Dose)",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "item": "Tomatenmark",
+          "amount": 2,
+          "unit": "EL"
+        },
+        {
+          "item": "Olivenöl",
+          "amount": 2,
+          "unit": "EL"
+        },
+        {
+          "item": "Salz, Pfeffer, Oregano, Basilikum",
+          "amount": 1,
+          "unit": "Prise"
+        },
+        {
+          "item": "Parmesan zum Servieren",
+          "amount": 50,
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        "Zwiebeln und Knoblauch fein würfeln.",
+        "Olivenöl in einer großen Pfanne erhitzen. Zwiebeln und Knoblauch 3 Min glasig dünsten.",
+        "Hackfleisch dazu, krümelig braten bis es braun ist (ca. 5 Min).",
+        "Tomatenmark einrühren, 1 Min mitbraten.",
+        "Gehackte Tomaten dazu, mit Salz, Pfeffer, Oregano und Basilikum würzen.",
+        "Bei mittlerer Hitze 15 Min köcheln lassen, gelegentlich umrühren.",
+        "In der Zwischenzeit Spaghetti nach Packungsanleitung kochen (ca. 10 Min).",
+        "Spaghetti abgießen, mit der Soße vermischen oder daneben anrichten.",
+        "Mit frisch geriebenem Parmesan servieren. Kinder: extra Käse oben drauf!"
+      ]
+    },
+    "offer_score": 4
   },
   {
     "day": "Montag",
@@ -40,13 +98,55 @@
     ],
     "category": "abend",
     "difficulty": "leicht",
-    "offer_score": 4,
-    "matched_ingredients": [
-      "nudeln",
-      "käse",
-      "sahne",
-      "zwiebeln"
-    ]
+    "recipe": {
+      "time_prep": 10,
+      "time_cook": 25,
+      "servings": 4,
+      "ingredients": [
+        {
+          "item": "Nudeln (Penne oder Fusilli)",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "item": "Käse gerieben (Gouda oder Emmentaler)",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "item": "Sahne",
+          "amount": 250,
+          "unit": "ml"
+        },
+        {
+          "item": "Zwiebeln",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "item": "Butter",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "item": "Salz, Pfeffer, Muskat",
+          "amount": 1,
+          "unit": "Prise"
+        }
+      ],
+      "steps": [
+        "Nudeln nach Packungsanleitung kochen, abgießen.",
+        "Backofen auf 180°C vorheizen.",
+        "Zwiebel fein würfeln, in Butter glasig dünsten.",
+        "Sahne dazu, aufkochen, mit Salz, Pfeffer und Muskat würzen.",
+        "Die Hälfte des Käses einrühren bis er geschmolzen ist.",
+        "Nudeln in eine Auflaufform geben, Soße darüber gießen.",
+        "Restlichen Käse obendrauf streuen.",
+        "Im Ofen 15-20 Min backen bis der Käse blubbert.",
+        "Kinder lieben das: Extra Käse auf ihre Ecke!"
+      ]
+    },
+    "offer_score": 4
   },
   {
     "day": "Dienstag",
@@ -65,36 +165,117 @@
     ],
     "category": "mittag",
     "difficulty": "mittel",
-    "offer_score": 3,
-    "matched_ingredients": [
-      "hähnchen",
-      "sahne",
-      "käse"
-    ]
+    "recipe": {
+      "time_prep": 15,
+      "time_cook": 30,
+      "servings": 4,
+      "ingredients": [
+        {
+          "item": "Hähnchenbrust",
+          "amount": 600,
+          "unit": "g"
+        },
+        {
+          "item": "Kartoffeln (festkochend)",
+          "amount": 800,
+          "unit": "g"
+        },
+        {
+          "item": "Sahne",
+          "amount": 200,
+          "unit": "ml"
+        },
+        {
+          "item": "Käse gerieben",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "item": "Zwiebeln",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "item": "Salz, Pfeffer, Paprikapulver",
+          "amount": 1,
+          "unit": "Prise"
+        },
+        {
+          "item": "Butter für die Form",
+          "amount": 1,
+          "unit": "Stück"
+        }
+      ],
+      "steps": [
+        "Backofen auf 200°C Ober-/Unterhitze vorheizen.",
+        "Kartoffeln schälen und in dünne Scheiben schneiden (ca. 3mm).",
+        "Hähnchenbrust in Streifen oder kleine Stücke schneiden.",
+        "Zwiebeln in Ringe schneiden.",
+        "Eine Auflaufform mit Butter einfetten.",
+        "Kartoffelschichten unten, Hähnchenstücke drauf, Zwiebelringe obendrauf.",
+        "Sahne mit Salz, Pfeffer und Paprika verrühren, darüber gießen.",
+        "Mit geriebenem Käse bestreuen.",
+        "Im Ofen 25-30 Min backen bis der Käse goldbraun ist.",
+        "Kinder-Tipp: Kleine Hähnchenstücke werden schneller gar — nach 20 Min prüfen!"
+      ]
+    },
+    "offer_score": 4
   },
   {
     "day": "Dienstag",
     "slot": "Abend",
-    "name": "Nudeln mit Pesto",
+    "name": "Kartoffelcremesuppe",
     "tags": [
       "vegetarisch",
-      "schnell",
+      "suppe",
       "kind"
     ],
     "key_ingredients": [
-      "nudeln",
-      "pesto",
-      "parmesan",
-      "pinienkerne"
+      "kartoffeln",
+      "zwiebeln",
+      "sahne",
+      "brühe"
     ],
     "category": "abend",
     "difficulty": "leicht",
-    "offer_score": 3,
-    "matched_ingredients": [
-      "nudeln",
-      "pesto",
-      "parmesan"
-    ]
+    "recipe": {
+      "time_prep": 5,
+      "time_cook": 15,
+      "servings": 4,
+      "ingredients": [
+        {
+          "item": "Kartoffeln",
+          "amount": 2,
+          "unit": "Stück"
+        },
+        {
+          "item": "Zwiebeln",
+          "amount": 2,
+          "unit": "Stück"
+        },
+        {
+          "item": "Sahne",
+          "amount": 200,
+          "unit": "ml"
+        },
+        {
+          "item": "Brühe",
+          "amount": 1,
+          "unit": "nach Bedarf"
+        }
+      ],
+      "steps": [
+        "Zwiebeln fein würfeln, Gemüse in Stücke schneiden.",
+        "Butter oder Öl in einem großen Topf erhitzen, Zwiebeln 3 Min dünsten.",
+        "Gemüse und Hauptzutaten dazu geben.",
+        "Brühe (ca. 1 Liter) eingießen, aufkochen.",
+        "Bei mittlerer Hitze 20-25 Min köcheln lassen bis alles weich ist.",
+        "Mit Salz, Pfeffer und Gewürzen abschmecken.",
+        "Optional: Teilweise pürieren für eine cremigere Konsistenz.",
+        "Mit frischen Kräutern servieren."
+      ]
+    },
+    "offer_score": 3
   },
   {
     "day": "Mittwoch",
@@ -112,37 +293,120 @@
     ],
     "category": "mittag",
     "difficulty": "mittel",
-    "offer_score": 3,
-    "matched_ingredients": [
-      "hähnchen",
-      "paprika",
-      "tomaten"
-    ]
+    "recipe": {
+      "time_prep": 15,
+      "time_cook": 30,
+      "servings": 4,
+      "ingredients": [
+        {
+          "item": "Hähnchenbrust oder -schenkel",
+          "amount": 600,
+          "unit": "g"
+        },
+        {
+          "item": "Paprika (rot, gelb)",
+          "amount": 3,
+          "unit": "Stück"
+        },
+        {
+          "item": "Zwiebeln",
+          "amount": 2,
+          "unit": "Stück"
+        },
+        {
+          "item": "Tomaten (Dose)",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "item": "Paprikapulver (edelsüß)",
+          "amount": 2,
+          "unit": "TL"
+        },
+        {
+          "item": "Olivenöl",
+          "amount": 2,
+          "unit": "EL"
+        },
+        {
+          "item": "Salz, Pfeffer",
+          "amount": 1,
+          "unit": "Prise"
+        },
+        {
+          "item": "Reis als Beilage",
+          "amount": 300,
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        "Hähnchen in mundgerechte Würfel schneiden.",
+        "Zwiebeln fein würfeln, Paprika in Streifen schneiden.",
+        "Öl in einem großen Topf erhitzen, Hähnchen rundherum anbraten.",
+        "Zwiebeln dazu, 2 Min mitbraten.",
+        "Paprikapulver einrühren (wichtig: nicht zu lange, wird bitter!).",
+        "Tomaten und Paprikastreifen dazu, Salz und Pfeffer.",
+        "Bei mittlerer Hitze 25 Min köcheln lassen.",
+        "In der Zwischenzeit Reis kochen.",
+        "Gulasch mit Reis servieren. Kinder: Reis extra auf den Teller!"
+      ]
+    },
+    "offer_score": 4
   },
   {
     "day": "Mittwoch",
     "slot": "Abend",
-    "name": "Nudeln mit Tomatensoße",
+    "name": "Zucchini Röllchen mit Reis",
     "tags": [
-      "vegan",
-      "schnell",
-      "kind",
-      "klassiker"
+      "vegetarisch",
+      "gesund",
+      "ofen"
     ],
     "key_ingredients": [
-      "nudeln",
-      "tomaten_dose",
-      "zwiebeln",
-      "knoblauch"
+      "zucchini",
+      "reis",
+      "käse",
+      "tomatensoße"
     ],
     "category": "abend",
-    "difficulty": "leicht",
-    "offer_score": 3,
-    "matched_ingredients": [
-      "nudeln",
-      "tomaten_dose",
-      "zwiebeln"
-    ]
+    "difficulty": "mittel",
+    "recipe": {
+      "time_prep": 10,
+      "time_cook": 25,
+      "servings": 4,
+      "ingredients": [
+        {
+          "item": "Zucchini",
+          "amount": 1,
+          "unit": "nach Bedarf"
+        },
+        {
+          "item": "Reis",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "item": "Käse",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "item": "Tomatensoße",
+          "amount": 400,
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+        "Öl/Butter erhitzen.",
+        "Hauptzutaten anbraten oder kochen.",
+        "Weitere Zutaten nach und nach dazu geben.",
+        "Mit Gewürzen abschmecken.",
+        "Fertig garen bis alles gar ist.",
+        "Mit Beilage servieren."
+      ]
+    },
+    "offer_score": 3
   },
   {
     "day": "Donnerstag",
@@ -161,84 +425,140 @@
     ],
     "category": "mittag",
     "difficulty": "mittel",
-    "offer_score": 3,
-    "matched_ingredients": [
-      "lachs",
-      "tomaten",
-      "parmesan"
-    ]
+    "recipe": {
+      "time_prep": 10,
+      "time_cook": 25,
+      "servings": 4,
+      "ingredients": [
+        {
+          "item": "Risottoreis (Arborio)",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "item": "Lachsfilet",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "item": "Kirschtomaten",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "item": "Zwiebeln",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "item": "Gemüsebrühe (warm)",
+          "amount": 800,
+          "unit": "ml"
+        },
+        {
+          "item": "Weißwein (optional)",
+          "amount": 100,
+          "unit": "ml"
+        },
+        {
+          "item": "Parmesan",
+          "amount": 80,
+          "unit": "g"
+        },
+        {
+          "item": "Butter",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "item": "Olivenöl",
+          "amount": 2,
+          "unit": "EL"
+        },
+        {
+          "item": "Salz, Pfeffer, Zitronensaft",
+          "amount": 1,
+          "unit": "Prise"
+        }
+      ],
+      "steps": [
+        "Gemüsebrühe in einem Topf warm halten (nicht kochen!).",
+        "Zwiebel fein würfeln, in Butter und Öl glasig dünsten.",
+        "Risottoreis dazu, 1 Min unter Rösten (wird glasig).",
+        "Weißwein (oder Brühe) eingießen, einrühren bis aufgesogen.",
+        "Nach und nach Brühe löffelweise dazu geben, immer rühren.",
+        "Nach ca. 15 Min: Lachs in Stücke schneiden, zum Risotto geben.",
+        "Kirschtomaten halbieren, auch dazu geben.",
+        "Weitere 8-10 Min fertig garen, weiterhin Brühe nach Bedarf.",
+        "Parmesan und Butter unterrühren, mit Zitronensaft abschmecken.",
+        "Kinder-Variante: Lachs in sehr kleine Stücke, extra Parmesan!"
+      ]
+    },
+    "offer_score": 4
   },
   {
     "day": "Donnerstag",
     "slot": "Abend",
-    "name": "Gnocchi Paprika Pfanne",
+    "name": "Nudeln mit Pesto",
     "tags": [
       "vegetarisch",
-      "schnell"
+      "schnell",
+      "kind"
     ],
     "key_ingredients": [
-      "gnocchi",
-      "paprika",
-      "tomatensoße",
-      "käse"
+      "nudeln",
+      "pesto",
+      "parmesan",
+      "pinienkerne"
     ],
     "category": "abend",
     "difficulty": "leicht",
-    "offer_score": 3,
-    "matched_ingredients": [
-      "paprika",
-      "tomatensoße",
-      "käse"
-    ]
+    "recipe": {
+      "time_prep": 5,
+      "time_cook": 12,
+      "servings": 4,
+      "ingredients": [
+        {
+          "item": "Nudeln (Spaghetti oder Penne)",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "item": "Pesto (Glas oder frisch)",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "item": "Parmesan",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "item": "Kirschtomaten (optional)",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "item": "Pinienkerne (optional)",
+          "amount": 30,
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        "Nudeln nach Packungsanleitung kochen.",
+        "In der Zwischenzeit Kirschtomaten halbieren.",
+        "Pinienkerne in einer trockenen Pfanne leicht anrösten.",
+        "Nudeln abgießen, 1-2 Kochlöffel Nudelwasser aufheben.",
+        "Nudeln mit Pesto und etwas Nudelwasser vermischen.",
+        "Mit Tomaten und Pinienkerne obendrauf servieren.",
+        "Frisch geriebener Parmesan dazu — fertig!",
+        "Kinder-Variante: Pesto nur halb portionieren, nicht zu viel Grün 😉"
+      ]
+    },
+    "offer_score": 3
   },
   {
     "day": "Freitag",
-    "slot": "Mittag",
-    "name": "Penne mit Thunfisch Bolognese",
-    "tags": [
-      "fisch",
-      "nudeln",
-      "schnell"
-    ],
-    "key_ingredients": [
-      "penne",
-      "thunfisch",
-      "tomatensoße",
-      "zwiebeln"
-    ],
-    "category": "mittag",
-    "difficulty": "leicht",
-    "offer_score": 2,
-    "matched_ingredients": [
-      "tomatensoße",
-      "zwiebeln"
-    ]
-  },
-  {
-    "day": "Freitag",
-    "slot": "Abend",
-    "name": "Pink Pasta",
-    "tags": [
-      "vegetarisch",
-      "schnell"
-    ],
-    "key_ingredients": [
-      "nudeln",
-      "tomatensoße",
-      "sahne",
-      "basilikum"
-    ],
-    "category": "abend",
-    "difficulty": "leicht",
-    "offer_score": 3,
-    "matched_ingredients": [
-      "nudeln",
-      "tomatensoße",
-      "sahne"
-    ]
-  },
-  {
-    "day": "Samstag",
     "slot": "Mittag",
     "name": "Kichererbsen Curry",
     "tags": [
@@ -253,34 +573,280 @@
     ],
     "category": "mittag",
     "difficulty": "leicht",
-    "offer_score": 1,
-    "matched_ingredients": [
-      "tomaten"
-    ]
+    "recipe": {
+      "time_prep": 10,
+      "time_cook": 20,
+      "servings": 4,
+      "ingredients": [
+        {
+          "item": "Kichererbsen (Dose)",
+          "amount": 2,
+          "unit": "Dosen (à 240g)"
+        },
+        {
+          "item": "Kokosmilch",
+          "amount": 400,
+          "unit": "ml"
+        },
+        {
+          "item": "Tomaten (Dose)",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "item": "Zwiebeln",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "item": "Knoblauch",
+          "amount": 2,
+          "unit": "Zehen"
+        },
+        {
+          "item": "Ingwer (frisch)",
+          "amount": 1,
+          "unit": "Stück (ca. 2cm)"
+        },
+        {
+          "item": "Currypulver",
+          "amount": 2,
+          "unit": "TL"
+        },
+        {
+          "item": "Kurkuma",
+          "amount": 1,
+          "unit": "TL"
+        },
+        {
+          "item": "Olivenöl",
+          "amount": 2,
+          "unit": "EL"
+        },
+        {
+          "item": "Salz, Pfeffer, Limettensaft",
+          "amount": 1,
+          "unit": "Prise"
+        },
+        {
+          "item": "Reis als Beilage",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "item": "Frischer Koriander (optional)",
+          "amount": 1,
+          "unit": "Bund"
+        }
+      ],
+      "steps": [
+        "Reis nach Packungsanleitung kochen.",
+        "Zwiebeln fein würfeln, Knoblauch und Ingwer fein hacken.",
+        "Olivenöl erhitzen, Zwiebeln 3 Min dünsten.",
+        "Knoblauch, Ingwer, Curry und Kurkuma dazu, 1 Min rösten.",
+        "Kichererbsen (abgetropft) und Tomaten dazu.",
+        "Kokosmilch eingießen, aufkochen.",
+        "15 Min bei niedriger Hitze köcheln lassen.",
+        "Mit Salz, Pfeffer und Limettensaft abschmecken.",
+        "Mit Reis servieren. Koriander obendrauf.",
+        "Kinder-Variante: Nur 1 TL Curry, extra Kokosmilch für milderen Geschmack!"
+      ]
+    },
+    "offer_score": 2
+  },
+  {
+    "day": "Freitag",
+    "slot": "Abend",
+    "name": "Kartoffelsuppe/Zucchinisuppe",
+    "tags": [
+      "vegetarisch",
+      "suppe",
+      "kind"
+    ],
+    "key_ingredients": [
+      "kartoffeln_oder_zucchini",
+      "zwiebeln",
+      "sahne",
+      "brühe"
+    ],
+    "category": "abend",
+    "difficulty": "leicht",
+    "recipe": {
+      "time_prep": 5,
+      "time_cook": 15,
+      "servings": 4,
+      "ingredients": [
+        {
+          "item": "Kartoffeln Oder Zucchini",
+          "amount": 2,
+          "unit": "Stück"
+        },
+        {
+          "item": "Zwiebeln",
+          "amount": 2,
+          "unit": "Stück"
+        },
+        {
+          "item": "Sahne",
+          "amount": 200,
+          "unit": "ml"
+        },
+        {
+          "item": "Brühe",
+          "amount": 1,
+          "unit": "nach Bedarf"
+        }
+      ],
+      "steps": [
+        "Zwiebeln fein würfeln, Gemüse in Stücke schneiden.",
+        "Butter oder Öl in einem großen Topf erhitzen, Zwiebeln 3 Min dünsten.",
+        "Gemüse und Hauptzutaten dazu geben.",
+        "Brühe (ca. 1 Liter) eingießen, aufkochen.",
+        "Bei mittlerer Hitze 20-25 Min köcheln lassen bis alles weich ist.",
+        "Mit Salz, Pfeffer und Gewürzen abschmecken.",
+        "Optional: Teilweise pürieren für eine cremigere Konsistenz.",
+        "Mit frischen Kräutern servieren."
+      ]
+    },
+    "offer_score": 3
+  },
+  {
+    "day": "Samstag",
+    "slot": "Mittag",
+    "name": "Fisch mit Brokkoli und Kartoffelgratin",
+    "tags": [
+      "fisch",
+      "gesund",
+      "ofen"
+    ],
+    "key_ingredients": [
+      "fischfilet",
+      "brokkoli",
+      "kartoffeln",
+      "sahne"
+    ],
+    "category": "mittag",
+    "difficulty": "mittel",
+    "recipe": {
+      "time_prep": 10,
+      "time_cook": 25,
+      "servings": 4,
+      "ingredients": [
+        {
+          "item": "Fischfilet",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "item": "Brokkoli",
+          "amount": 1,
+          "unit": "nach Bedarf"
+        },
+        {
+          "item": "Kartoffeln",
+          "amount": 2,
+          "unit": "Stück"
+        },
+        {
+          "item": "Sahne",
+          "amount": 200,
+          "unit": "ml"
+        }
+      ],
+      "steps": [
+        "Backofen auf 200°C Ober-/Unterhitze vorheizen.",
+        "Hauptzutaten vorbereiten: schneiden, würzen.",
+        "Eine Auflaufform einfetten.",
+        "Zutaten schichtweise in die Form geben.",
+        "Sahne/Soße darüber gießen.",
+        "Mit Käse bestreuen.",
+        "Im Ofen 25-30 Min backen bis goldbraun.",
+        "5 Min ruhen lassen vor dem Servieren."
+      ]
+    },
+    "offer_score": 2
   },
   {
     "day": "Samstag",
     "slot": "Abend",
-    "name": "Nudeln mit Käse-Sahne-Soße",
+    "name": "Nudeln mit Tomatensoße",
     "tags": [
-      "vegetarisch",
+      "vegan",
       "schnell",
-      "kind"
+      "kind",
+      "klassiker"
     ],
     "key_ingredients": [
       "nudeln",
-      "sahne",
-      "käse",
+      "tomaten_dose",
+      "zwiebeln",
       "knoblauch"
     ],
     "category": "abend",
     "difficulty": "leicht",
-    "offer_score": 3,
-    "matched_ingredients": [
-      "nudeln",
-      "sahne",
-      "käse"
-    ]
+    "recipe": {
+      "time_prep": 5,
+      "time_cook": 20,
+      "servings": 4,
+      "ingredients": [
+        {
+          "item": "Nudeln",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "item": "Gehackte Tomaten (Dose)",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "item": "Zwiebeln",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "item": "Knoblauch",
+          "amount": 2,
+          "unit": "Zehen"
+        },
+        {
+          "item": "Olivenöl",
+          "amount": 2,
+          "unit": "EL"
+        },
+        {
+          "item": "Tomatenmark",
+          "amount": 1,
+          "unit": "EL"
+        },
+        {
+          "item": "Zucker (gegen Säure)",
+          "amount": 1,
+          "unit": "TL"
+        },
+        {
+          "item": "Salz, Pfeffer, Oregano",
+          "amount": 1,
+          "unit": "Prise"
+        },
+        {
+          "item": "Frisches Basilikum",
+          "amount": 1,
+          "unit": "Bund"
+        }
+      ],
+      "steps": [
+        "Zwiebeln und Knoblauch fein würfeln.",
+        "Olivenöl erhitzen, Zwiebeln glasig dünsten.",
+        "Knoblauch und Tomatenmark dazu, 1 Min mitbraten.",
+        "Gehackte Tomaten eingießen, Zucker, Salz, Pfeffer, Oregano dazu.",
+        "15 Min bei niedriger Hitze köcheln lassen.",
+        "Nudeln kochen, abgießen.",
+        "Nudeln mit Soße vermischen, mit frischem Basilikum garnieren.",
+        "Kinder-Tipp: Extra Zucker hilft bei zu saurer Tomate!"
+      ]
+    },
+    "offer_score": 3
   },
   {
     "day": "Sonntag",
@@ -299,33 +865,119 @@
     ],
     "category": "mittag",
     "difficulty": "leicht",
-    "offer_score": 1,
-    "matched_ingredients": [
-      "zwiebeln"
-    ]
+    "recipe": {
+      "time_prep": 15,
+      "time_cook": 25,
+      "servings": 4,
+      "ingredients": [
+        {
+          "item": "Kartoffeln (mehlig)",
+          "amount": 800,
+          "unit": "g"
+        },
+        {
+          "item": "Wiener Würstchen",
+          "amount": 6,
+          "unit": "Stück"
+        },
+        {
+          "item": "Zwiebeln",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "item": "Möhren",
+          "amount": 2,
+          "unit": "Stück"
+        },
+        {
+          "item": "Gemüsebrühe",
+          "amount": 1,
+          "unit": "l"
+        },
+        {
+          "item": "Sahne oder Crème fraîche",
+          "amount": 100,
+          "unit": "ml"
+        },
+        {
+          "item": "Butter",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "item": "Salz, Pfeffer, Majoran, Petersilie",
+          "amount": 1,
+          "unit": "Prise"
+        }
+      ],
+      "steps": [
+        "Kartoffeln und Möhren schälen, in Würfel schneiden.",
+        "Zwiebel fein würfeln, in Butter glasig dünsten.",
+        "Kartoffeln und Möhren dazu, kurz mitbraten.",
+        "Brühe eingießen, aufkochen.",
+        "20 Min köcheln lassen bis Kartoffeln weich sind.",
+        "Teilweise pürieren (oder ganz, je nach Vorliebe).",
+        "Wiener in Scheiben schneiden, in die Suppe geben.",
+        "Sahne einrühren, mit Salz, Pfeffer und Majoran würzen.",
+        "Mit frischer Petersilie servieren.",
+        "Kinder-Tipp: Wiener extra auf den Teller — die wollen die selber reingeben!"
+      ]
+    },
+    "offer_score": 2
   },
   {
     "day": "Sonntag",
     "slot": "Abend",
-    "name": "Käsespätzle",
+    "name": "Süßkartoffelrisotto",
     "tags": [
       "vegetarisch",
-      "kind",
-      "klassiker"
+      "gesund"
     ],
     "key_ingredients": [
-      "spätzle",
-      "käse",
-      "zwiebeln",
-      "butter"
+      "süßkartoffel",
+      "risottoreis",
+      "parmesan",
+      "zwiebeln"
     ],
     "category": "abend",
     "difficulty": "mittel",
-    "offer_score": 3,
-    "matched_ingredients": [
-      "käse",
-      "zwiebeln",
-      "butter"
-    ]
+    "recipe": {
+      "time_prep": 10,
+      "time_cook": 25,
+      "servings": 4,
+      "ingredients": [
+        {
+          "item": "Süßkartoffel",
+          "amount": 1,
+          "unit": "nach Bedarf"
+        },
+        {
+          "item": "Risottoreis",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "item": "Parmesan",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "item": "Zwiebeln",
+          "amount": 2,
+          "unit": "Stück"
+        }
+      ],
+      "steps": [
+        "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+        "Öl/Butter erhitzen.",
+        "Hauptzutaten anbraten oder kochen.",
+        "Weitere Zutaten nach und nach dazu geben.",
+        "Mit Gewürzen abschmecken.",
+        "Fertig garen bis alles gar ist.",
+        "Mit Beilage servieren."
+      ]
+    },
+    "offer_score": 3
   }
 ]

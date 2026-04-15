@@ -194,7 +194,43 @@
         "parmesan"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Gnocchi",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Sahne",
+            "amount": 200,
+            "unit": "ml"
+          },
+          {
+            "item": "Spinat",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Parmesan",
+            "amount": 150,
+            "unit": "g"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Wraps",
@@ -357,7 +393,40 @@
         "salat"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Halloumi",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Burgerbrötchen",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Tomaten",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Salat",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Hackfleisch mit Salz, Pfeffer und Ei würzen.",
+          "Patties/Bällchen/rollen formen.",
+          "In einer heißen Pfanne rundherum braten.",
+          "Mit Beilage und Soße servieren."
+        ]
+      }
     },
     {
       "name": "Gnocchi Caprese",
@@ -373,7 +442,43 @@
         "basilikum"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Gnocchi",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Tomaten",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Mozzarella",
+            "amount": 150,
+            "unit": "g"
+          },
+          {
+            "item": "Basilikum",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Paprika-Rinderhack-Pfanne",
@@ -460,7 +565,43 @@
         "gemüse"
       ],
       "category": "mittag",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 25,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Lachs",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "item": "Reis",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Avocado",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Gemüse",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Reis/Nudeln kochen oder Kichererbsen abgießen.",
+          "Gemüse waschen und in Stücke schneiden.",
+          "Fleisch/Tofu anbraten (falls vorhanden).",
+          "Dressing zubereiten: Öl, Zitrone, Salz, Pfeffer.",
+          "Alles in einer Schüssel anrichten.",
+          "Dressing darüber geben.",
+          "Sofort servieren."
+        ]
+      }
     },
     {
       "name": "Butter Chicken mit Naan/Reis",
@@ -476,7 +617,43 @@
         "reis"
       ],
       "category": "mittag",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 25,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Hähnchen",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "item": "Sahne",
+            "amount": 200,
+            "unit": "ml"
+          },
+          {
+            "item": "Tomaten",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Reis",
+            "amount": 400,
+            "unit": "g"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Vegane Schnitzel mit Kartoffelsalat",
@@ -491,7 +668,43 @@
         "gurke"
       ],
       "category": "mittag",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Vegane Schnitzel",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Kartoffeln",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Mayo",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Gurke",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Reis/Nudeln kochen oder Kichererbsen abgießen.",
+          "Gemüse waschen und in Stücke schneiden.",
+          "Fleisch/Tofu anbraten (falls vorhanden).",
+          "Dressing zubereiten: Öl, Zitrone, Salz, Pfeffer.",
+          "Alles in einer Schüssel anrichten.",
+          "Dressing darüber geben.",
+          "Sofort servieren."
+        ]
+      }
     },
     {
       "name": "Burger Wraps",
@@ -507,7 +720,40 @@
         "salat"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Hackfleisch",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "item": "Tortilla Wraps",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Käse",
+            "amount": 150,
+            "unit": "g"
+          },
+          {
+            "item": "Salat",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Hackfleisch mit Salz, Pfeffer und Ei würzen.",
+          "Patties/Bällchen/rollen formen.",
+          "In einer heißen Pfanne rundherum braten.",
+          "Mit Beilage und Soße servieren."
+        ]
+      }
     },
     {
       "name": "Fischstäbchen",
@@ -522,7 +768,38 @@
         "ketchup"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Fischstäbchen Tk",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "item": "Kartoffeln Oder Pommes",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Ketchup",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Indisches Curry (Gemüse)",
@@ -537,7 +814,44 @@
         "reis"
       ],
       "category": "mittag",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 25,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Kichererbsen",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Kokosmilch",
+            "amount": 200,
+            "unit": "ml"
+          },
+          {
+            "item": "Gemüse",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Reis",
+            "amount": 400,
+            "unit": "g"
+          }
+        ],
+        "steps": [
+          "Zwiebeln fein würfeln, Knoblauch und Ingwer hacken.",
+          "Öl erhitzen, Zwiebeln 3 Min dünsten.",
+          "Knoblauch, Ingwer und Currypulver dazu, 1 Min rösten.",
+          "Hauptzutaten (Gemüse/Fleisch) dazu geben.",
+          "Kokosmilch und Tomaten eingießen.",
+          "15-20 Min bei mittlerer Hitze köcheln lassen.",
+          "Mit Salz, Pfeffer und Limettensaft abschmecken.",
+          "Mit Reis servieren. Koriander obendrauf."
+        ]
+      }
     },
     {
       "name": "Pizza selbst gemacht",
@@ -626,7 +940,43 @@
         "knoblauch"
       ],
       "category": "mittag",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Nudeln",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Avocado",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Zitrone",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Knoblauch",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Reis Bowl mit Tofu",
@@ -641,7 +991,43 @@
         "sojasauce"
       ],
       "category": "mittag",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 25,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Tofu",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "item": "Reis",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Gemüse",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Sojasauce",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Reis/Nudeln kochen oder Kichererbsen abgießen.",
+          "Gemüse waschen und in Stücke schneiden.",
+          "Fleisch/Tofu anbraten (falls vorhanden).",
+          "Dressing zubereiten: Öl, Zitrone, Salz, Pfeffer.",
+          "Alles in einer Schüssel anrichten.",
+          "Dressing darüber geben.",
+          "Sofort servieren."
+        ]
+      }
     },
     {
       "name": "Hackrolle",
@@ -656,7 +1042,40 @@
         "zwiebeln"
       ],
       "category": "abend",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 25,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Hackfleisch",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "item": "Eier",
+            "amount": 4,
+            "unit": "Stück"
+          },
+          {
+            "item": "Paniermehl",
+            "amount": 100,
+            "unit": "g"
+          },
+          {
+            "item": "Zwiebeln",
+            "amount": 2,
+            "unit": "Stück"
+          }
+        ],
+        "steps": [
+          "Hackfleisch mit Salz, Pfeffer und Ei würzen.",
+          "Patties/Bällchen/rollen formen.",
+          "In einer heißen Pfanne rundherum braten.",
+          "Mit Beilage und Soße servieren."
+        ]
+      }
     },
     {
       "name": "Flammkuchen",
@@ -671,7 +1090,43 @@
         "speck_oder_gemüse"
       ],
       "category": "abend",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 25,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Mehl",
+            "amount": 100,
+            "unit": "g"
+          },
+          {
+            "item": "Schmand",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Zwiebeln",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Speck Oder Gemüse",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Würstchengulasch",
@@ -687,7 +1142,43 @@
         "zwiebeln"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Wiener Würstchen",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Paprika",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Tomatensoße",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Zwiebeln",
+            "amount": 2,
+            "unit": "Stück"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Hähnchen Auflauf",
@@ -772,7 +1263,43 @@
         "kräuter"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Fischstäbchen Tk",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "item": "Kartoffeln",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Spinat",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Kräuter",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Wraps mit Gyros",
@@ -787,7 +1314,43 @@
         "tsatsiki"
       ],
       "category": "abend",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 25,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Tortilla Wraps",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Schweinefleisch Oder Hähnchen",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "item": "Zwiebeln",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Tsatsiki",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Kichererbsen Curry",
@@ -897,7 +1460,44 @@
         "brühe"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Kartoffeln Oder Zucchini",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Zwiebeln",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Sahne",
+            "amount": 200,
+            "unit": "ml"
+          },
+          {
+            "item": "Brühe",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Zwiebeln fein würfeln, Gemüse in Stücke schneiden.",
+          "Butter oder Öl in einem großen Topf erhitzen, Zwiebeln 3 Min dünsten.",
+          "Gemüse und Hauptzutaten dazu geben.",
+          "Brühe (ca. 1 Liter) eingießen, aufkochen.",
+          "Bei mittlerer Hitze 20-25 Min köcheln lassen bis alles weich ist.",
+          "Mit Salz, Pfeffer und Gewürzen abschmecken.",
+          "Optional: Teilweise pürieren für eine cremigere Konsistenz.",
+          "Mit frischen Kräutern servieren."
+        ]
+      }
     },
     {
       "name": "Maultaschen Auflauf",
@@ -913,7 +1513,44 @@
         "käse"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Maultaschen",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Eier",
+            "amount": 4,
+            "unit": "Stück"
+          },
+          {
+            "item": "Zwiebeln",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Käse",
+            "amount": 150,
+            "unit": "g"
+          }
+        ],
+        "steps": [
+          "Backofen auf 200°C Ober-/Unterhitze vorheizen.",
+          "Hauptzutaten vorbereiten: schneiden, würzen.",
+          "Eine Auflaufform einfetten.",
+          "Zutaten schichtweise in die Form geben.",
+          "Sahne/Soße darüber gießen.",
+          "Mit Käse bestreuen.",
+          "Im Ofen 25-30 Min backen bis goldbraun.",
+          "5 Min ruhen lassen vor dem Servieren."
+        ]
+      }
     },
     {
       "name": "Burger",
@@ -1000,7 +1637,43 @@
         "sahne"
       ],
       "category": "abend",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 25,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Lachs",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "item": "Spinat",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Blätterteig",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Sahne",
+            "amount": 200,
+            "unit": "ml"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Nudeln mit Pesto",
@@ -1135,7 +1808,43 @@
         "reis_oder_spätzle"
       ],
       "category": "mittag",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 25,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Putenbrust",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "item": "Zwiebeln",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Sahne",
+            "amount": 200,
+            "unit": "ml"
+          },
+          {
+            "item": "Reis Oder Spätzle",
+            "amount": 400,
+            "unit": "g"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "One Pot Hirse Eintopf",
@@ -1150,7 +1859,44 @@
         "hülsenfrüchte"
       ],
       "category": "mittag",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Hirse",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Gemüse",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Brühe",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Hülsenfrüchte",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Zwiebeln fein würfeln, Gemüse in Stücke schneiden.",
+          "Butter oder Öl in einem großen Topf erhitzen, Zwiebeln 3 Min dünsten.",
+          "Gemüse und Hauptzutaten dazu geben.",
+          "Brühe (ca. 1 Liter) eingießen, aufkochen.",
+          "Bei mittlerer Hitze 20-25 Min köcheln lassen bis alles weich ist.",
+          "Mit Salz, Pfeffer und Gewürzen abschmecken.",
+          "Optional: Teilweise pürieren für eine cremigere Konsistenz.",
+          "Mit frischen Kräutern servieren."
+        ]
+      }
     },
     {
       "name": "Blätterteiggericht",
@@ -1165,7 +1911,43 @@
         "käse"
       ],
       "category": "abend",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 25,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Blätterteig",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Hackfleisch",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "item": "Zwiebeln",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Käse",
+            "amount": 150,
+            "unit": "g"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Gorgonzola Schnitzel",
@@ -1180,7 +1962,43 @@
         "nudeln"
       ],
       "category": "abend",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 25,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Hähnchenschnitzel",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "item": "Gorgonzola",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Sahne",
+            "amount": 200,
+            "unit": "ml"
+          },
+          {
+            "item": "Nudeln",
+            "amount": 400,
+            "unit": "g"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Lasagne",
@@ -1350,7 +2168,43 @@
         "reis"
       ],
       "category": "mittag",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 25,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Hähnchen",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "item": "Joghurt",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Tomaten",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Reis",
+            "amount": 400,
+            "unit": "g"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Spaghetti Carbonara",
@@ -1365,7 +2219,43 @@
         "parmesan"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Spaghetti",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Speck",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Eier",
+            "amount": 4,
+            "unit": "Stück"
+          },
+          {
+            "item": "Parmesan",
+            "amount": 150,
+            "unit": "g"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Lachsfilet mit Ofengemüse",
@@ -1381,7 +2271,44 @@
         "zitrone"
       ],
       "category": "mittag",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Lachs",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "item": "Gemüse Mix",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Olivenöl",
+            "amount": 2,
+            "unit": "EL"
+          },
+          {
+            "item": "Zitrone",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Backofen auf 200°C Ober-/Unterhitze vorheizen.",
+          "Hauptzutaten vorbereiten: schneiden, würzen.",
+          "Eine Auflaufform einfetten.",
+          "Zutaten schichtweise in die Form geben.",
+          "Sahne/Soße darüber gießen.",
+          "Mit Käse bestreuen.",
+          "Im Ofen 25-30 Min backen bis goldbraun.",
+          "5 Min ruhen lassen vor dem Servieren."
+        ]
+      }
     },
     {
       "name": "Tofu Gemüsepfanne",
@@ -1396,7 +2323,43 @@
         "reis"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Tofu",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "item": "Gemüse",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Sojasauce",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Reis",
+            "amount": 400,
+            "unit": "g"
+          }
+        ],
+        "steps": [
+          "Hauptzutaten in mundgerechte Stücke schneiden.",
+          "Öl oder Butter in einer großen Pfanne erhitzen.",
+          "Fleisch/Gemüse anbraten bis es Farbe hat.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Weitere 5-10 Min fertig garen.",
+          "Mit Beilage (Reis/Nudeln/Brot) servieren."
+        ]
+      }
     },
     {
       "name": "Pulled Pork mit Pita",
@@ -1411,7 +2374,43 @@
         "coleslaw"
       ],
       "category": "mittag",
-      "difficulty": "schwer"
+      "difficulty": "schwer",
+      "recipe": {
+        "time_prep": 15,
+        "time_cook": 40,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Schweinenacken",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Bbq Sauce",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Pita Brot",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Coleslaw",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Ofenkartoffeln mit Avocadocreme/Quark",
@@ -1426,7 +2425,44 @@
         "tomaten"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Kartoffeln",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Avocado Oder Quark",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Kräuter",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Tomaten",
+            "amount": 400,
+            "unit": "g"
+          }
+        ],
+        "steps": [
+          "Backofen auf 200°C Ober-/Unterhitze vorheizen.",
+          "Hauptzutaten vorbereiten: schneiden, würzen.",
+          "Eine Auflaufform einfetten.",
+          "Zutaten schichtweise in die Form geben.",
+          "Sahne/Soße darüber gießen.",
+          "Mit Käse bestreuen.",
+          "Im Ofen 25-30 Min backen bis goldbraun.",
+          "5 Min ruhen lassen vor dem Servieren."
+        ]
+      }
     },
     {
       "name": "Sobrasada Pasta",
@@ -1441,7 +2477,43 @@
         "parmesan"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Nudeln",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Sobrasada",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Tomaten",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Parmesan",
+            "amount": 150,
+            "unit": "g"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Pinsa mit Schmand und Gemüse",
@@ -1456,7 +2528,43 @@
         "käse"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Pinsa Boden",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Schmand",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Gemüse",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Käse",
+            "amount": 150,
+            "unit": "g"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Dotsch",
@@ -1471,7 +2579,35 @@
         "apfelmus"
       ],
       "category": "frühstück",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Brot",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Leberwurst",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Apfelmus",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Brot/Toast/Wraps vorbereiten.",
+          "Belag zubereiten (Fleisch/Käse/Gemüse).",
+          "Zusammenbauen und nach Bedarf erwärmen.",
+          "Sofort servieren."
+        ]
+      }
     },
     {
       "name": "Tacos",
@@ -1486,7 +2622,43 @@
         "tomaten"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Taco Shells",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Hackfleisch",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "item": "Käse",
+            "amount": 150,
+            "unit": "g"
+          },
+          {
+            "item": "Tomaten",
+            "amount": 400,
+            "unit": "g"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Gebratene Nudeln mit Gemüse und Ei",
@@ -1502,7 +2674,43 @@
         "sojasauce"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Nudeln",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Gemüse",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Eier",
+            "amount": 4,
+            "unit": "Stück"
+          },
+          {
+            "item": "Sojasauce",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Käsespätzle",
@@ -1576,7 +2784,42 @@
         "milch"
       ],
       "category": "abend",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 25,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Brot",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Käse",
+            "amount": 150,
+            "unit": "g"
+          },
+          {
+            "item": "Eier",
+            "amount": 4,
+            "unit": "Stück"
+          },
+          {
+            "item": "Milch",
+            "amount": 200,
+            "unit": "ml"
+          }
+        ],
+        "steps": [
+          "Brot/Semmeln in kleine Stücke schneiden, mit warmer Milch übergießen.",
+          "Eier, Gewürze und weitere Zutaten dazugeben.",
+          "Alles zu einem formbaren Teig verkneten.",
+          "Klöße formen (nass Hände!).",
+          "In siedendem Salzwasser 15-20 Min ziehen lassen (nicht kochen!).",
+          "Mit Soße oder als Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Zucchini Röllchen mit Reis",
@@ -1592,7 +2835,43 @@
         "tomatensoße"
       ],
       "category": "abend",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 25,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Zucchini",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Reis",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Käse",
+            "amount": 150,
+            "unit": "g"
+          },
+          {
+            "item": "Tomatensoße",
+            "amount": 400,
+            "unit": "g"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Kartoffelcremesuppe",
@@ -1608,7 +2887,44 @@
         "brühe"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Kartoffeln",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Zwiebeln",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Sahne",
+            "amount": 200,
+            "unit": "ml"
+          },
+          {
+            "item": "Brühe",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Zwiebeln fein würfeln, Gemüse in Stücke schneiden.",
+          "Butter oder Öl in einem großen Topf erhitzen, Zwiebeln 3 Min dünsten.",
+          "Gemüse und Hauptzutaten dazu geben.",
+          "Brühe (ca. 1 Liter) eingießen, aufkochen.",
+          "Bei mittlerer Hitze 20-25 Min köcheln lassen bis alles weich ist.",
+          "Mit Salz, Pfeffer und Gewürzen abschmecken.",
+          "Optional: Teilweise pürieren für eine cremigere Konsistenz.",
+          "Mit frischen Kräutern servieren."
+        ]
+      }
     },
     {
       "name": "Tortellini mit Art Cabrese",
@@ -1623,7 +2939,43 @@
         "basilikum"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Tortellini",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Tomaten",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Mozzarella",
+            "amount": 150,
+            "unit": "g"
+          },
+          {
+            "item": "Basilikum",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Pizzaschnecken",
@@ -1639,7 +2991,43 @@
         "salami"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Blätterteig",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Tomatensoße",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Käse",
+            "amount": 150,
+            "unit": "g"
+          },
+          {
+            "item": "Salami",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Schulfnudeln mit Würstchen und Kraut",
@@ -1654,7 +3042,43 @@
         "senf"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Nudeln",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Wiener Würstchen",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Sauerkraut",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Senf",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Cevapcici mit Tomatenreis",
@@ -1669,7 +3093,40 @@
         "zwiebeln"
       ],
       "category": "abend",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 25,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Cevapcici Oder Hack",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Reis",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Tomaten",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Zwiebeln",
+            "amount": 2,
+            "unit": "Stück"
+          }
+        ],
+        "steps": [
+          "Hackfleisch mit Salz, Pfeffer und Ei würzen.",
+          "Patties/Bällchen/rollen formen.",
+          "In einer heißen Pfanne rundherum braten.",
+          "Mit Beilage und Soße servieren."
+        ]
+      }
     },
     {
       "name": "Fisch mit Brokkoli und Kartoffelgratin",
@@ -1685,7 +3142,44 @@
         "sahne"
       ],
       "category": "mittag",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 25,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Fischfilet",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "item": "Brokkoli",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Kartoffeln",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Sahne",
+            "amount": 200,
+            "unit": "ml"
+          }
+        ],
+        "steps": [
+          "Backofen auf 200°C Ober-/Unterhitze vorheizen.",
+          "Hauptzutaten vorbereiten: schneiden, würzen.",
+          "Eine Auflaufform einfetten.",
+          "Zutaten schichtweise in die Form geben.",
+          "Sahne/Soße darüber gießen.",
+          "Mit Käse bestreuen.",
+          "Im Ofen 25-30 Min backen bis goldbraun.",
+          "5 Min ruhen lassen vor dem Servieren."
+        ]
+      }
     },
     {
       "name": "Gefüllte Zucchini mit Tomatenreis",
@@ -1700,7 +3194,43 @@
         "käse"
       ],
       "category": "abend",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 25,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Zucchini",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Reis",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Tomaten",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Käse",
+            "amount": 150,
+            "unit": "g"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Kartoffelsuppe mit Speck",
@@ -1715,7 +3245,44 @@
         "sahne"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Kartoffeln",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Speck",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Zwiebeln",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Sahne",
+            "amount": 200,
+            "unit": "ml"
+          }
+        ],
+        "steps": [
+          "Zwiebeln fein würfeln, Gemüse in Stücke schneiden.",
+          "Butter oder Öl in einem großen Topf erhitzen, Zwiebeln 3 Min dünsten.",
+          "Gemüse und Hauptzutaten dazu geben.",
+          "Brühe (ca. 1 Liter) eingießen, aufkochen.",
+          "Bei mittlerer Hitze 20-25 Min köcheln lassen bis alles weich ist.",
+          "Mit Salz, Pfeffer und Gewürzen abschmecken.",
+          "Optional: Teilweise pürieren für eine cremigere Konsistenz.",
+          "Mit frischen Kräutern servieren."
+        ]
+      }
     },
     {
       "name": "Feta Nudeln",
@@ -1730,7 +3297,43 @@
         "olivenöl"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Nudeln",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Feta",
+            "amount": 150,
+            "unit": "g"
+          },
+          {
+            "item": "Tomaten",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Olivenöl",
+            "amount": 2,
+            "unit": "EL"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Ofengemüse",
@@ -1746,7 +3349,44 @@
         "kartoffeln"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Gemüse Mix",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Olivenöl",
+            "amount": 2,
+            "unit": "EL"
+          },
+          {
+            "item": "Kräuter",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Kartoffeln",
+            "amount": 2,
+            "unit": "Stück"
+          }
+        ],
+        "steps": [
+          "Backofen auf 200°C Ober-/Unterhitze vorheizen.",
+          "Hauptzutaten vorbereiten: schneiden, würzen.",
+          "Eine Auflaufform einfetten.",
+          "Zutaten schichtweise in die Form geben.",
+          "Sahne/Soße darüber gießen.",
+          "Mit Käse bestreuen.",
+          "Im Ofen 25-30 Min backen bis goldbraun.",
+          "5 Min ruhen lassen vor dem Servieren."
+        ]
+      }
     },
     {
       "name": "Thunfisch Bolognese",
@@ -1761,7 +3401,43 @@
         "zwiebeln"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Nudeln",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Thunfisch",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "item": "Tomatensoße",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Zwiebeln",
+            "amount": 2,
+            "unit": "Stück"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Kichererbsen Spinat Topf",
@@ -1776,7 +3452,43 @@
         "reis"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Kichererbsen",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Spinat",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Tomaten",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Reis",
+            "amount": 400,
+            "unit": "g"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Gnocchi in Parmesansauce",
@@ -1791,7 +3503,43 @@
         "knoblauch"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Gnocchi",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Parmesan",
+            "amount": 150,
+            "unit": "g"
+          },
+          {
+            "item": "Sahne",
+            "amount": 200,
+            "unit": "ml"
+          },
+          {
+            "item": "Knoblauch",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Pita mit Gyros",
@@ -1805,7 +3553,43 @@
         "tomaten"
       ],
       "category": "abend",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 25,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Schweinefleisch",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "item": "Pita Brot",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Tsatsiki",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Tomaten",
+            "amount": 400,
+            "unit": "g"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Türkische Linsensuppe",
@@ -1820,7 +3604,44 @@
         "zwiebeln"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Rote Linsen",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Kartoffeln",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Möhren",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Zwiebeln",
+            "amount": 2,
+            "unit": "Stück"
+          }
+        ],
+        "steps": [
+          "Zwiebeln fein würfeln, Gemüse in Stücke schneiden.",
+          "Butter oder Öl in einem großen Topf erhitzen, Zwiebeln 3 Min dünsten.",
+          "Gemüse und Hauptzutaten dazu geben.",
+          "Brühe (ca. 1 Liter) eingießen, aufkochen.",
+          "Bei mittlerer Hitze 20-25 Min köcheln lassen bis alles weich ist.",
+          "Mit Salz, Pfeffer und Gewürzen abschmecken.",
+          "Optional: Teilweise pürieren für eine cremigere Konsistenz.",
+          "Mit frischen Kräutern servieren."
+        ]
+      }
     },
     {
       "name": "Kürbiscremesuppe",
@@ -1837,7 +3658,44 @@
         "brühe"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Kürbis",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Zwiebeln",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Sahne",
+            "amount": 200,
+            "unit": "ml"
+          },
+          {
+            "item": "Brühe",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Zwiebeln fein würfeln, Gemüse in Stücke schneiden.",
+          "Butter oder Öl in einem großen Topf erhitzen, Zwiebeln 3 Min dünsten.",
+          "Gemüse und Hauptzutaten dazu geben.",
+          "Brühe (ca. 1 Liter) eingießen, aufkochen.",
+          "Bei mittlerer Hitze 20-25 Min köcheln lassen bis alles weich ist.",
+          "Mit Salz, Pfeffer und Gewürzen abschmecken.",
+          "Optional: Teilweise pürieren für eine cremigere Konsistenz.",
+          "Mit frischen Kräutern servieren."
+        ]
+      }
     },
     {
       "name": "Knödel mit Soße",
@@ -1852,7 +3710,42 @@
         "sahne"
       ],
       "category": "abend",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 25,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Semmelknödel",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Pilzrahmsoße",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Zwiebeln",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Sahne",
+            "amount": 200,
+            "unit": "ml"
+          }
+        ],
+        "steps": [
+          "Brot/Semmeln in kleine Stücke schneiden, mit warmer Milch übergießen.",
+          "Eier, Gewürze und weitere Zutaten dazugeben.",
+          "Alles zu einem formbaren Teig verkneten.",
+          "Klöße formen (nass Hände!).",
+          "In siedendem Salzwasser 15-20 Min ziehen lassen (nicht kochen!).",
+          "Mit Soße oder als Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Geschnetzeltes mit Spätzle",
@@ -1867,7 +3760,43 @@
         "sahne"
       ],
       "category": "abend",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 25,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Schweinefleisch",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "item": "Spätzle",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Zwiebeln",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Sahne",
+            "amount": 200,
+            "unit": "ml"
+          }
+        ],
+        "steps": [
+          "Hauptzutaten in mundgerechte Stücke schneiden.",
+          "Öl oder Butter in einer großen Pfanne erhitzen.",
+          "Fleisch/Gemüse anbraten bis es Farbe hat.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Weitere 5-10 Min fertig garen.",
+          "Mit Beilage (Reis/Nudeln/Brot) servieren."
+        ]
+      }
     },
     {
       "name": "Pizzasemmeln",
@@ -1883,7 +3812,43 @@
         "salami"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Semmeln",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Tomatensoße",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Käse",
+            "amount": 150,
+            "unit": "g"
+          },
+          {
+            "item": "Salami",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Gnocchi Pfanne",
@@ -1898,7 +3863,43 @@
         "parmesan"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Gnocchi",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Gemüse",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Sahne",
+            "amount": 200,
+            "unit": "ml"
+          },
+          {
+            "item": "Parmesan",
+            "amount": 150,
+            "unit": "g"
+          }
+        ],
+        "steps": [
+          "Hauptzutaten in mundgerechte Stücke schneiden.",
+          "Öl oder Butter in einer großen Pfanne erhitzen.",
+          "Fleisch/Gemüse anbraten bis es Farbe hat.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Weitere 5-10 Min fertig garen.",
+          "Mit Beilage (Reis/Nudeln/Brot) servieren."
+        ]
+      }
     },
     {
       "name": "Süßkartoffelrisotto",
@@ -1913,7 +3914,43 @@
         "zwiebeln"
       ],
       "category": "abend",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 25,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Süßkartoffel",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Risottoreis",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Parmesan",
+            "amount": 150,
+            "unit": "g"
+          },
+          {
+            "item": "Zwiebeln",
+            "amount": 2,
+            "unit": "Stück"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Würstchengulasch",
@@ -1929,7 +3966,43 @@
         "zwiebeln"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Wiener Würstchen",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Paprika",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Tomatensoße",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Zwiebeln",
+            "amount": 2,
+            "unit": "Stück"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Blumenkohl/Kartoffel Gemüse mit Dip",
@@ -1944,7 +4017,43 @@
         "kräuter"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Blumenkohl",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Kartoffeln",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Dip Oder Mayo",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Kräuter",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Grünkern-Chili-Cheese-Kartoffeln",
@@ -1959,7 +4068,43 @@
         "bohnen"
       ],
       "category": "abend",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 25,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Grünkern",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Kartoffeln",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Käse",
+            "amount": 150,
+            "unit": "g"
+          },
+          {
+            "item": "Bohnen",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Basilikum Knödel mit Ratatouille",
@@ -1973,7 +4118,42 @@
         "tomaten"
       ],
       "category": "abend",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 25,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Basilikum Knödel",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Zucchini",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Paprika",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Tomaten",
+            "amount": 400,
+            "unit": "g"
+          }
+        ],
+        "steps": [
+          "Brot/Semmeln in kleine Stücke schneiden, mit warmer Milch übergießen.",
+          "Eier, Gewürze und weitere Zutaten dazugeben.",
+          "Alles zu einem formbaren Teig verkneten.",
+          "Klöße formen (nass Hände!).",
+          "In siedendem Salzwasser 15-20 Min ziehen lassen (nicht kochen!).",
+          "Mit Soße oder als Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Gefüllte Süßkartoffeln",
@@ -1988,7 +4168,43 @@
         "kräuter"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Süßkartoffel",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Bohnen",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Käse",
+            "amount": 150,
+            "unit": "g"
+          },
+          {
+            "item": "Kräuter",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Hähnchengulasch",
@@ -2077,7 +4293,43 @@
         "apfelmus"
       ],
       "category": "frühstück",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Mehl",
+            "amount": 100,
+            "unit": "g"
+          },
+          {
+            "item": "Eier",
+            "amount": 4,
+            "unit": "Stück"
+          },
+          {
+            "item": "Milch",
+            "amount": 200,
+            "unit": "ml"
+          },
+          {
+            "item": "Apfelmus",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Hauptzutaten in mundgerechte Stücke schneiden.",
+          "Öl oder Butter in einer großen Pfanne erhitzen.",
+          "Fleisch/Gemüse anbraten bis es Farbe hat.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Weitere 5-10 Min fertig garen.",
+          "Mit Beilage (Reis/Nudeln/Brot) servieren."
+        ]
+      }
     },
     {
       "name": "Tortellini Auflauf",
@@ -2093,7 +4345,44 @@
         "käse"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Tortellini",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Sahne",
+            "amount": 200,
+            "unit": "ml"
+          },
+          {
+            "item": "Schinken",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Käse",
+            "amount": 150,
+            "unit": "g"
+          }
+        ],
+        "steps": [
+          "Backofen auf 200°C Ober-/Unterhitze vorheizen.",
+          "Hauptzutaten vorbereiten: schneiden, würzen.",
+          "Eine Auflaufform einfetten.",
+          "Zutaten schichtweise in die Form geben.",
+          "Sahne/Soße darüber gießen.",
+          "Mit Käse bestreuen.",
+          "Im Ofen 25-30 Min backen bis goldbraun.",
+          "5 Min ruhen lassen vor dem Servieren."
+        ]
+      }
     },
     {
       "name": "Currywurst mit Pommes",
@@ -2108,7 +4397,44 @@
         "ketchup"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Bratwurst",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Currysoße",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Pommes Tk",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Ketchup",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Zwiebeln fein würfeln, Knoblauch und Ingwer hacken.",
+          "Öl erhitzen, Zwiebeln 3 Min dünsten.",
+          "Knoblauch, Ingwer und Currypulver dazu, 1 Min rösten.",
+          "Hauptzutaten (Gemüse/Fleisch) dazu geben.",
+          "Kokosmilch und Tomaten eingießen.",
+          "15-20 Min bei mittlerer Hitze köcheln lassen.",
+          "Mit Salz, Pfeffer und Limettensaft abschmecken.",
+          "Mit Reis servieren. Koriander obendrauf."
+        ]
+      }
     },
     {
       "name": "Chicken Airfryer mit Pommes",
@@ -2123,7 +4449,43 @@
         "ketchup"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Hähnchenschnitzel",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "item": "Paniermehl",
+            "amount": 100,
+            "unit": "g"
+          },
+          {
+            "item": "Pommes Tk",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Ketchup",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Maultaschenpfanne",
@@ -2138,7 +4500,43 @@
         "käse"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Maultaschen",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Zwiebeln",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Eier",
+            "amount": 4,
+            "unit": "Stück"
+          },
+          {
+            "item": "Käse",
+            "amount": 150,
+            "unit": "g"
+          }
+        ],
+        "steps": [
+          "Hauptzutaten in mundgerechte Stücke schneiden.",
+          "Öl oder Butter in einer großen Pfanne erhitzen.",
+          "Fleisch/Gemüse anbraten bis es Farbe hat.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Weitere 5-10 Min fertig garen.",
+          "Mit Beilage (Reis/Nudeln/Brot) servieren."
+        ]
+      }
     },
     {
       "name": "Pfannkuchensuppe",
@@ -2154,7 +4552,44 @@
         "kräuter"
       ],
       "category": "abend",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 25,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Pfannkuchen",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Brühe",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Gemüse",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Kräuter",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Zwiebeln fein würfeln, Gemüse in Stücke schneiden.",
+          "Butter oder Öl in einem großen Topf erhitzen, Zwiebeln 3 Min dünsten.",
+          "Gemüse und Hauptzutaten dazu geben.",
+          "Brühe (ca. 1 Liter) eingießen, aufkochen.",
+          "Bei mittlerer Hitze 20-25 Min köcheln lassen bis alles weich ist.",
+          "Mit Salz, Pfeffer und Gewürzen abschmecken.",
+          "Optional: Teilweise pürieren für eine cremigere Konsistenz.",
+          "Mit frischen Kräutern servieren."
+        ]
+      }
     },
     {
       "name": "Brokkoli-Tofu-Reis",
@@ -2169,7 +4604,43 @@
         "sojasauce"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Brokkoli",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Tofu",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "item": "Reis",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Sojasauce",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Kichererbsen Kokos Curry",
@@ -2184,7 +4655,44 @@
         "reis"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Kichererbsen",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Kokosmilch",
+            "amount": 200,
+            "unit": "ml"
+          },
+          {
+            "item": "Gemüse",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Reis",
+            "amount": 400,
+            "unit": "g"
+          }
+        ],
+        "steps": [
+          "Zwiebeln fein würfeln, Knoblauch und Ingwer hacken.",
+          "Öl erhitzen, Zwiebeln 3 Min dünsten.",
+          "Knoblauch, Ingwer und Currypulver dazu, 1 Min rösten.",
+          "Hauptzutaten (Gemüse/Fleisch) dazu geben.",
+          "Kokosmilch und Tomaten eingießen.",
+          "15-20 Min bei mittlerer Hitze köcheln lassen.",
+          "Mit Salz, Pfeffer und Limettensaft abschmecken.",
+          "Mit Reis servieren. Koriander obendrauf."
+        ]
+      }
     },
     {
       "name": "Kürbis Auflauf mit Gnocchi",
@@ -2200,7 +4708,44 @@
         "sahne"
       ],
       "category": "abend",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 25,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Kürbis",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Gnocchi",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Parmesan",
+            "amount": 150,
+            "unit": "g"
+          },
+          {
+            "item": "Sahne",
+            "amount": 200,
+            "unit": "ml"
+          }
+        ],
+        "steps": [
+          "Backofen auf 200°C Ober-/Unterhitze vorheizen.",
+          "Hauptzutaten vorbereiten: schneiden, würzen.",
+          "Eine Auflaufform einfetten.",
+          "Zutaten schichtweise in die Form geben.",
+          "Sahne/Soße darüber gießen.",
+          "Mit Käse bestreuen.",
+          "Im Ofen 25-30 Min backen bis goldbraun.",
+          "5 Min ruhen lassen vor dem Servieren."
+        ]
+      }
     },
     {
       "name": "Gnocchi Paprika Pfanne",
@@ -2277,7 +4822,43 @@
         "erbsen"
       ],
       "category": "abend",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 25,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Fischfilet",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "item": "Paniermehl",
+            "amount": 100,
+            "unit": "g"
+          },
+          {
+            "item": "Kartoffeln",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Erbsen",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Laksa",
@@ -2292,7 +4873,43 @@
         "tofu_oder_hähnchen"
       ],
       "category": "abend",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 25,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Nudeln",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Kokosmilch",
+            "amount": 200,
+            "unit": "ml"
+          },
+          {
+            "item": "Gemüse",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Tofu Oder Hähnchen",
+            "amount": 500,
+            "unit": "g"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Sommerrollen",
@@ -2308,7 +4925,43 @@
         "erdnusssoße"
       ],
       "category": "abend",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 25,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Reispapier",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Gemüse",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Reisnudeln",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Erdnusssoße",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Hähnchenbrustfilet mit Salat",
@@ -2323,7 +4976,43 @@
         "brot"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Hähnchenbrust",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "item": "Gemüse",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Dressing",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Brot",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Reis/Nudeln kochen oder Kichererbsen abgießen.",
+          "Gemüse waschen und in Stücke schneiden.",
+          "Fleisch/Tofu anbraten (falls vorhanden).",
+          "Dressing zubereiten: Öl, Zitrone, Salz, Pfeffer.",
+          "Alles in einer Schüssel anrichten.",
+          "Dressing darüber geben.",
+          "Sofort servieren."
+        ]
+      }
     },
     {
       "name": "Nudeln mit Gemüse",
@@ -2338,7 +5027,43 @@
         "knoblauch"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Nudeln",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Gemüse",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Olivenöl",
+            "amount": 2,
+            "unit": "EL"
+          },
+          {
+            "item": "Knoblauch",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Nudeln mit Zucchini Ricotta Sauce",
@@ -2352,7 +5077,43 @@
         "basilikum"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Nudeln",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Zucchini",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Ricotta",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Basilikum",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Brokkolisuppe",
@@ -2368,7 +5129,44 @@
         "sahne"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Brokkoli",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Kartoffeln",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Zwiebeln",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Sahne",
+            "amount": 200,
+            "unit": "ml"
+          }
+        ],
+        "steps": [
+          "Zwiebeln fein würfeln, Gemüse in Stücke schneiden.",
+          "Butter oder Öl in einem großen Topf erhitzen, Zwiebeln 3 Min dünsten.",
+          "Gemüse und Hauptzutaten dazu geben.",
+          "Brühe (ca. 1 Liter) eingießen, aufkochen.",
+          "Bei mittlerer Hitze 20-25 Min köcheln lassen bis alles weich ist.",
+          "Mit Salz, Pfeffer und Gewürzen abschmecken.",
+          "Optional: Teilweise pürieren für eine cremigere Konsistenz.",
+          "Mit frischen Kräutern servieren."
+        ]
+      }
     },
     {
       "name": "Möhren-Kartoffel-Eintopf",
@@ -2384,7 +5182,44 @@
         "brühe"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Kartoffeln",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Möhren",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Zwiebeln",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Brühe",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Zwiebeln fein würfeln, Gemüse in Stücke schneiden.",
+          "Butter oder Öl in einem großen Topf erhitzen, Zwiebeln 3 Min dünsten.",
+          "Gemüse und Hauptzutaten dazu geben.",
+          "Brühe (ca. 1 Liter) eingießen, aufkochen.",
+          "Bei mittlerer Hitze 20-25 Min köcheln lassen bis alles weich ist.",
+          "Mit Salz, Pfeffer und Gewürzen abschmecken.",
+          "Optional: Teilweise pürieren für eine cremigere Konsistenz.",
+          "Mit frischen Kräutern servieren."
+        ]
+      }
     },
     {
       "name": "Bohnen-Tomaten-Eintopf",
@@ -2399,7 +5234,44 @@
         "reis"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Bohnen",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Tomaten",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Zwiebeln",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Reis",
+            "amount": 400,
+            "unit": "g"
+          }
+        ],
+        "steps": [
+          "Zwiebeln fein würfeln, Gemüse in Stücke schneiden.",
+          "Butter oder Öl in einem großen Topf erhitzen, Zwiebeln 3 Min dünsten.",
+          "Gemüse und Hauptzutaten dazu geben.",
+          "Brühe (ca. 1 Liter) eingießen, aufkochen.",
+          "Bei mittlerer Hitze 20-25 Min köcheln lassen bis alles weich ist.",
+          "Mit Salz, Pfeffer und Gewürzen abschmecken.",
+          "Optional: Teilweise pürieren für eine cremigere Konsistenz.",
+          "Mit frischen Kräutern servieren."
+        ]
+      }
     },
     {
       "name": "Hackfleischrisotto",
@@ -2414,7 +5286,43 @@
         "parmesan"
       ],
       "category": "abend",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 25,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Hackfleisch",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "item": "Risottoreis",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Tomaten",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Parmesan",
+            "amount": 150,
+            "unit": "g"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Spaghetti Bolognese mit Grünkern",
@@ -2429,7 +5337,43 @@
         "möhren"
       ],
       "category": "mittag",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 25,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Spaghetti",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Grünkern",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Tomatensoße",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Möhren",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Lachsfilet mit Ofengemüse (Blumenkohl)",
@@ -2445,7 +5389,44 @@
         "zitrone"
       ],
       "category": "mittag",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Lachs",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "item": "Blumenkohl",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Olivenöl",
+            "amount": 2,
+            "unit": "EL"
+          },
+          {
+            "item": "Zitrone",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Backofen auf 200°C Ober-/Unterhitze vorheizen.",
+          "Hauptzutaten vorbereiten: schneiden, würzen.",
+          "Eine Auflaufform einfetten.",
+          "Zutaten schichtweise in die Form geben.",
+          "Sahne/Soße darüber gießen.",
+          "Mit Käse bestreuen.",
+          "Im Ofen 25-30 Min backen bis goldbraun.",
+          "5 Min ruhen lassen vor dem Servieren."
+        ]
+      }
     },
     {
       "name": "Asia Lunch",
@@ -2460,7 +5441,43 @@
         "ei"
       ],
       "category": "mittag",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Reis",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Gemüse",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Sojasauce",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Ei",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Falafel mit Roter Bete Salat",
@@ -2475,7 +5492,43 @@
         "kräuter"
       ],
       "category": "abend",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 25,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Kichererbsen",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Rote Bete",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Fladenbrot",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Kräuter",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Reis/Nudeln kochen oder Kichererbsen abgießen.",
+          "Gemüse waschen und in Stücke schneiden.",
+          "Fleisch/Tofu anbraten (falls vorhanden).",
+          "Dressing zubereiten: Öl, Zitrone, Salz, Pfeffer.",
+          "Alles in einer Schüssel anrichten.",
+          "Dressing darüber geben.",
+          "Sofort servieren."
+        ]
+      }
     },
     {
       "name": "Ofengemüse mit Hähnchenbrust",
@@ -2491,7 +5544,44 @@
         "kräuter"
       ],
       "category": "mittag",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Hähnchenbrust",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "item": "Gemüse",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Olivenöl",
+            "amount": 2,
+            "unit": "EL"
+          },
+          {
+            "item": "Kräuter",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Backofen auf 200°C Ober-/Unterhitze vorheizen.",
+          "Hauptzutaten vorbereiten: schneiden, würzen.",
+          "Eine Auflaufform einfetten.",
+          "Zutaten schichtweise in die Form geben.",
+          "Sahne/Soße darüber gießen.",
+          "Mit Käse bestreuen.",
+          "Im Ofen 25-30 Min backen bis goldbraun.",
+          "5 Min ruhen lassen vor dem Servieren."
+        ]
+      }
     },
     {
       "name": "Asiatisches Gemüse mit Hähnchen und Ei",
@@ -2506,7 +5596,43 @@
         "sojasauce"
       ],
       "category": "abend",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 25,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Hähnchen",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "item": "Gemüse",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Eier",
+            "amount": 4,
+            "unit": "Stück"
+          },
+          {
+            "item": "Sojasauce",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Kichererbsen Shakshuka",
@@ -2521,7 +5647,43 @@
         "paprika"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Kichererbsen",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Tomaten",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Eier",
+            "amount": 4,
+            "unit": "Stück"
+          },
+          {
+            "item": "Paprika",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Bandnudeln mit Brokkoli-Lachs-Sauce",
@@ -2536,7 +5698,43 @@
         "sahne"
       ],
       "category": "abend",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 25,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Bandnudeln",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Lachs",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "item": "Brokkoli",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Sahne",
+            "amount": 200,
+            "unit": "ml"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Germknödel mit Vanillesoße",
@@ -2552,7 +5750,42 @@
         "vanillesoße"
       ],
       "category": "abend",
-      "difficulty": "schwer"
+      "difficulty": "schwer",
+      "recipe": {
+        "time_prep": 15,
+        "time_cook": 40,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Mehl",
+            "amount": 100,
+            "unit": "g"
+          },
+          {
+            "item": "Hefe",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Pflaumenmus",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Vanillesoße",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Brot/Semmeln in kleine Stücke schneiden, mit warmer Milch übergießen.",
+          "Eier, Gewürze und weitere Zutaten dazugeben.",
+          "Alles zu einem formbaren Teig verkneten.",
+          "Klöße formen (nass Hände!).",
+          "In siedendem Salzwasser 15-20 Min ziehen lassen (nicht kochen!).",
+          "Mit Soße oder als Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Eierreis mit Hähnchen und Gemüse",
@@ -2568,7 +5801,43 @@
         "gemüse"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Reis",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Hähnchen",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "item": "Eier",
+            "amount": 4,
+            "unit": "Stück"
+          },
+          {
+            "item": "Gemüse",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Hackfleischbällchen mit Tomatensoße und Nudeln",
@@ -2583,7 +5852,43 @@
         "eier"
       ],
       "category": "abend",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 25,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Hackfleisch",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "item": "Tomatensoße",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Nudeln",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Eier",
+            "amount": 4,
+            "unit": "Stück"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Marokkanische Nudeln",
@@ -2598,7 +5903,43 @@
         "harissa"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Nudeln",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Kichererbsen",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Tomaten",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Harissa",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Zucchini Nudeln mit Avocado Pesto",
@@ -2613,7 +5954,43 @@
         "basilikum"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Zucchini",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Nudeln",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Avocado",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Basilikum",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Grillbaguette",
@@ -2628,7 +6005,43 @@
         "butter"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Baguette",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Käse",
+            "amount": 150,
+            "unit": "g"
+          },
+          {
+            "item": "Schinken",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Butter",
+            "amount": 30,
+            "unit": "g"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Gemüsecurry mit Kichererbsen",
@@ -2643,7 +6056,44 @@
         "reis"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Kichererbsen",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Kokosmilch",
+            "amount": 200,
+            "unit": "ml"
+          },
+          {
+            "item": "Gemüse",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Reis",
+            "amount": 400,
+            "unit": "g"
+          }
+        ],
+        "steps": [
+          "Zwiebeln fein würfeln, Knoblauch und Ingwer hacken.",
+          "Öl erhitzen, Zwiebeln 3 Min dünsten.",
+          "Knoblauch, Ingwer und Currypulver dazu, 1 Min rösten.",
+          "Hauptzutaten (Gemüse/Fleisch) dazu geben.",
+          "Kokosmilch und Tomaten eingießen.",
+          "15-20 Min bei mittlerer Hitze köcheln lassen.",
+          "Mit Salz, Pfeffer und Limettensaft abschmecken.",
+          "Mit Reis servieren. Koriander obendrauf."
+        ]
+      }
     },
     {
       "name": "Zucchini Curry",
@@ -2658,7 +6108,44 @@
         "reis"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Zucchini",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Kokosmilch",
+            "amount": 200,
+            "unit": "ml"
+          },
+          {
+            "item": "Tomaten",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Reis",
+            "amount": 400,
+            "unit": "g"
+          }
+        ],
+        "steps": [
+          "Zwiebeln fein würfeln, Knoblauch und Ingwer hacken.",
+          "Öl erhitzen, Zwiebeln 3 Min dünsten.",
+          "Knoblauch, Ingwer und Currypulver dazu, 1 Min rösten.",
+          "Hauptzutaten (Gemüse/Fleisch) dazu geben.",
+          "Kokosmilch und Tomaten eingießen.",
+          "15-20 Min bei mittlerer Hitze köcheln lassen.",
+          "Mit Salz, Pfeffer und Limettensaft abschmecken.",
+          "Mit Reis servieren. Koriander obendrauf."
+        ]
+      }
     },
     {
       "name": "Gebratener Pak Choi",
@@ -2673,7 +6160,43 @@
         "reis"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Pak Choi",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Knoblauch",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Sojasauce",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Reis",
+            "amount": 400,
+            "unit": "g"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Grillsachen",
@@ -2688,7 +6211,43 @@
         "dip"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Fleisch Nach Wahl",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Gemüse",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Brot",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Dip",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Rinderschmorbraten mit Knödel",
@@ -2704,7 +6263,42 @@
         "zwiebeln"
       ],
       "category": "mittag",
-      "difficulty": "schwer"
+      "difficulty": "schwer",
+      "recipe": {
+        "time_prep": 15,
+        "time_cook": 40,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Rindfleisch",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Semmelknödel",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Blaukraut",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Zwiebeln",
+            "amount": 2,
+            "unit": "Stück"
+          }
+        ],
+        "steps": [
+          "Brot/Semmeln in kleine Stücke schneiden, mit warmer Milch übergießen.",
+          "Eier, Gewürze und weitere Zutaten dazugeben.",
+          "Alles zu einem formbaren Teig verkneten.",
+          "Klöße formen (nass Hände!).",
+          "In siedendem Salzwasser 15-20 Min ziehen lassen (nicht kochen!).",
+          "Mit Soße oder als Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Risotto mit Dorade und Kräuterseitlingen",
@@ -2719,7 +6313,43 @@
         "weißwein"
       ],
       "category": "mittag",
-      "difficulty": "schwer"
+      "difficulty": "schwer",
+      "recipe": {
+        "time_prep": 15,
+        "time_cook": 40,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Dorade",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Pilze",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Risottoreis",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Weißwein",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Gnocchi mit Lachs und Spinat",
@@ -2734,7 +6364,43 @@
         "sahne"
       ],
       "category": "abend",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 25,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Gnocchi",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Lachs",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "item": "Spinat",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Sahne",
+            "amount": 200,
+            "unit": "ml"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Hähnchen Brokkoli Auflauf",
@@ -2750,7 +6416,44 @@
         "käse"
       ],
       "category": "abend",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 25,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Hähnchen",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "item": "Brokkoli",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Sahne",
+            "amount": 200,
+            "unit": "ml"
+          },
+          {
+            "item": "Käse",
+            "amount": 150,
+            "unit": "g"
+          }
+        ],
+        "steps": [
+          "Backofen auf 200°C Ober-/Unterhitze vorheizen.",
+          "Hauptzutaten vorbereiten: schneiden, würzen.",
+          "Eine Auflaufform einfetten.",
+          "Zutaten schichtweise in die Form geben.",
+          "Sahne/Soße darüber gießen.",
+          "Mit Käse bestreuen.",
+          "Im Ofen 25-30 Min backen bis goldbraun.",
+          "5 Min ruhen lassen vor dem Servieren."
+        ]
+      }
     },
     {
       "name": "Burger mit Pommes",
@@ -2765,7 +6468,40 @@
         "pommes_tk"
       ],
       "category": "abend",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 25,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Hackfleisch",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "item": "Burgerbrötchen",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Käse",
+            "amount": 150,
+            "unit": "g"
+          },
+          {
+            "item": "Pommes Tk",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Hackfleisch mit Salz, Pfeffer und Ei würzen.",
+          "Patties/Bällchen/rollen formen.",
+          "In einer heißen Pfanne rundherum braten.",
+          "Mit Beilage und Soße servieren."
+        ]
+      }
     },
     {
       "name": "Möhrensuppe mit Wiener",
@@ -2780,7 +6516,44 @@
         "brühe"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Möhren",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Wiener Würstchen",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Zwiebeln",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Brühe",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Zwiebeln fein würfeln, Gemüse in Stücke schneiden.",
+          "Butter oder Öl in einem großen Topf erhitzen, Zwiebeln 3 Min dünsten.",
+          "Gemüse und Hauptzutaten dazu geben.",
+          "Brühe (ca. 1 Liter) eingießen, aufkochen.",
+          "Bei mittlerer Hitze 20-25 Min köcheln lassen bis alles weich ist.",
+          "Mit Salz, Pfeffer und Gewürzen abschmecken.",
+          "Optional: Teilweise pürieren für eine cremigere Konsistenz.",
+          "Mit frischen Kräutern servieren."
+        ]
+      }
     },
     {
       "name": "Spinatknödel mit Tomatenragout",
@@ -2794,7 +6567,42 @@
         "tomaten"
       ],
       "category": "abend",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 25,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Spinat",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Brot",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Eier",
+            "amount": 4,
+            "unit": "Stück"
+          },
+          {
+            "item": "Tomaten",
+            "amount": 400,
+            "unit": "g"
+          }
+        ],
+        "steps": [
+          "Brot/Semmeln in kleine Stücke schneiden, mit warmer Milch übergießen.",
+          "Eier, Gewürze und weitere Zutaten dazugeben.",
+          "Alles zu einem formbaren Teig verkneten.",
+          "Klöße formen (nass Hände!).",
+          "In siedendem Salzwasser 15-20 Min ziehen lassen (nicht kochen!).",
+          "Mit Soße oder als Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Blumenkohl mit Hähnchen im Ofen",
@@ -2810,7 +6618,44 @@
         "kräuter"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Blumenkohl",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Hähnchen",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "item": "Olivenöl",
+            "amount": 2,
+            "unit": "EL"
+          },
+          {
+            "item": "Kräuter",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Backofen auf 200°C Ober-/Unterhitze vorheizen.",
+          "Hauptzutaten vorbereiten: schneiden, würzen.",
+          "Eine Auflaufform einfetten.",
+          "Zutaten schichtweise in die Form geben.",
+          "Sahne/Soße darüber gießen.",
+          "Mit Käse bestreuen.",
+          "Im Ofen 25-30 Min backen bis goldbraun.",
+          "5 Min ruhen lassen vor dem Servieren."
+        ]
+      }
     },
     {
       "name": "Hähnchenspieße",
@@ -2825,7 +6670,43 @@
         "reis"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Hähnchen",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "item": "Paprika",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Zwiebeln",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Reis",
+            "amount": 400,
+            "unit": "g"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Pink Pasta",
@@ -2840,7 +6721,43 @@
         "basilikum"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Nudeln",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Tomatensoße",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Sahne",
+            "amount": 200,
+            "unit": "ml"
+          },
+          {
+            "item": "Basilikum",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Avocado Spaghetti",
@@ -2855,7 +6772,43 @@
         "parmesan"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Spaghetti",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Avocado",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Zitrone",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Parmesan",
+            "amount": 150,
+            "unit": "g"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Blumenkohl paniert mit Mayo",
@@ -2870,7 +6823,43 @@
         "mayo"
       ],
       "category": "abend",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 25,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Blumenkohl",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Paniermehl",
+            "amount": 100,
+            "unit": "g"
+          },
+          {
+            "item": "Eier",
+            "amount": 4,
+            "unit": "Stück"
+          },
+          {
+            "item": "Mayo",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Toast Hawaii",
@@ -2886,7 +6875,40 @@
         "ananas_dose"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Toast",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Schinken",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Käse",
+            "amount": 150,
+            "unit": "g"
+          },
+          {
+            "item": "Ananas Dose",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Brot/Toast/Wraps vorbereiten.",
+          "Belag zubereiten (Fleisch/Käse/Gemüse).",
+          "Zusammenbauen und nach Bedarf erwärmen.",
+          "Sofort servieren."
+        ]
+      }
     },
     {
       "name": "Croque Monsieur",
@@ -2901,7 +6923,40 @@
         "butter"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Toast",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Schinken",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Käse",
+            "amount": 150,
+            "unit": "g"
+          },
+          {
+            "item": "Butter",
+            "amount": 30,
+            "unit": "g"
+          }
+        ],
+        "steps": [
+          "Brot/Toast/Wraps vorbereiten.",
+          "Belag zubereiten (Fleisch/Käse/Gemüse).",
+          "Zusammenbauen und nach Bedarf erwärmen.",
+          "Sofort servieren."
+        ]
+      }
     },
     {
       "name": "Nudeln mit Tomatensoße",
@@ -2996,7 +7051,43 @@
         "sojasauce"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Reis",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Eier",
+            "amount": 4,
+            "unit": "Stück"
+          },
+          {
+            "item": "Gemüse",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Sojasauce",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Kartoffelpüree mit Würstchen",
@@ -3012,7 +7103,43 @@
         "milch"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Kartoffeln",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Wiener Würstchen",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Butter",
+            "amount": 30,
+            "unit": "g"
+          },
+          {
+            "item": "Milch",
+            "amount": 200,
+            "unit": "ml"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Tomatensuppe mit Reis",
@@ -3029,7 +7156,44 @@
         "brühe"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Tomaten Dose",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Reis",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Zwiebeln",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Brühe",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Zwiebeln fein würfeln, Gemüse in Stücke schneiden.",
+          "Butter oder Öl in einem großen Topf erhitzen, Zwiebeln 3 Min dünsten.",
+          "Gemüse und Hauptzutaten dazu geben.",
+          "Brühe (ca. 1 Liter) eingießen, aufkochen.",
+          "Bei mittlerer Hitze 20-25 Min köcheln lassen bis alles weich ist.",
+          "Mit Salz, Pfeffer und Gewürzen abschmecken.",
+          "Optional: Teilweise pürieren für eine cremigere Konsistenz.",
+          "Mit frischen Kräutern servieren."
+        ]
+      }
     },
     {
       "name": "Linsensuppe (schnell)",
@@ -3045,7 +7209,44 @@
         "brühe"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Rote Linsen",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Möhren",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Zwiebeln",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Brühe",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Zwiebeln fein würfeln, Gemüse in Stücke schneiden.",
+          "Butter oder Öl in einem großen Topf erhitzen, Zwiebeln 3 Min dünsten.",
+          "Gemüse und Hauptzutaten dazu geben.",
+          "Brühe (ca. 1 Liter) eingießen, aufkochen.",
+          "Bei mittlerer Hitze 20-25 Min köcheln lassen bis alles weich ist.",
+          "Mit Salz, Pfeffer und Gewürzen abschmecken.",
+          "Optional: Teilweise pürieren für eine cremigere Konsistenz.",
+          "Mit frischen Kräutern servieren."
+        ]
+      }
     },
     {
       "name": "Käse-Nudel-Auflauf",
@@ -3125,7 +7326,40 @@
         "mais_dose"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Tortilla Wraps",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Käse",
+            "amount": 150,
+            "unit": "g"
+          },
+          {
+            "item": "Paprika",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Mais Dose",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Brot/Toast/Wraps vorbereiten.",
+          "Belag zubereiten (Fleisch/Käse/Gemüse).",
+          "Zusammenbauen und nach Bedarf erwärmen.",
+          "Sofort servieren."
+        ]
+      }
     },
     {
       "name": "Topfenpalatschinken",
@@ -3141,7 +7375,43 @@
         "quark"
       ],
       "category": "abend",
-      "difficulty": "mittel"
+      "difficulty": "mittel",
+      "recipe": {
+        "time_prep": 10,
+        "time_cook": 25,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Mehl",
+            "amount": 100,
+            "unit": "g"
+          },
+          {
+            "item": "Eier",
+            "amount": 4,
+            "unit": "Stück"
+          },
+          {
+            "item": "Milch",
+            "amount": 200,
+            "unit": "ml"
+          },
+          {
+            "item": "Quark",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Eier mit Senfsauce und Kartoffeln",
@@ -3157,7 +7427,43 @@
         "sahne"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Eier",
+            "amount": 4,
+            "unit": "Stück"
+          },
+          {
+            "item": "Kartoffeln",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Senf",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Sahne",
+            "amount": 200,
+            "unit": "ml"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Bratkartoffeln mit Spiegelei",
@@ -3173,7 +7479,43 @@
         "butter"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Kartoffeln",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Zwiebeln",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Eier",
+            "amount": 4,
+            "unit": "Stück"
+          },
+          {
+            "item": "Butter",
+            "amount": 30,
+            "unit": "g"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Waffeln",
@@ -3189,7 +7531,39 @@
         "zucker"
       ],
       "category": "frühstück",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Mehl",
+            "amount": 100,
+            "unit": "g"
+          },
+          {
+            "item": "Eier",
+            "amount": 4,
+            "unit": "Stück"
+          },
+          {
+            "item": "Milch",
+            "amount": 200,
+            "unit": "ml"
+          },
+          {
+            "item": "Zucker",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Zutaten vorbereiten.",
+          "Nach Rezept zubereiten (siehe Zutatenliste).",
+          "Mit Toppings servieren."
+        ]
+      }
     },
     {
       "name": "French Toast",
@@ -3205,7 +7579,40 @@
         "zimt"
       ],
       "category": "frühstück",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Brot",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Eier",
+            "amount": 4,
+            "unit": "Stück"
+          },
+          {
+            "item": "Milch",
+            "amount": 200,
+            "unit": "ml"
+          },
+          {
+            "item": "Zimt",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Brot/Toast/Wraps vorbereiten.",
+          "Belag zubereiten (Fleisch/Käse/Gemüse).",
+          "Zusammenbauen und nach Bedarf erwärmen.",
+          "Sofort servieren."
+        ]
+      }
     },
     {
       "name": "Overnight Oats",
@@ -3221,7 +7628,39 @@
         "obst"
       ],
       "category": "frühstück",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Haferflocken",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Milch",
+            "amount": 200,
+            "unit": "ml"
+          },
+          {
+            "item": "Joghurt",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Obst",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Zutaten vorbereiten.",
+          "Nach Rezept zubereiten (siehe Zutatenliste).",
+          "Mit Toppings servieren."
+        ]
+      }
     },
     {
       "name": "Porridge mit Banane",
@@ -3237,7 +7676,39 @@
         "honig"
       ],
       "category": "frühstück",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Haferflocken",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Milch",
+            "amount": 200,
+            "unit": "ml"
+          },
+          {
+            "item": "Banane",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Honig",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Zutaten vorbereiten.",
+          "Nach Rezept zubereiten (siehe Zutatenliste).",
+          "Mit Toppings servieren."
+        ]
+      }
     },
     {
       "name": "Rührei mit Brot",
@@ -3253,7 +7724,39 @@
         "kräuter"
       ],
       "category": "frühstück",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Eier",
+            "amount": 4,
+            "unit": "Stück"
+          },
+          {
+            "item": "Butter",
+            "amount": 30,
+            "unit": "g"
+          },
+          {
+            "item": "Brot",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Kräuter",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Zutaten vorbereiten.",
+          "Nach Rezept zubereiten (siehe Zutatenliste).",
+          "Mit Toppings servieren."
+        ]
+      }
     },
     {
       "name": "Couscous mit Gemüse",
@@ -3269,7 +7772,43 @@
         "zitrone"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Couscous",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Gemüse",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Olivenöl",
+            "amount": 2,
+            "unit": "EL"
+          },
+          {
+            "item": "Zitrone",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Ofenkartoffel mit Kräuterquark",
@@ -3285,7 +7824,44 @@
         "zwiebeln"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Kartoffeln",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Quark",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Kräuter",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Zwiebeln",
+            "amount": 2,
+            "unit": "Stück"
+          }
+        ],
+        "steps": [
+          "Backofen auf 200°C Ober-/Unterhitze vorheizen.",
+          "Hauptzutaten vorbereiten: schneiden, würzen.",
+          "Eine Auflaufform einfetten.",
+          "Zutaten schichtweise in die Form geben.",
+          "Sahne/Soße darüber gießen.",
+          "Mit Käse bestreuen.",
+          "Im Ofen 25-30 Min backen bis goldbraun.",
+          "5 Min ruhen lassen vor dem Servieren."
+        ]
+      }
     },
     {
       "name": "Griechischer Bauernsalat mit Fladenbrot",
@@ -3301,7 +7877,43 @@
         "oliven"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Tomaten",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Gurke",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Feta",
+            "amount": 150,
+            "unit": "g"
+          },
+          {
+            "item": "Oliven",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Reis/Nudeln kochen oder Kichererbsen abgießen.",
+          "Gemüse waschen und in Stücke schneiden.",
+          "Fleisch/Tofu anbraten (falls vorhanden).",
+          "Dressing zubereiten: Öl, Zitrone, Salz, Pfeffer.",
+          "Alles in einer Schüssel anrichten.",
+          "Dressing darüber geben.",
+          "Sofort servieren."
+        ]
+      }
     },
     {
       "name": "Caprese Salat mit Brot",
@@ -3317,7 +7929,43 @@
         "olivenöl"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Tomaten",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Mozzarella",
+            "amount": 150,
+            "unit": "g"
+          },
+          {
+            "item": "Basilikum",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Olivenöl",
+            "amount": 2,
+            "unit": "EL"
+          }
+        ],
+        "steps": [
+          "Reis/Nudeln kochen oder Kichererbsen abgießen.",
+          "Gemüse waschen und in Stücke schneiden.",
+          "Fleisch/Tofu anbraten (falls vorhanden).",
+          "Dressing zubereiten: Öl, Zitrone, Salz, Pfeffer.",
+          "Alles in einer Schüssel anrichten.",
+          "Dressing darüber geben.",
+          "Sofort servieren."
+        ]
+      }
     },
     {
       "name": "Gemüsesticks mit Hummus",
@@ -3333,7 +7981,43 @@
         "paprika"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Kichererbsen Dose",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Möhren",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Gurke",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Paprika",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Brotzeitplatte",
@@ -3350,7 +8034,40 @@
         "gurke"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Brot",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Aufschnitt",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Käse",
+            "amount": 150,
+            "unit": "g"
+          },
+          {
+            "item": "Gurke",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Brot/Toast/Wraps vorbereiten.",
+          "Belag zubereiten (Fleisch/Käse/Gemüse).",
+          "Zusammenbauen und nach Bedarf erwärmen.",
+          "Sofort servieren."
+        ]
+      }
     },
     {
       "name": "Mini Pizzen auf Toastbrot",
@@ -3366,7 +8083,40 @@
         "salami"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Toast",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Tomatensoße",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Käse",
+            "amount": 150,
+            "unit": "g"
+          },
+          {
+            "item": "Salami",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Brot/Toast/Wraps vorbereiten.",
+          "Belag zubereiten (Fleisch/Käse/Gemüse).",
+          "Zusammenbauen und nach Bedarf erwärmen.",
+          "Sofort servieren."
+        ]
+      }
     },
     {
       "name": "Nudelsalat",
@@ -3382,7 +8132,43 @@
         "dressing"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Nudeln",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Paprika",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Mais Dose",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Dressing",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Reis/Nudeln kochen oder Kichererbsen abgießen.",
+          "Gemüse waschen und in Stücke schneiden.",
+          "Fleisch/Tofu anbraten (falls vorhanden).",
+          "Dressing zubereiten: Öl, Zitrone, Salz, Pfeffer.",
+          "Alles in einer Schüssel anrichten.",
+          "Dressing darüber geben.",
+          "Sofort servieren."
+        ]
+      }
     },
     {
       "name": "Kartoffelsuppe (schnell)",
@@ -3399,7 +8185,44 @@
         "sahne"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Kartoffeln",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Zwiebeln",
+            "amount": 2,
+            "unit": "Stück"
+          },
+          {
+            "item": "Brühe",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Sahne",
+            "amount": 200,
+            "unit": "ml"
+          }
+        ],
+        "steps": [
+          "Zwiebeln fein würfeln, Gemüse in Stücke schneiden.",
+          "Butter oder Öl in einem großen Topf erhitzen, Zwiebeln 3 Min dünsten.",
+          "Gemüse und Hauptzutaten dazu geben.",
+          "Brühe (ca. 1 Liter) eingießen, aufkochen.",
+          "Bei mittlerer Hitze 20-25 Min köcheln lassen bis alles weich ist.",
+          "Mit Salz, Pfeffer und Gewürzen abschmecken.",
+          "Optional: Teilweise pürieren für eine cremigere Konsistenz.",
+          "Mit frischen Kräutern servieren."
+        ]
+      }
     },
     {
       "name": "Hackfleisch-Tomaten-Nudeln",
@@ -3415,7 +8238,43 @@
         "zwiebeln"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Nudeln",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Hackfleisch",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "item": "Tomaten Dose",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Zwiebeln",
+            "amount": 2,
+            "unit": "Stück"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Pfannkuchen mit Apfelmus",
@@ -3432,7 +8291,43 @@
         "apfelmus"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Mehl",
+            "amount": 100,
+            "unit": "g"
+          },
+          {
+            "item": "Eier",
+            "amount": 4,
+            "unit": "Stück"
+          },
+          {
+            "item": "Milch",
+            "amount": 200,
+            "unit": "ml"
+          },
+          {
+            "item": "Apfelmus",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Hauptzutaten in mundgerechte Stücke schneiden.",
+          "Öl oder Butter in einer großen Pfanne erhitzen.",
+          "Fleisch/Gemüse anbraten bis es Farbe hat.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Weitere 5-10 Min fertig garen.",
+          "Mit Beilage (Reis/Nudeln/Brot) servieren."
+        ]
+      }
     },
     {
       "name": "Tortellini in Sahnesoße",
@@ -3448,7 +8343,43 @@
         "erbsen_tk"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Tortellini",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Sahne",
+            "amount": 200,
+            "unit": "ml"
+          },
+          {
+            "item": "Schinken",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Erbsen Tk",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     },
     {
       "name": "Reis mit Hähnchen und Erbsen",
@@ -3464,7 +8395,43 @@
         "sojasauce"
       ],
       "category": "abend",
-      "difficulty": "leicht"
+      "difficulty": "leicht",
+      "recipe": {
+        "time_prep": 5,
+        "time_cook": 15,
+        "servings": 4,
+        "ingredients": [
+          {
+            "item": "Reis",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "item": "Hähnchenbrust",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "item": "Erbsen Tk",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          },
+          {
+            "item": "Sojasauce",
+            "amount": 1,
+            "unit": "nach Bedarf"
+          }
+        ],
+        "steps": [
+          "Alle Zutaten vorbereiten (waschen, schneiden, portionieren).",
+          "Öl/Butter erhitzen.",
+          "Hauptzutaten anbraten oder kochen.",
+          "Weitere Zutaten nach und nach dazu geben.",
+          "Mit Gewürzen abschmecken.",
+          "Fertig garen bis alles gar ist.",
+          "Mit Beilage servieren."
+        ]
+      }
     }
   ]
 }
