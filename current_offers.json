@@ -2,190 +2,204 @@
   "store": "ALDI SÜD",
   "date": "2026-04-15",
   "valid_from": "2026-04-13",
-  "valid_until": "2026-04-19",
-  "source": "aldi-sued.de/angebote",
+  "valid_until": "2026-04-18",
+  "source": "aldi-sued.de",
   "offers": [
     {
-      "name": "Spitzpaprika rot 500g",
+      "name": "NATUR LIEBLINGE Karotten 2 kg",
       "price": 1.79,
+      "old_price": null,
+      "unit": "2000g",
+      "category": "gemuese"
+    },
+    {
+      "name": "NATUR LIEBLINGE Mix Paprika 500 g",
+      "price": 2.19,
       "old_price": null,
       "unit": "500g",
       "category": "gemuese"
     },
     {
-      "name": "Mandarinen kernlos 1kg",
-      "price": 1.99,
-      "old_price": null,
-      "unit": "1kg",
-      "category": "obst"
-    },
-    {
-      "name": "Bio Naturland Orangen 1kg",
-      "price": 1.79,
-      "old_price": null,
-      "unit": "1kg",
-      "category": "obst"
-    },
-    {
-      "name": "Speisezwiebeln gelb 1,5kg",
-      "price": 1.11,
-      "old_price": null,
-      "unit": "1,5kg",
-      "category": "gemuese"
-    },
-    {
-      "name": "Erdbeeren 500g",
+      "name": "NATUR LIEBLINGE Champignons 400 g, weiß",
       "price": 1.35,
+      "old_price": 1.99,
+      "unit": "400g",
+      "category": "gemuese"
+    },
+    {
+      "name": "NATUR LIEBLINGE Orangen 2 kg",
+      "price": 2.49,
       "old_price": null,
-      "unit": "500g",
+      "unit": "2000g",
       "category": "obst"
     },
     {
-      "name": "Äpfel rot 1kg",
-      "price": 1.49,
-      "old_price": null,
-      "unit": "1kg",
-      "category": "sonstiges"
-    },
-    {
-      "name": "Chicoree 500g",
-      "price": 1.29,
+      "name": "NATUR LIEBLINGE Cocktailrispentomaten 500 g",
+      "price": 2.19,
       "old_price": null,
       "unit": "500g",
       "category": "gemuese"
     },
     {
-      "name": "Bio-Gurke",
-      "price": 0.77,
-      "old_price": null,
-      "unit": "",
-      "category": "gemuese"
+      "name": "GOLDEN SEAFOOD Norwegisches Lachsfilet 300 g",
+      "price": 4.49,
+      "old_price": 5.79,
+      "unit": "300g",
+      "category": "fisch"
     },
     {
-      "name": "Karotten 2kg",
-      "price": 1.59,
-      "old_price": null,
-      "unit": "2kg",
-      "category": "gemuese"
-    },
-    {
-      "name": "Speisekartoffeln festkochend 2,5kg",
-      "price": 1.89,
-      "old_price": null,
-      "unit": "2,5kg",
-      "category": "gemuese"
-    },
-    {
-      "name": "Mango",
-      "price": 1.11,
-      "old_price": null,
-      "unit": "",
-      "category": "obst"
-    },
-    {
-      "name": "Hähnchenbrustfilet Teilstück 1kg",
-      "price": 8.19,
-      "old_price": 9.99,
-      "unit": "1kg",
-      "category": "fleisch"
-    },
-    {
-      "name": "Grobe Schweine-Bratwurst 400g",
-      "price": 1.99,
-      "old_price": 2.79,
+      "name": "BIO Bio-Hackfleisch vom Rind 400 g",
+      "price": 4.79,
+      "old_price": 6.49,
       "unit": "400g",
       "category": "fleisch"
     },
     {
-      "name": "Hackfleisch vom Rind 500g",
-      "price": 5.29,
-      "old_price": 6.19,
-      "unit": "500g",
-      "category": "fleisch"
-    },
-    {
-      "name": "Chicken Nuggets mit Dip XXL 1kg",
-      "price": 4.99,
-      "old_price": 5.99,
-      "unit": "1kg",
-      "category": "fleisch"
-    },
-    {
-      "name": "Schweine-Cordon Bleu 500g",
-      "price": 3.79,
-      "old_price": 4.99,
-      "unit": "500g",
-      "category": "fleisch"
-    },
-    {
-      "name": "Joghurt 3,5% 4x150g",
+      "name": "Lauchzwiebeln, Bund",
       "price": 0.75,
-      "old_price": 0.89,
-      "unit": "4x150",
-      "category": "milchprodukte"
-    },
-    {
-      "name": "Bio-Vollkorn Basmatireis 500g",
-      "price": 1.69,
-      "old_price": 2.35,
-      "unit": "500g",
-      "category": "trockenwaren"
-    },
-    {
-      "name": "Bio-Gewürzgurken 360g",
-      "price": 1.79,
-      "old_price": 2.35,
-      "unit": "360g",
-      "category": "gemuese"
-    },
-    {
-      "name": "Löslicher Kaffee Entkoffeiniert 200g",
-      "price": 5.49,
-      "old_price": 6.99,
-      "unit": "200g",
-      "category": "sonstiges"
-    },
-    {
-      "name": "Norwegische Lachsfiletseite 750g",
-      "price": 10.99,
-      "old_price": 13.99,
-      "unit": "750g",
-      "category": "fisch"
-    },
-    {
-      "name": "Paprika rot 500g",
-      "price": 2.39,
-      "old_price": null,
-      "unit": "500g",
-      "category": "gemuese"
-    },
-    {
-      "name": "Spargel Grün 450g",
-      "price": 3.99,
-      "old_price": null,
-      "unit": "450g",
-      "category": "gemuese"
-    },
-    {
-      "name": "Erdbeeren 500g",
-      "price": 1.69,
-      "old_price": null,
-      "unit": "500g",
-      "category": "obst"
-    },
-    {
-      "name": "Kohlrabi Stück",
-      "price": 0.49,
       "old_price": null,
       "unit": "",
       "category": "gemuese"
     },
     {
-      "name": "Nussknacker Feinherb 100g",
+      "name": "Kiwi grün Stück",
+      "price": 0.29,
+      "old_price": null,
+      "unit": "",
+      "category": "obst"
+    },
+    {
+      "name": "KLEINE SCHÄTZE Erdbeeren 400 g",
+      "price": 2.49,
+      "old_price": null,
+      "unit": "400g",
+      "category": "obst"
+    },
+    {
+      "name": "BESTES AUS DER REGION Bunter Salat mit Wurzelballen, Stück",
       "price": 1.11,
       "old_price": null,
-      "unit": "100g",
-      "category": "sonstiges"
+      "unit": "",
+      "category": "gemuese"
+    },
+    {
+      "name": "Heidelbeeren 150g",
+      "price": 1.69,
+      "old_price": null,
+      "unit": "150g",
+      "category": "obst"
+    },
+    {
+      "name": "DR. OETKER Vitalis 1,5 kg, Knusper Müsli Klassisch",
+      "price": 5.49,
+      "old_price": null,
+      "unit": "1500g",
+      "category": "trockenwaren"
+    },
+    {
+      "name": "MEINE METZGEREI Puten Schnitzel Wiener Art 800 g",
+      "price": 7.49,
+      "old_price": null,
+      "unit": "800g",
+      "category": "fleisch"
+    },
+    {
+      "name": "GOLDEN SEAFOOD Backfisch XXL 560 g",
+      "price": 5.49,
+      "old_price": null,
+      "unit": "560g",
+      "category": "fisch"
+    },
+    {
+      "name": "VALESS Crispy Sticks 160 g",
+      "price": 1.99,
+      "old_price": null,
+      "unit": "160g",
+      "category": "fleisch"
+    },
+    {
+      "name": "MILSANI Schmelzkäsezubereitung 200 g, Sahne",
+      "price": 1.49,
+      "old_price": null,
+      "unit": "200g",
+      "category": "milchprodukte"
+    },
+    {
+      "name": "MILSANI Schmelzkäsezubereitung 200 g, Kräuter",
+      "price": 1.49,
+      "old_price": null,
+      "unit": "200g",
+      "category": "milchprodukte"
+    },
+    {
+      "name": "MILSANI Schmelzkäsezubereitung 200 g, Leicht",
+      "price": 1.49,
+      "old_price": null,
+      "unit": "200g",
+      "category": "milchprodukte"
+    },
+    {
+      "name": "MILSANI Schmelzkäsezubereitung 200 g, Gouda",
+      "price": 1.49,
+      "old_price": null,
+      "unit": "200g",
+      "category": "milchprodukte"
+    },
+    {
+      "name": "LYTTOS Weißkäse in Salzlake 1 kg",
+      "price": 6.99,
+      "old_price": 7.29,
+      "unit": "1000g",
+      "category": "milchprodukte"
+    },
+    {
+      "name": "MILSANI Emmentaler 250 g",
+      "price": 2.29,
+      "old_price": 2.49,
+      "unit": "250g",
+      "category": "milchprodukte"
+    },
+    {
+      "name": "CUCINA Burrata 125 g",
+      "price": 1.89,
+      "old_price": 1.99,
+      "unit": "125g",
+      "category": "milchprodukte"
+    },
+    {
+      "name": "MILSANI Deutscher Camembert 125 g",
+      "price": 0.99,
+      "old_price": 1.09,
+      "unit": "125g",
+      "category": "milchprodukte"
+    },
+    {
+      "name": "CUCINA Grana Padano Hartkäse DOP 16 Monate 250 g",
+      "price": 4.99,
+      "old_price": 5.29,
+      "unit": "250g",
+      "category": "milchprodukte"
+    },
+    {
+      "name": "ROI DE TREFLE Französische Briespitze, 200 g",
+      "price": 1.89,
+      "old_price": 1.99,
+      "unit": "200g",
+      "category": "milchprodukte"
+    },
+    {
+      "name": "MEINE KÄSETHEKE Irischer Cheddar 200 g, Reibekäse",
+      "price": 2.19,
+      "old_price": 2.39,
+      "unit": "200g",
+      "category": "milchprodukte"
+    },
+    {
+      "name": "MILSANI Schmelzscheiben 250 g, Allgäu",
+      "price": 1.49,
+      "old_price": 1.69,
+      "unit": "250g",
+      "category": "milchprodukte"
     }
   ]
 }
