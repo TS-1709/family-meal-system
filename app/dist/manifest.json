@@ -1,11 +1,11 @@
 {
-  "name": "Essensplan",
-  "short_name": "Essen",
+  "name": "Essensplan Schroedl",
+  "short_name": "Essensplan",
   "description": "Familien-Essensplan mit ALDI SÜD Angeboten",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#0a0a0a",
-  "theme_color": "#1a5c2e",
+  "background_color": "#f8faf8",
+  "theme_color": "#166534",
   "icons": [
     {
       "src": "/icon-192.png",

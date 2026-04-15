@@ -2,99 +2,42 @@
   {
     "day": "Montag",
     "slot": "Mittag",
-    "name": "Hähnchen Auflauf",
+    "name": "Putengeschnetzltes",
     "tags": [
       "fleisch",
-      "ofen",
-      "kind"
+      "schnell"
     ],
     "key_ingredients": [
-      "hähnchen",
-      "kartoffeln",
+      "putenbrust",
+      "zwiebeln",
       "sahne",
-      "käse"
+      "reis_oder_spätzle"
     ],
     "category": "mittag",
     "difficulty": "mittel",
-    "offer_score": 3,
-    "matched_ingredients": [
-      "hähnchen",
-      "kartoffeln",
-      "käse"
-    ]
+    "offer_score": 3
   },
   {
     "day": "Montag",
     "slot": "Abend",
-    "name": "Ofenkartoffeln mit Avocadocreme/Quark",
+    "name": "Käse-Nudel-Auflauf",
     "tags": [
       "vegetarisch",
-      "gesund"
+      "ofen",
+      "kind"
     ],
     "key_ingredients": [
-      "kartoffeln",
-      "avocado_oder_quark",
-      "kräuter",
-      "tomaten"
+      "nudeln",
+      "käse",
+      "sahne",
+      "zwiebeln"
     ],
     "category": "abend",
     "difficulty": "leicht",
-    "offer_score": 3,
-    "matched_ingredients": [
-      "kartoffeln",
-      "kräuter",
-      "tomaten"
-    ]
+    "offer_score": 3
   },
   {
     "day": "Dienstag",
-    "slot": "Mittag",
-    "name": "Hähnchengulasch",
-    "tags": [
-      "fleisch",
-      "winter"
-    ],
-    "key_ingredients": [
-      "hähnchen",
-      "paprika",
-      "tomaten",
-      "reis"
-    ],
-    "category": "mittag",
-    "difficulty": "mittel",
-    "offer_score": 3,
-    "matched_ingredients": [
-      "hähnchen",
-      "paprika",
-      "tomaten"
-    ]
-  },
-  {
-    "day": "Dienstag",
-    "slot": "Abend",
-    "name": "Ofengemüse",
-    "tags": [
-      "vegan",
-      "gesund",
-      "ofen"
-    ],
-    "key_ingredients": [
-      "gemüse_mix",
-      "olivenöl",
-      "kräuter",
-      "kartoffeln"
-    ],
-    "category": "abend",
-    "difficulty": "leicht",
-    "offer_score": 3,
-    "matched_ingredients": [
-      "olivenöl",
-      "kräuter",
-      "kartoffeln"
-    ]
-  },
-  {
-    "day": "Mittwoch",
     "slot": "Mittag",
     "name": "Paprika-Rinderhack-Pfanne",
     "tags": [
@@ -110,35 +53,63 @@
     ],
     "category": "mittag",
     "difficulty": "leicht",
-    "offer_score": 3,
-    "matched_ingredients": [
-      "rinderhack",
-      "paprika",
-      "zwiebeln"
-    ]
+    "offer_score": 3
   },
   {
-    "day": "Mittwoch",
+    "day": "Dienstag",
     "slot": "Abend",
-    "name": "Grünkern-Chili-Cheese-Kartoffeln",
+    "name": "Kichererbsen Shakshuka",
     "tags": [
       "vegetarisch",
       "gesund"
     ],
     "key_ingredients": [
-      "grünkern",
-      "kartoffeln",
-      "käse",
-      "bohnen"
+      "kichererbsen",
+      "tomaten",
+      "eier",
+      "paprika"
     ],
     "category": "abend",
-    "difficulty": "mittel",
-    "offer_score": 3,
-    "matched_ingredients": [
-      "grünkern",
+    "difficulty": "leicht",
+    "offer_score": 2
+  },
+  {
+    "day": "Mittwoch",
+    "slot": "Mittag",
+    "name": "Spaghetti Bolognese",
+    "tags": [
+      "fleisch",
+      "kind",
+      "klassiker"
+    ],
+    "key_ingredients": [
+      "spaghetti",
+      "hackfleisch",
+      "tomatensoße",
+      "zwiebeln"
+    ],
+    "category": "mittag",
+    "difficulty": "leicht",
+    "offer_score": 2
+  },
+  {
+    "day": "Mittwoch",
+    "slot": "Abend",
+    "name": "Kartoffelcremesuppe",
+    "tags": [
+      "vegetarisch",
+      "suppe",
+      "kind"
+    ],
+    "key_ingredients": [
       "kartoffeln",
-      "käse"
-    ]
+      "zwiebeln",
+      "sahne",
+      "brühe"
+    ],
+    "category": "abend",
+    "difficulty": "leicht",
+    "offer_score": 2
   },
   {
     "day": "Donnerstag",
@@ -157,132 +128,65 @@
     ],
     "category": "mittag",
     "difficulty": "leicht",
-    "offer_score": 2,
-    "matched_ingredients": [
-      "kartoffeln",
-      "zwiebeln"
-    ]
+    "offer_score": 2
   },
   {
     "day": "Donnerstag",
     "slot": "Abend",
-    "name": "Griechischer Bauernsalat mit Fladenbrot",
+    "name": "Ofenkartoffeln mit Avocadocreme/Quark",
     "tags": [
       "vegetarisch",
-      "schnell",
       "gesund"
     ],
     "key_ingredients": [
-      "tomaten",
-      "gurke",
-      "feta",
-      "oliven"
+      "kartoffeln",
+      "avocado_oder_quark",
+      "kräuter",
+      "tomaten"
     ],
     "category": "abend",
     "difficulty": "leicht",
-    "offer_score": 3,
-    "matched_ingredients": [
-      "tomaten",
-      "feta",
-      "oliven"
-    ]
+    "offer_score": 2
   },
   {
     "day": "Freitag",
     "slot": "Mittag",
-    "name": "Lachsfilet mit Ofengemüse (Blumenkohl)",
+    "name": "Risotto mit Lachs und Tomaten",
     "tags": [
       "fisch",
-      "gesund",
-      "ofen"
+      "ofen",
+      "kind"
     ],
     "key_ingredients": [
       "lachs",
-      "blumenkohl",
-      "olivenöl",
-      "zitrone"
+      "risottoreis",
+      "tomaten",
+      "parmesan"
     ],
     "category": "mittag",
-    "difficulty": "leicht",
-    "offer_score": 2,
-    "matched_ingredients": [
-      "lachs",
-      "olivenöl"
-    ]
-  },
-  {
-    "day": "Freitag",
-    "slot": "Abend",
-    "name": "Käsespätzle",
-    "tags": [
-      "vegetarisch",
-      "kind",
-      "klassiker"
-    ],
-    "key_ingredients": [
-      "spätzle",
-      "käse",
-      "zwiebeln",
-      "butter"
-    ],
-    "category": "abend",
     "difficulty": "mittel",
-    "offer_score": 3,
-    "matched_ingredients": [
-      "käse",
-      "zwiebeln",
-      "butter"
-    ]
+    "offer_score": 2
   },
   {
-    "day": "Samstag",
-    "slot": "Mittag",
-    "name": "Lachsfilet mit Ofengemüse",
-    "tags": [
-      "fisch",
-      "gesund",
-      "ofen"
-    ],
-    "key_ingredients": [
-      "lachs",
-      "gemüse_mix",
-      "olivenöl",
-      "zitrone"
-    ],
-    "category": "mittag",
-    "difficulty": "leicht",
-    "offer_score": 2,
-    "matched_ingredients": [
-      "lachs",
-      "olivenöl"
-    ]
-  },
-  {
-    "day": "Samstag",
+    "day": "Freitag",
     "slot": "Abend",
-    "name": "Bratkartoffeln mit Spiegelei",
+    "name": "Gnocchi Paprika Pfanne",
     "tags": [
       "vegetarisch",
-      "schnell",
-      "klassiker"
+      "schnell"
     ],
     "key_ingredients": [
-      "kartoffeln",
-      "zwiebeln",
-      "eier",
-      "butter"
+      "gnocchi",
+      "paprika",
+      "tomatensoße",
+      "käse"
     ],
     "category": "abend",
     "difficulty": "leicht",
-    "offer_score": 3,
-    "matched_ingredients": [
-      "kartoffeln",
-      "zwiebeln",
-      "butter"
-    ]
+    "offer_score": 2
   },
   {
-    "day": "Sonntag",
+    "day": "Samstag",
     "slot": "Mittag",
     "name": "Kichererbsen Curry",
     "tags": [
@@ -297,33 +201,60 @@
     ],
     "category": "mittag",
     "difficulty": "leicht",
-    "offer_score": 1,
-    "matched_ingredients": [
-      "tomaten"
-    ]
+    "offer_score": 1
+  },
+  {
+    "day": "Samstag",
+    "slot": "Abend",
+    "name": "Strudel mit Lachs und Spinat",
+    "tags": [
+      "fisch",
+      "ofen"
+    ],
+    "key_ingredients": [
+      "lachs",
+      "spinat",
+      "blätterteig",
+      "sahne"
+    ],
+    "category": "abend",
+    "difficulty": "mittel",
+    "offer_score": 2
+  },
+  {
+    "day": "Sonntag",
+    "slot": "Mittag",
+    "name": "Asia Lunch",
+    "tags": [
+      "asien",
+      "schnell"
+    ],
+    "key_ingredients": [
+      "reis",
+      "gemüse",
+      "sojasauce",
+      "ei"
+    ],
+    "category": "mittag",
+    "difficulty": "leicht",
+    "offer_score": 1
   },
   {
     "day": "Sonntag",
     "slot": "Abend",
-    "name": "Ofenkartoffel mit Kräuterquark",
+    "name": "Grünkern-Chili-Cheese-Kartoffeln",
     "tags": [
       "vegetarisch",
-      "schnell",
       "gesund"
     ],
     "key_ingredients": [
+      "grünkern",
       "kartoffeln",
-      "quark",
-      "kräuter",
-      "zwiebeln"
+      "käse",
+      "bohnen"
     ],
     "category": "abend",
-    "difficulty": "leicht",
-    "offer_score": 3,
-    "matched_ingredients": [
-      "kartoffeln",
-      "kräuter",
-      "zwiebeln"
-    ]
+    "difficulty": "mittel",
+    "offer_score": 2
   }
 ]

@@ -2,198 +2,169 @@
   "store": "ALDI SÜD",
   "date": "2026-04-15",
   "valid_from": "2026-04-13",
-  "valid_until": "2026-04-18",
-  "source": "aldi-sued.de (browser)",
-  "scraped_at": "2026-04-15T18:17:17.467630",
+  "valid_until": "2026-04-19",
+  "source": "https://www.aldi-sued.de/de/angebote.html",
   "offers": [
     {
-      "name": "Karotten 2 kg",
+      "name": "NATUR LIEBLINGE Karotten 2 kg",
       "price": 1.79,
       "old_price": null,
       "unit": "2 kg",
       "category": "gemuese"
     },
     {
-      "name": "Mix Paprika 500 g",
+      "name": "NATUR LIEBLINGE Mix Paprika 500 g",
       "price": 2.19,
       "old_price": null,
       "unit": "500 g",
       "category": "gemuese"
     },
     {
-      "name": "Champignons 400 g",
+      "name": "NATUR LIEBLINGE Champignons 400 g, weiß",
       "price": 1.35,
-      "old_price": 1.99,
+      "old_price": null,
       "unit": "400 g",
       "category": "gemuese"
     },
     {
-      "name": "Orangen 2 kg",
+      "name": "NATUR LIEBLINGE Orangen 2 kg",
       "price": 2.49,
       "old_price": null,
       "unit": "2 kg",
       "category": "obst"
     },
     {
-      "name": "Cocktailrispentomaten 500 g",
+      "name": "NATUR LIEBLINGE Cocktailrispentomaten 500 g",
       "price": 2.19,
       "old_price": null,
       "unit": "500 g",
       "category": "gemuese"
     },
     {
-      "name": "Norwegisches Lachsfilet 300 g",
+      "name": "GOLDEN SEAFOOD Norwegisches Lachsfilet 300 g",
       "price": 4.49,
-      "old_price": 5.79,
+      "old_price": null,
       "unit": "300 g",
       "category": "fisch"
     },
     {
-      "name": "Bio-Hackfleisch vom Rind 400 g",
+      "name": "BIO Bio-Hackfleisch vom Rind 400 g",
       "price": 4.79,
-      "old_price": 6.49,
+      "old_price": null,
       "unit": "400 g",
       "category": "fleisch"
     },
     {
-      "name": "Lauchzwiebeln Bund",
+      "name": "Lauchzwiebeln, Bund",
       "price": 0.75,
       "old_price": null,
-      "unit": "Bund",
+      "unit": "",
       "category": "gemuese"
     },
     {
       "name": "Kiwi grün Stück",
       "price": 0.29,
       "old_price": null,
-      "unit": "Stück",
+      "unit": "",
       "category": "obst"
     },
     {
-      "name": "Erdbeeren 400 g",
+      "name": "KLEINE SCHÄTZE Erdbeeren 400 g",
       "price": 2.49,
       "old_price": null,
       "unit": "400 g",
       "category": "obst"
-    },
-    {
-      "name": "Bunter Salat mit Wurzelballen",
-      "price": 1.11,
-      "old_price": null,
-      "unit": "Stück",
-      "category": "gemuese"
     },
     {
       "name": "Heidelbeeren 150g",
       "price": 1.69,
       "old_price": null,
-      "unit": "150 g",
+      "unit": "150g",
       "category": "obst"
     },
     {
-      "name": "Bio-Speisekartoffeln 2kg",
-      "price": 1.99,
+      "name": "Vitalis 1,5 kg, Knusper Müsli Klassisch",
+      "price": 5.49,
       "old_price": null,
-      "unit": "2 kg",
-      "category": "gemuese"
+      "unit": "1,5 kg",
+      "category": "trockenwaren"
     },
     {
-      "name": "Hähnchen-Filetspieß 400 g Kräuter",
-      "price": 4.29,
-      "old_price": 5.29,
-      "unit": "400 g",
-      "category": "fleisch"
-    },
-    {
-      "name": "Hähnchen-Filetspieß 400 g Paprika",
-      "price": 4.29,
-      "old_price": 5.29,
-      "unit": "400 g",
-      "category": "fleisch"
-    },
-    {
-      "name": "Schweine-Nackensteak 600 g Paprika",
-      "price": 3.99,
-      "old_price": 4.79,
-      "unit": "600 g",
-      "category": "fleisch"
-    },
-    {
-      "name": "Schweine-Nackensteak 600 g Kräuter",
-      "price": 3.99,
-      "old_price": 4.79,
-      "unit": "600 g",
-      "category": "fleisch"
-    },
-    {
-      "name": "Schweine-Minutensteaks 400 g",
-      "price": 2.49,
-      "old_price": 3.19,
-      "unit": "400 g",
-      "category": "fleisch"
-    },
-    {
-      "name": "Bio-Joghurt 1,8%",
-      "price": 1.19,
+      "name": "MEINE METZGEREI Puten Schnitzel Wiener Art 800 g",
+      "price": 7.49,
       "old_price": null,
-      "unit": "500 g",
+      "unit": "800 g",
+      "category": "fleisch"
+    },
+    {
+      "name": "Salami Chips 100 g, Klassik",
+      "price": 1.89,
+      "old_price": null,
+      "unit": "100 g",
+      "category": "fleisch"
+    },
+    {
+      "name": "GOLDEN SEAFOOD Backfisch XXL 560 g",
+      "price": 5.49,
+      "old_price": null,
+      "unit": "560 g",
+      "category": "fisch"
+    },
+    {
+      "name": "Erdnusskerne 450 g",
+      "price": 3.33,
+      "old_price": null,
+      "unit": "450 g",
+      "category": "sonstiges"
+    },
+    {
+      "name": "Schmelzkäsezubereitung 200 g, Sahne",
+      "price": 1.49,
+      "old_price": null,
+      "unit": "200 g",
       "category": "milchprodukte"
     },
     {
-      "name": "Bio-Joghurt 3,8%",
-      "price": 1.19,
+      "name": "Schmelzkäsezubereitung 200 g, Kräuter",
+      "price": 1.49,
       "old_price": null,
-      "unit": "500 g",
+      "unit": "200 g",
       "category": "milchprodukte"
     },
     {
-      "name": "Bio-Almbutter",
-      "price": 2.79,
+      "name": "Schmelzkäsezubereitung 200 g, Leicht",
+      "price": 1.49,
+      "old_price": null,
+      "unit": "200 g",
+      "category": "milchprodukte"
+    },
+    {
+      "name": "Schmelzkäsezubereitung 200 g, Gouda",
+      "price": 1.49,
+      "old_price": null,
+      "unit": "200 g",
+      "category": "milchprodukte"
+    },
+    {
+      "name": "Weißkäse in Salzlake 1 kg",
+      "price": 6.99,
+      "old_price": null,
+      "unit": "1 kg",
+      "category": "milchprodukte"
+    },
+    {
+      "name": "Grana Padano Hartkäse DOP 16 Monate 250 g",
+      "price": 4.99,
       "old_price": null,
       "unit": "250 g",
       "category": "milchprodukte"
     },
     {
-      "name": "Salakis Feta",
-      "price": 1.99,
+      "name": "Irischer Cheddar 200 g, Reibekäse",
+      "price": 2.19,
       "old_price": null,
-      "unit": "150 g",
+      "unit": "200 g",
       "category": "milchprodukte"
-    },
-    {
-      "name": "Grana Padano gerieben",
-      "price": 3.99,
-      "old_price": null,
-      "unit": "150 g",
-      "category": "milchprodukte"
-    },
-    {
-      "name": "Landkäse sahnig",
-      "price": 1.49,
-      "old_price": null,
-      "unit": "150 g",
-      "category": "milchprodukte"
-    },
-    {
-      "name": "Buttermilch",
-      "price": 0.69,
-      "old_price": null,
-      "unit": "500 ml",
-      "category": "milchprodukte"
-    },
-    {
-      "name": "Bertolli Olivenöl",
-      "price": 4.99,
-      "old_price": null,
-      "unit": "500 ml",
-      "category": "sonstiges"
-    },
-    {
-      "name": "Knusper Müsli",
-      "price": 5.49,
-      "old_price": null,
-      "unit": "1,5 kg",
-      "category": "trockenwaren"
     }
   ]
 }
