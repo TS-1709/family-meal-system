@@ -1,36 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  darkMode: 'class',
   theme: {
     extend: {
       colors: {
-        forest: {
-          50: '#f0faf3',
-          100: '#d0f0de',
-          200: '#a3e2bf',
-          300: '#6bcc99',
-          400: '#3ab373',
-          500: '#1a8a52',
-          600: '#1a5c2e',
-          700: '#164d26',
-          800: '#133d1f',
-          900: '#0f321a',
-        },
-        gold: {
-          400: '#fbbf24',
-          500: '#f57f17',
-          600: '#d97706',
-        }
+        forest: { 50: '#e8f5e9', 100: '#c8e6c9', 200: '#a5d6a7', 300: '#81c784', 400: '#66bb6a', 500: '#4caf50', 600: '#43a047', 700: '#388e3c', 800: '#2e7d32', 900: '#1a5c2e' },
       },
-      fontFamily: {
-        sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
-      },
-      maxWidth: {
-        app: '480px',
-      },
-      borderRadius: {
-        card: '16px',
-      }
+      fontFamily: { sans: ['-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'sans-serif'] },
     },
   },
   plugins: [],

@@ -1,117 +1,86 @@
-import { useState, useEffect, useCallback, useRef } from 'react'
-import './index.css'
+import { useState, useEffect, useMemo, useCallback, useRef } from 'react'
+import mealsData from './data/meals.json'
+import offersData from './data/offers.json'
 
-// Meal data (inline for standalone PWA)
-const MEALS_DB = {
-  family: { adults: 2, kids: [{ age: 3 }, { age: 5 }], plz: '92729' },
-  meals: [
-    { name: 'Paprika-Rinderhack-Pfanne', tags: ['fleisch', 'schnell', 'kind'], key_ingredients: ['rinderhack', 'paprika', 'zwiebeln', 'reis'], category: 'mittag', difficulty: 'leicht' },
-    { name: 'Butter Chicken mit Naan/Reis', tags: ['fleisch', 'indisch', 'kind'], key_ingredients: ['hähnchen', 'sahne', 'tomaten', 'reis'], category: 'mittag', difficulty: 'mittel' },
-    { name: 'Tikka Masala', tags: ['fleisch', 'indisch', 'kind'], key_ingredients: ['hähnchen', 'joghurt', 'tomaten', 'reis'], category: 'mittag', difficulty: 'mittel' },
-    { name: 'Hähnchengulasch', tags: ['fleisch', 'winter'], key_ingredients: ['hähnchen', 'paprika', 'tomaten', 'reis'], category: 'mittag', difficulty: 'mittel' },
-    { name: 'Spaghetti Bolognese', tags: ['fleisch', 'kind', 'klassiker'], key_ingredients: ['spaghetti', 'hackfleisch', 'tomatensoße', 'zwiebeln'], category: 'mittag', difficulty: 'leicht' },
-    { name: 'Lasagne', tags: ['fleisch', 'ofen', 'kind'], key_ingredients: ['lasagneplatten', 'hackfleisch', 'tomatensoße', 'béchamel'], category: 'mittag', difficulty: 'mittel' },
-    { name: 'Lachs Bowl', tags: ['fisch', 'gesund'], key_ingredients: ['lachs', 'reis', 'avocado', 'gemüse'], category: 'mittag', difficulty: 'mittel' },
-    { name: 'Lachsfilet mit Ofengemüse', tags: ['fisch', 'gesund', 'ofen'], key_ingredients: ['lachs', 'gemüse_mix', 'olivenöl', 'zitrone'], category: 'mittag', difficulty: 'leicht' },
-    { name: 'Fisch mit Brokkoli und Kartoffelgratin', tags: ['fisch', 'gesund', 'ofen'], key_ingredients: ['fischfilet', 'brokkoli', 'kartoffeln', 'sahne'], category: 'mittag', difficulty: 'mittel' },
-    { name: 'Risotto mit Lachs und Tomaten', tags: ['fisch', 'kind'], key_ingredients: ['lachs', 'risottoreis', 'tomaten', 'parmesan'], category: 'mittag', difficulty: 'mittel' },
-    { name: 'Indisches Curry (Gemüse)', tags: ['vegetarisch', 'indisch'], key_ingredients: ['kichererbsen', 'kokosmilch', 'gemüse', 'reis'], category: 'mittag', difficulty: 'mittel' },
-    { name: 'Kichererbsen Curry', tags: ['vegan', 'indisch'], key_ingredients: ['kichererbsen', 'kokosmilch', 'tomaten', 'reis'], category: 'mittag', difficulty: 'leicht' },
-    { name: 'Asia Lunch', tags: ['asien', 'schnell'], key_ingredients: ['reis', 'gemüse', 'sojasauce', 'ei'], category: 'mittag', difficulty: 'leicht' },
-    { name: 'Reis Bowl mit Tofu', tags: ['vegan', 'gesund'], key_ingredients: ['tofu', 'reis', 'gemüse', 'sojasauce'], category: 'mittag', difficulty: 'mittel' },
-    { name: 'Ofengemüse mit Hähnchenbrust', tags: ['fleisch', 'ofen', 'gesund'], key_ingredients: ['hähnchenbrust', 'gemüse', 'olivenöl', 'kräuter'], category: 'mittag', difficulty: 'leicht' },
-    { name: 'Putengeschnetzltes', tags: ['fleisch', 'schnell'], key_ingredients: ['putenbrust', 'zwiebeln', 'sahne', 'reis_oder_spätzle'], category: 'mittag', difficulty: 'mittel' },
-    { name: 'Spaghetti Carbonara', tags: ['fleisch', 'schnell'], key_ingredients: ['spaghetti', 'speck', 'eier', 'parmesan'], category: 'abend', difficulty: 'leicht' },
-    { name: 'Cremiger Gnocchi Topf', tags: ['vegetarisch', 'kind'], key_ingredients: ['gnocchi', 'sahne', 'spinat', 'parmesan'], category: 'abend', difficulty: 'leicht' },
-    { name: 'Nudeln mit Käse-Sahne-Soße', tags: ['vegetarisch', 'schnell', 'kind'], key_ingredients: ['nudeln', 'sahne', 'käse', 'knoblauch'], category: 'abend', difficulty: 'leicht' },
-    { name: 'Käsespätzle', tags: ['vegetarisch', 'kind', 'klassiker'], key_ingredients: ['spätzle', 'käse', 'zwiebeln', 'butter'], category: 'abend', difficulty: 'mittel' },
-    { name: 'Halloumi Burger', tags: ['vegetarisch', 'kind', 'burger'], key_ingredients: ['halloumi', 'burgerbrötchen', 'tomaten', 'salat'], category: 'abend', difficulty: 'leicht' },
-    { name: 'Wraps', tags: ['flexibel', 'schnell', 'kind'], key_ingredients: ['tortilla_wraps', 'salat', 'käse', 'fleisch_oder_gemüse'], category: 'abend', difficulty: 'leicht' },
-    { name: 'Pizza selbst gemacht', tags: ['kind', 'flexibel'], key_ingredients: ['mehl', 'tomatensoße', 'käse', 'belag_nach_wahl'], category: 'abend', difficulty: 'mittel' },
-    { name: 'Gnocchi Caprese', tags: ['vegetarisch', 'schnell', 'kind'], key_ingredients: ['gnocchi', 'tomaten', 'mozzarella', 'basilikum'], category: 'abend', difficulty: 'leicht' },
-    { name: 'Feta Nudeln', tags: ['vegetarisch', 'schnell'], key_ingredients: ['nudeln', 'feta', 'tomaten', 'olivenöl'], category: 'abend', difficulty: 'leicht' },
-    { name: 'Kartoffelcremesuppe', tags: ['vegetarisch', 'suppe', 'kind'], key_ingredients: ['kartoffeln', 'zwiebeln', 'sahne', 'brühe'], category: 'abend', difficulty: 'leicht' },
-    { name: 'Tomatensuppe mit Reis', tags: ['vegan', 'suppe', 'schnell', 'kind'], key_ingredients: ['tomaten_dose', 'reis', 'zwiebeln', 'brühe'], category: 'abend', difficulty: 'leicht' },
-    { name: 'Bratkartoffeln mit Spiegelei', tags: ['vegetarisch', 'schnell', 'klassiker'], key_ingredients: ['kartoffeln', 'zwiebeln', 'eier', 'butter'], category: 'abend', difficulty: 'leicht' },
-    { name: 'Ofenkartoffel mit Kräuterquark', tags: ['vegetarisch', 'schnell', 'gesund'], key_ingredients: ['kartoffeln', 'quark', 'kräuter', 'zwiebeln'], category: 'abend', difficulty: 'leicht' },
-    { name: 'Gemüsesticks mit Hummus', tags: ['vegan', 'schnell', 'snack'], key_ingredients: ['kichererbsen_dose', 'möhren', 'gurke', 'paprika'], category: 'abend', difficulty: 'leicht' },
-    { name: 'Brotzeitplatte', tags: ['flexibel', 'schnell', 'kind', 'klassiker'], key_ingredients: ['brot', 'aufschnitt', 'käse', 'gurke'], category: 'abend', difficulty: 'leicht' },
-    { name: 'Quesadillas', tags: ['flexibel', 'schnell', 'kind'], key_ingredients: ['tortilla_wraps', 'käse', 'paprika', 'mais_dose'], category: 'abend', difficulty: 'leicht' },
-    { name: 'Nudeln mit Pesto', tags: ['vegetarisch', 'schnell', 'kind'], key_ingredients: ['nudeln', 'pesto', 'parmesan', 'pinienkerne'], category: 'abend', difficulty: 'leicht' },
-    { name: 'Tortellini in Sahnesoße', tags: ['fleisch', 'schnell', 'kind'], key_ingredients: ['tortellini', 'sahne', 'schinken', 'erbsen_tk'], category: 'abend', difficulty: 'leicht' },
-    { name: 'Hackfleisch-Tomaten-Nudeln', tags: ['fleisch', 'schnell', 'kind'], key_ingredients: ['nudeln', 'hackfleisch', 'tomaten_dose', 'zwiebeln'], category: 'abend', difficulty: 'leicht' },
-    { name: 'Kichererbsen Shakshuka', tags: ['vegetarisch', 'gesund'], key_ingredients: ['kichererbsen', 'tomaten', 'eier', 'paprika'], category: 'abend', difficulty: 'leicht' },
-    { name: 'Grünkern-Chili-Cheese-Kartoffeln', tags: ['vegetarisch', 'gesund'], key_ingredients: ['grünkern', 'kartoffeln', 'käse', 'bohnen'], category: 'abend', difficulty: 'mittel' },
-    { name: 'Möhren-Kartoffel-Eintopf', tags: ['vegetarisch', 'winter', 'kind'], key_ingredients: ['kartoffeln', 'möhren', 'zwiebeln', 'brühe'], category: 'abend', difficulty: 'leicht' },
-    { name: 'Bohnensuppe', tags: ['vegan', 'winter'], key_ingredients: ['bohnen', 'tomaten', 'zwiebeln', 'reis'], category: 'abend', difficulty: 'leicht' },
-    { name: 'Flammkuchen', tags: ['schnell', 'kind'], key_ingredients: ['mehl', 'schmand', 'zwiebeln', 'speck_oder_gemüse'], category: 'abend', difficulty: 'mittel' },
-    { name: 'Pfannkuchen mit Apfelmus', tags: ['vegetarisch', 'schnell', 'kind', 'klassiker'], key_ingredients: ['mehl', 'eier', 'milch', 'apfelmus'], category: 'abend', difficulty: 'leicht' },
-    { name: 'Toast Hawaii', tags: ['schnell', 'kind', 'klassiker'], key_ingredients: ['toast', 'schinken', 'käse', 'ananas_dose'], category: 'abend', difficulty: 'leicht' },
-    { name: 'Couscous mit Gemüse', tags: ['vegan', 'schnell', 'gesund'], key_ingredients: ['couscous', 'gemüse', 'olivenöl', 'zitrone'], category: 'abend', difficulty: 'leicht' },
-    { name: 'Griechischer Salat mit Fladenbrot', tags: ['vegetarisch', 'schnell', 'gesund'], key_ingredients: ['tomaten', 'gurke', 'feta', 'oliven'], category: 'abend', difficulty: 'leicht' },
-  ]
+// ─── Helpers ────────────────────────────────────────────────────────
+function getKW() {
+  const d = new Date()
+  d.setHours(0, 0, 0, 0)
+  d.setDate(d.getDate() + 3 - ((d.getDay() + 6) % 7))
+  const jan4 = new Date(d.getFullYear(), 0, 4)
+  return 1 + Math.round(((d - jan4) / 86400000 - 3 + ((jan4.getDay() + 6) % 7)) / 7)
 }
 
-// Current offers (ALDI SÜD KW 16)
-const OFFERS = [
-  { name: 'Hähnchenbrustfilet', price: 8.19, old: 9.99, store: 'ALDI', category: 'fleisch' },
-  { name: 'Hackfleisch Rind', price: 5.29, old: 6.19, store: 'ALDI', category: 'fleisch' },
-  { name: 'Schweine-Bratwurst', price: 1.99, old: 2.79, store: 'ALDI', category: 'fleisch' },
-  { name: 'Chicken Nuggets', price: 4.99, old: 5.99, store: 'ALDI', category: 'fleisch' },
-  { name: 'Lachsfilet', price: 10.99, old: 13.99, store: 'ALDI', category: 'fisch' },
-  { name: 'Paprika rot', price: 1.79, store: 'ALDI', category: 'gemuese' },
-  { name: 'Karotten 2kg', price: 1.59, store: 'ALDI', category: 'gemuese' },
-  { name: 'Kartoffeln 2.5kg', price: 1.89, store: 'ALDI', category: 'gemuese' },
-  { name: 'Zwiebeln 1.5kg', price: 1.11, store: 'ALDI', category: 'gemuese' },
-  { name: 'Bio-Gurke', price: 0.77, store: 'ALDI', category: 'gemuese' },
-  { name: 'Spargel', price: 3.99, store: 'ALDI', category: 'gemuese' },
-  { name: 'Erdbeeren', price: 1.35, store: 'ALDI', category: 'obst' },
-  { name: 'Mango', price: 1.11, store: 'ALDI', category: 'obst' },
-  { name: 'Orangen Bio', price: 1.79, store: 'ALDI', category: 'obst' },
-  { name: 'Basmatireis Bio', price: 1.69, old: 2.35, store: 'ALDI', category: 'trockenwaren' },
-  { name: 'Joghurt 4x150g', price: 0.75, store: 'ALDI', category: 'milchprodukte' },
-  { name: 'Schweinegulasch', price: 3.89, store: 'LIDL', category: 'fleisch' },
-  { name: 'Hackfleisch Schwein', price: 2.69, store: 'LIDL', category: 'fleisch' },
-  { name: 'Bockwurst', price: 3.49, store: 'LIDL', category: 'fleisch' },
-  { name: 'Linguine', price: 0.69, old: 0.79, store: 'LIDL', category: 'trockenwaren' },
-  { name: 'Penne Rigate', price: 0.69, old: 0.79, store: 'LIDL', category: 'trockenwaren' },
-  { name: 'Lachsfilet Portionen', price: 7.99, store: 'LIDL', category: 'fisch' },
-  { name: 'Kräuter-Butter', price: 1.49, store: 'REWE', category: 'milchprodukte' },
-  { name: 'Hackfleisch gemischt', price: 2.99, store: 'REWE', category: 'fleisch' },
-  { name: 'Räucherlachs', price: 3.39, store: 'REWE', category: 'fisch' },
-  { name: 'Landleberwurst', price: 1.49, store: 'REWE', category: 'fleisch' },
-]
-
-const DAYS = ['Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag', 'Sonntag']
+function getWeekRange() {
+  const now = new Date()
+  const monday = new Date(now)
+  monday.setDate(now.getDate() - ((now.getDay() + 6) % 7))
+  const sunday = new Date(monday)
+  sunday.setDate(monday.getDate() + 6)
+  const fmt = d => d.toLocaleDateString('de-DE', { day: '2-digit', month: '2-digit' })
+  return `${fmt(monday)} – ${fmt(sunday)}.${now.getFullYear()}`
+}
 
 function getProteinType(meal) {
-  const tags = new Set(meal.tags)
+  const tags = new Set(meal.tags || [])
   if (tags.has('fleisch')) return 'fleisch'
   if (tags.has('fisch')) return 'fisch'
   if (tags.has('vegan')) return 'vegan'
   return 'vegetarisch'
 }
 
-function proteinIcon(type) {
-  return { fleisch: '🍗', fisch: '🐟', vegan: '🌱', vegetarisch: '🥬' }[type] || '🍽️'
+function isSuppe(meal) {
+  const n = (meal.name || '').toLowerCase()
+  return n.includes('suppe') || n.includes('eintopf')
 }
 
-function proteinLabel(type) {
-  return { fleisch: 'Fleisch', fisch: 'Fisch', vegan: 'Vegan', vegetarisch: 'Veggi' }[type] || ''
+function scoreMeals(meals, offers) {
+  const offerProducts = new Set()
+  for (const o of offers.offers || []) {
+    const name = (o.name || '').toLowerCase()
+    offerProducts.add(name)
+    for (const word of name.split(/\s+/)) {
+      if (word.length > 3) offerProducts.add(word)
+    }
+  }
+  return meals.map(meal => {
+    let score = 0
+    const matched = []
+    for (const ing of (meal.key_ingredients || [])) {
+      const ingL = ing.toLowerCase().replace(/_/g, ' ')
+      for (const op of offerProducts) {
+        if (ingL.includes(op) || op.includes(ingL)) {
+          score++
+          matched.push(ing)
+          break
+        }
+      }
+    }
+    return { ...meal, offerScore: score, matchedIngredients: matched }
+  })
 }
 
-function generatePlan(seed) {
-  const rng = (s) => { s = Math.sin(s) * 10000; return s - Math.floor(s) }
-  let s = seed
-  const shuffled = [...MEALS_DB.meals].sort(() => rng(s++) - 0.5)
+function selectWeek(scoredMeals) {
+  const days = ['Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag', 'Sonntag']
+  // Deterministic seed from KW
+  const seed = getKW()
+  const shuffled = [...scoredMeals].sort((a, b) => {
+    const ha = (a.name.length * seed * 7) % 100
+    const hb = (b.name.length * seed * 7) % 100
+    return ha - hb
+  })
+  shuffled.sort((a, b) => b.offerScore - a.offerScore)
+
   const mittag = shuffled.filter(m => m.category === 'mittag')
   const abend = shuffled.filter(m => m.category === 'abend')
+
   const counts = { fleisch: 0, fisch: 0, vegan: 0, vegetarisch: 0 }
   const maxP = { fleisch: 3, fisch: 2, vegan: 2, vegetarisch: 10 }
-  const plan = []
+  let suppeCount = 0
   const used = new Set()
+  const plan = []
 
-  for (const day of DAYS) {
+  for (const day of days) {
     const dayPt = []
     for (const pool of [mittag, abend]) {
       for (const m of pool) {
@@ -119,11 +88,13 @@ function generatePlan(seed) {
         const pt = getProteinType(m)
         if (counts[pt] >= maxP[pt]) continue
         if (dayPt.includes(pt) && ['fleisch', 'fisch'].includes(pt)) continue
+        if (isSuppe(m) && suppeCount >= 2) continue
         const slot = pool === mittag ? 'Mittag' : 'Abend'
-        plan.push({ day, slot, ...m, proteinType: pt })
+        plan.push({ day, slot, ...m })
         used.add(m.name)
         counts[pt]++
         dayPt.push(pt)
+        if (isSuppe(m)) suppeCount++
         break
       }
     }
@@ -131,343 +102,402 @@ function generatePlan(seed) {
   return plan
 }
 
-function getOfferForIngredient(name) {
-  const n = name.toLowerCase().replace(/_/g, ' ')
-  return OFFERS.find(o => n.includes(o.name.toLowerCase()) || o.name.toLowerCase().includes(n))
-}
-
 function buildShoppingList(plan) {
   const items = {}
   for (const meal of plan) {
-    for (const ing of meal.key_ingredients) {
+    for (const ing of (meal.key_ingredients || [])) {
       const name = ing.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase())
       items[name] = (items[name] || 0) + 1
     }
   }
-  // Categorize
-  const catKW = {
-    '🥩 Fleisch': ['hähnchen', 'hackfleisch', 'rinderhack', 'schwein', 'puten', 'lachs', 'fisch', 'thunfisch', 'speck', 'schinken', 'tunfisch', 'wurst'],
-    '🧀 Milchprodukte': ['käse', 'sahne', 'milch', 'joghurt', 'butter', 'eier', 'parmesan', 'mozzarella', 'feta', 'quark', 'halloumi'],
-    '🍝 Nudeln & Reis': ['nudeln', 'reis', 'spaghetti', 'mehl', 'gnocchi', 'tortilla', 'brot', 'toast', 'spätzle', 'couscous', 'penne', 'lasagne'],
-    '🥬 Gemüse & Obst': ['tomaten', 'paprika', 'zwiebeln', 'kartoffel', 'möhren', 'gurke', 'zucchini', 'spinat', 'brokkoli', 'avocado', 'salat', 'kräuter', 'bohnen', 'kichererbsen', 'knoblauch'],
+  const categories = {
+    '🥩 Fleisch & Fisch': [],
+    '🧀 Milchprodukte': [],
+    '🍝 Nudeln & Reis': [],
+    '🥬 Obst & Gemüse': [],
+    '📦 Sonstiges': [],
   }
-  const result = {}
-  for (const [name, count] of Object.entries(items)) {
-    let cat = '📦 Sonstiges'
-    const nl = name.toLowerCase()
-    for (const [c, kws] of Object.entries(catKW)) {
-      if (kws.some(k => nl.includes(k))) { cat = c; break }
-    }
-    if (!result[cat]) result[cat] = []
-    const offer = getOfferForIngredient(name)
-    result[cat].push({ name, count, offer })
-  }
-  return result
-}
+  const meatKw = ['hähnchen', 'lachs', 'hackfleisch', 'rinderhack', 'puten', 'schweine', 'thunfisch', 'wiener', 'speck', 'schinken', 'fisch', 'dorade', 'cevapcici']
+  const dairyKw = ['käse', 'sahne', 'milch', 'joghurt', 'butter', 'eier', 'parmesan', 'mozzarella', 'feta', 'halloumi', 'quark', 'ricotta', 'gorgonzola']
+  const carbKw = ['nudeln', 'reis', 'mehl', 'brot', 'gnocchi', 'spaghetti', 'penne', 'tortilla', 'blätterteig', 'maultaschen', 'tortellini', 'couscous', 'burgerbrötchen', 'pita', 'baguette']
+  const vegKw = ['tomaten', 'paprika', 'zwiebeln', 'möhren', 'kartoffeln', 'gurke', 'zucchini', 'spinat', 'brokkoli', 'blumenkohl', 'avocado', 'salat', 'kürbis', 'kichererbsen', 'bohnen', 'erbsen']
 
-// Swipe detection hook
-function useSwipe(onLeft, onRight) {
-  const ref = useRef(null)
-  const startX = useRef(0)
-  const startY = useRef(0)
-
-  useEffect(() => {
-    const el = ref.current
-    if (!el) return
-    const handleStart = (e) => {
-      startX.current = e.touches[0].clientX
-      startY.current = e.touches[0].clientY
-    }
-    const handleEnd = (e) => {
-      const dx = e.changedTouches[0].clientX - startX.current
-      const dy = e.changedTouches[0].clientY - startY.current
-      if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) * 1.5) {
-        if (dx < 0) onLeft()
-        else onRight()
+  for (const [ing, count] of Object.entries(items)) {
+    const l = ing.toLowerCase()
+    let placed = false
+    for (const [kw, cat] of [[meatKw, '🥩 Fleisch & Fisch'], [dairyKw, '🧀 Milchprodukte'], [carbKw, '🍝 Nudeln & Reis'], [vegKw, '🥬 Obst & Gemüse']]) {
+      if (kw.some(k => l.includes(k))) {
+        categories[cat].push({ name: ing, count })
+        placed = true
+        break
       }
     }
-    el.addEventListener('touchstart', handleStart, { passive: true })
-    el.addEventListener('touchend', handleEnd, { passive: true })
-    return () => {
-      el.removeEventListener('touchstart', handleStart)
-      el.removeEventListener('touchend', handleEnd)
-    }
-  }, [onLeft, onRight])
-
-  return ref
+    if (!placed) categories['📦 Sonstiges'].push({ name: ing, count })
+  }
+  return categories
 }
 
-function App() {
-  const today = new Date()
-  const kw = getWeekNumber(today)
-  const seed = kw * 100 + today.getFullYear()
-  
-  const [plan] = useState(() => generatePlan(seed))
-  const [dayIndex, setDayIndex] = useState(Math.min(today.getDay() === 0 ? 6 : today.getDay() - 1, 6))
-  const [view, setView] = useState('plan') // 'plan' | 'shopping'
-  const [darkMode, setDarkMode] = useState(() => localStorage.getItem('dark') === 'true')
-  const [checked, setChecked] = useState(() => {
-    try { return JSON.parse(localStorage.getItem(`check_kw${kw}`) || '{}') } catch { return {} }
-  })
+const DAYS = ['Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag', 'Sonntag']
+const PROTEIN = {
+  fleisch: { icon: '🍗', cls: 'tag-meat' },
+  fisch: { icon: '🐟', cls: 'tag-fish' },
+  vegan: { icon: '🌱', cls: 'tag-vegan' },
+  vegetarisch: { icon: '🥬', cls: 'tag-veggi' },
+}
 
-  const shoppingList = useState(() => buildShoppingList(plan))[0]
+// ─── Components ─────────────────────────────────────────────────────
 
-  useEffect(() => {
-    localStorage.setItem('dark', darkMode)
-    document.documentElement.classList.toggle('dark', darkMode)
-  }, [darkMode])
-
-  useEffect(() => {
-    localStorage.setItem(`check_kw${kw}`, JSON.stringify(checked))
-  }, [checked, kw])
-
-  const goNext = useCallback(() => setDayIndex(i => Math.min(i + 1, 6)), [])
-  const goPrev = useCallback(() => setDayIndex(i => Math.max(i - 1, 0)), [])
-  const swipeRef = useSwipe(goNext, goPrev)
-
-  const dayMeals = plan.filter(m => m.day === DAYS[dayIndex])
-  const bg = darkMode ? 'bg-gray-950 text-gray-100' : 'bg-gray-50 text-gray-900'
-  const card = darkMode ? 'bg-gray-900 border-gray-800' : 'bg-white border-gray-100'
-  const accent = 'text-emerald-500'
-  const totalItems = Object.values(shoppingList).flat().length
-  const checkedCount = Object.values(checked).filter(Boolean).length
-
+function Header({ kw, stats, dark, onToggleDark, view, onViewChange }) {
   return (
-    <div className={`min-h-screen ${bg} transition-colors duration-300`}>
-      {/* Header */}
-      <header className={`sticky top-0 z-50 ${darkMode ? 'bg-gray-900/95' : 'bg-white/95'} backdrop-blur-lg border-b ${darkMode ? 'border-gray-800' : 'border-gray-200'}`}>
-        <div className="max-w-lg mx-auto px-4 py-3 flex items-center justify-between">
-          <div>
-            <h1 className="text-lg font-bold">📋 Essensplan KW {kw}</h1>
-            <p className={`text-xs ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>
-              ALDI · LIDL · REWE · 92729
-            </p>
-          </div>
-          <div className="flex items-center gap-2">
-            <button
-              onClick={() => setDarkMode(!darkMode)}
-              className={`w-9 h-9 rounded-full flex items-center justify-center text-lg ${darkMode ? 'bg-gray-800' : 'bg-gray-100'}`}
-            >
-              {darkMode ? '☀️' : '🌙'}
-            </button>
-          </div>
+    <div className="glass sticky top-0 z-50 border-b border-gray-200 dark:border-gray-800 px-4 pt-3 pb-2">
+      <div className="flex items-center justify-between mb-2">
+        <div>
+          <h1 className="text-lg font-bold text-forest-900 dark:text-forest-300">📋 Essensplan KW {kw}</h1>
+          <p className="text-xs text-gray-500 dark:text-gray-400">{getWeekRange()} · ALDI SÜD</p>
         </div>
-        
-        {/* Tab Bar */}
-        <div className="max-w-lg mx-auto px-4 flex gap-1 pb-2">
-          <button
-            onClick={() => setView('plan')}
-            className={`flex-1 py-1.5 text-sm font-medium rounded-lg transition-colors ${
-              view === 'plan' 
-                ? 'bg-emerald-500 text-white' 
-                : `${darkMode ? 'bg-gray-800 text-gray-400' : 'bg-gray-100 text-gray-500'}`
-            }`}
-          >
-            🍽️ Plan
-          </button>
-          <button
-            onClick={() => setView('shopping')}
-            className={`flex-1 py-1.5 text-sm font-medium rounded-lg transition-colors relative ${
-              view === 'shopping' 
-                ? 'bg-emerald-500 text-white' 
-                : `${darkMode ? 'bg-gray-800 text-gray-400' : 'bg-gray-100 text-gray-500'}`
-            }`}
-          >
-            🛒 Einkauf ({checkedCount}/{totalItems})
-          </button>
-        </div>
-      </header>
-
-      <main className="max-w-lg mx-auto px-4 py-4">
-        {view === 'plan' ? (
-          <div ref={swipeRef} className="swipe-container">
-            {/* Day Navigation */}
-            <div className="flex items-center justify-between mb-4">
-              <button
-                onClick={goPrev}
-                disabled={dayIndex === 0}
-                className={`w-10 h-10 rounded-full flex items-center justify-center text-lg ${
-                  dayIndex === 0 ? 'opacity-30' : `${darkMode ? 'bg-gray-800' : 'bg-gray-200'} active:scale-95`
-                }`}
-              >
-                ←
-              </button>
-              <div className="text-center">
-                <h2 className="text-xl font-bold">{DAYS[dayIndex]}</h2>
-                <div className="flex gap-1 justify-center mt-1">
-                  {DAYS.map((_, i) => (
-                    <div
-                      key={i}
-                      className={`w-2 h-2 rounded-full transition-colors ${
-                        i === dayIndex ? 'bg-emerald-500' : darkMode ? 'bg-gray-700' : 'bg-gray-300'
-                      }`}
-                    />
-                  ))}
-                </div>
-              </div>
-              <button
-                onClick={goNext}
-                disabled={dayIndex === 6}
-                className={`w-10 h-10 rounded-full flex items-center justify-center text-lg ${
-                  dayIndex === 6 ? 'opacity-30' : `${darkMode ? 'bg-gray-800' : 'bg-gray-200'} active:scale-95`
-                }`}
-              >
-                →
-              </button>
-            </div>
-
-            {/* Day Card */}
-            <div className={`day-card rounded-2xl border ${card} overflow-hidden shadow-sm`}>
-              {dayMeals.map((meal, i) => {
-                const pt = meal.proteinType
-                const icon = proteinIcon(pt)
-                const label = proteinLabel(pt)
-                const hasOffer = meal.key_ingredients.some(ing => getOfferForIngredient(ing))
-                
-                return (
-                  <div
-                    key={i}
-                    className={`p-4 ${i > 0 ? `border-t ${darkMode ? 'border-gray-800' : 'border-gray-100'}` : ''}`}
-                  >
-                    <div className="flex items-start justify-between gap-3">
-                      <div className="flex-1 min-w-0">
-                        <div className="flex items-center gap-2 mb-1">
-                          <span className={`text-xs px-2 py-0.5 rounded-full font-medium ${
-                            meal.slot === 'Mittag'
-                              ? 'bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-400'
-                              : 'bg-indigo-100 text-indigo-700 dark:bg-indigo-900/30 dark:text-indigo-400'
-                          }`}>
-                            {meal.slot}
-                          </span>
-                          <span className={`text-xs px-2 py-0.5 rounded-full ${
-                            pt === 'fleisch' ? 'bg-orange-100 text-orange-700 dark:bg-orange-900/30 dark:text-orange-400'
-                            : pt === 'fisch' ? 'bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-400'
-                            : pt === 'vegan' ? 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400'
-                            : 'bg-emerald-100 text-emerald-700 dark:bg-emerald-900/30 dark:text-emerald-400'
-                          }`}>
-                            {icon} {label}
-                          </span>
-                        </div>
-                        <h3 className="font-semibold text-base leading-tight">{meal.name}</h3>
-                        <p className={`text-xs mt-1 ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>
-                          {meal.key_ingredients.map(i => i.replace(/_/g, ' ')).join(' · ')}
-                        </p>
-                      </div>
-                      {hasOffer && (
-                        <span className="offer-badge text-xs bg-yellow-100 text-yellow-700 dark:bg-yellow-900/30 dark:text-yellow-400 px-2 py-1 rounded-full font-medium whitespace-nowrap">
-                          💰 Angebot
-                        </span>
-                      )}
-                    </div>
-                  </div>
-                )
-              })}
-            </div>
-
-            {/* Weekly Stats */}
-            <div className={`mt-4 p-4 rounded-2xl border ${card}`}>
-              <h3 className="text-sm font-semibold mb-3">📊 Diese Woche</h3>
-              <div className="grid grid-cols-4 gap-2 text-center">
-                {[
-                  { icon: '🍗', label: 'Fleisch', count: plan.filter(m => m.proteinType === 'fleisch').length },
-                  { icon: '🐟', label: 'Fisch', count: plan.filter(m => m.proteinType === 'fisch').length },
-                  { icon: '🌱', label: 'Vegan', count: plan.filter(m => m.proteinType === 'vegan').length },
-                  { icon: '🥬', label: 'Veggi', count: plan.filter(m => m.proteinType === 'vegetarisch').length },
-                ].map(({ icon, label, count }) => (
-                  <div key={label} className={`p-2 rounded-xl ${darkMode ? 'bg-gray-800' : 'bg-gray-50'}`}>
-                    <div className="text-xl font-bold">{count}</div>
-                    <div className="text-xs mt-0.5">{icon} {label}</div>
-                  </div>
-                ))}
-              </div>
-              <div className={`mt-3 pt-3 border-t ${darkMode ? 'border-gray-800' : 'border-gray-100'} flex items-center justify-between text-xs ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>
-                <span>💰 {OFFERS.length} Angebote</span>
-                <span>🏪 ALDI · LIDL · REWE</span>
-                <span>📍 92729</span>
-              </div>
-            </div>
-
-            {/* Swipe hint */}
-            <p className={`text-center text-xs mt-4 ${darkMode ? 'text-gray-600' : 'text-gray-400'}`}>
-              ← Wischen für nächsten Tag →
-            </p>
-          </div>
-        ) : (
-          /* Shopping List View */
-          <div>
-            {Object.entries(shoppingList).map(([cat, items]) => (
-              <div key={cat} className={`mb-4 rounded-2xl border ${card} overflow-hidden`}>
-                <div className={`px-4 py-3 font-semibold text-sm ${darkMode ? 'bg-gray-800/50' : 'bg-gray-50'}`}>
-                  {cat}
-                </div>
-                {items.map((item, i) => {
-                  const key = `${cat}_${item.name}`
-                  const isChecked = checked[key]
-                  return (
-                    <label
-                      key={i}
-                      className={`flex items-center gap-3 px-4 py-3 cursor-pointer ${
-                        i > 0 ? `border-t ${darkMode ? 'border-gray-800' : 'border-gray-100'}` : ''
-                      } ${isChecked ? 'opacity-50' : ''}`}
-                    >
-                      <input
-                        type="checkbox"
-                        checked={!!isChecked}
-                        onChange={() => setChecked(prev => ({ ...prev, [key]: !prev[key] }))}
-                        className="w-5 h-5 rounded accent-emerald-500 flex-shrink-0"
-                      />
-                      <div className="flex-1 min-w-0">
-                        <span className={`text-sm ${isChecked ? 'line-through' : ''}`}>
-                          {item.name}
-                          {item.count > 1 && <span className="text-gray-400 ml-1">x{item.count}</span>}
-                        </span>
-                        {item.offer && (
-                          <div className="flex items-center gap-2 mt-0.5">
-                            <span className="text-xs bg-yellow-100 text-yellow-700 dark:bg-yellow-900/30 dark:text-yellow-400 px-1.5 py-0.5 rounded">
-                              💰 {item.offer.price.toFixed(2)}€ {item.offer.store}
-                            </span>
-                            {item.offer.old && (
-                              <span className="text-xs text-gray-400 line-through">
-                                {item.offer.old.toFixed(2)}€
-                              </span>
-                            )}
-                          </div>
-                        )}
-                      </div>
-                    </label>
-                  )
-                })}
-              </div>
-            ))}
-            
-            {/* Progress */}
-            <div className={`mt-4 p-4 rounded-2xl border ${card} text-center`}>
-              <div className="text-2xl font-bold text-emerald-500">
-                {checkedCount} / {totalItems}
-              </div>
-              <div className="text-sm text-gray-500 mt-1">eingekauft</div>
-              {checkedCount === totalItems && (
-                <div className="mt-2 text-lg">🎉 Geschafft!</div>
-              )}
-            </div>
-          </div>
-        )}
-      </main>
-
-      {/* Footer */}
-      <footer className={`text-center py-6 text-xs ${darkMode ? 'text-gray-700' : 'text-gray-400'}`}>
-        Hermes Meal Planner · KW {kw} · ALDI · LIDL · REWE
-      </footer>
+        <button
+          onClick={onToggleDark}
+          className="w-9 h-9 rounded-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center text-lg card-press"
+        >
+          {dark ? '☀️' : '🌙'}
+        </button>
+      </div>
+      <div className="flex gap-2 mb-2">
+        {Object.entries(stats).map(([key, val]) => (
+          <span key={key} className={`text-xs px-2 py-1 rounded-full ${PROTEIN[key]?.cls || 'bg-gray-100'}`}>
+            {PROTEIN[key]?.icon} {val}
+          </span>
+        ))}
+      </div>
+      <div className="flex gap-1">
+        <button
+          onClick={() => onViewChange('plan')}
+          className={`flex-1 text-xs py-2 rounded-lg font-medium transition-colors ${view === 'plan' ? 'bg-forest-900 dark:bg-forest-700 text-white' : 'bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400'}`}
+        >
+          📅 Plan
+        </button>
+        <button
+          onClick={() => onViewChange('list')}
+          className={`flex-1 text-xs py-2 rounded-lg font-medium transition-colors ${view === 'list' ? 'bg-forest-900 dark:bg-forest-700 text-white' : 'bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400'}`}
+        >
+          🛒 Einkauf
+        </button>
+      </div>
     </div>
   )
 }
 
-function getWeekNumber(date) {
-  const d = new Date(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()))
-  const dayNum = d.getUTCDay() || 7
-  d.setUTCDate(d.getUTCDate() + 4 - dayNum)
-  const yearStart = new Date(Date.UTC(d.getUTCFullYear(), 0, 1))
-  return Math.ceil((((d - yearStart) / 86400000) + 1) / 7)
+function MealCard({ meal }) {
+  const pt = getProteinType(meal)
+  const { icon, cls } = PROTEIN[pt]
+  const isKid = (meal.tags || []).includes('kind')
+  const hasOffer = meal.offerScore > 0
+  const difficultyIcon = meal.difficulty === 'leicht' ? '⚡' : meal.difficulty === 'schwer' ? '🔥' : ''
+
+  return (
+    <div className="card p-3 card-press">
+      <div className="flex items-start justify-between gap-2">
+        <div className="flex-1 min-w-0">
+          <h3 className="font-semibold text-sm leading-tight">{meal.name}</h3>
+          <div className="flex flex-wrap gap-1 mt-1.5">
+            <span className={`text-[10px] px-1.5 py-0.5 rounded-full ${cls}`}>{icon}</span>
+            {isKid && <span className="text-[10px] px-1.5 py-0.5 rounded-full tag-kid">👶</span>}
+            {hasOffer && <span className="text-[10px] px-1.5 py-0.5 rounded-full tag-offer">💰 Angebot</span>}
+            {difficultyIcon && <span className="text-[10px]">{difficultyIcon}</span>}
+          </div>
+        </div>
+        <span className="text-[10px] text-gray-400 dark:text-gray-500 whitespace-nowrap">
+          {meal.slot}
+        </span>
+      </div>
+      {hasOffer && meal.matchedIngredients?.length > 0 && (
+        <p className="text-[10px] text-yellow-600 dark:text-yellow-400 mt-1.5">
+          Im Angebot: {meal.matchedIngredients.map(i => i.replace(/_/g, ' ')).join(', ')}
+        </p>
+      )}
+    </div>
+  )
 }
 
-export default App
+function DayView({ day, meals }) {
+  const dayIndex = DAYS.indexOf(day)
+  const today = new Date().getDay()
+  const todayIndex = today === 0 ? 6 : today - 1
+  const isToday = dayIndex === todayIndex
+
+  return (
+    <div className="swipe-page py-4">
+      <div className="flex items-center gap-2 mb-3">
+        <h2 className={`text-base font-bold ${isToday ? 'text-forest-600 dark:text-forest-400' : ''}`}>
+          {day}
+        </h2>
+        {isToday && (
+          <span className="text-[10px] bg-forest-100 dark:bg-forest-900/40 text-forest-700 dark:text-forest-300 px-2 py-0.5 rounded-full">
+            HEUTE
+          </span>
+        )}
+      </div>
+      <div className="space-y-2">
+        {meals.map((meal, i) => (
+          <MealCard key={i} meal={meal} />
+        ))}
+      </div>
+    </div>
+  )
+}
+
+function WeekView({ plan }) {
+  const byDay = useMemo(() => {
+    const map = {}
+    for (const m of plan) {
+      if (!map[m.day]) map[m.day] = []
+      map[m.day].push(m)
+    }
+    return map
+  }, [plan])
+
+  return (
+    <div className="px-4 py-4 space-y-2">
+      {DAYS.map(day => {
+        const meals = byDay[day] || []
+        if (!meals.length) return null
+        const dayIndex = DAYS.indexOf(day)
+        const today = new Date().getDay()
+        const todayIndex = today === 0 ? 6 : today - 1
+        const isToday = dayIndex === todayIndex
+
+        return (
+          <div key={day} className="card p-3">
+            <div className="flex items-center gap-2 mb-2">
+              <h3 className={`text-sm font-bold ${isToday ? 'text-forest-600 dark:text-forest-400' : 'text-gray-700 dark:text-gray-300'}`}>
+                {day}
+              </h3>
+              {isToday && <span className="text-[9px] bg-forest-100 dark:bg-forest-900/40 text-forest-700 dark:text-forest-300 px-1.5 py-0.5 rounded-full">HEUTE</span>}
+            </div>
+            {meals.map((meal, i) => {
+              const pt = getProteinType(meal)
+              const { icon } = PROTEIN[pt]
+              const hasOffer = meal.offerScore > 0
+              return (
+                <div key={i} className="flex items-center gap-2 py-1.5 border-t border-gray-50 dark:border-gray-800 first:border-0 first:pt-0">
+                  <span className="text-[10px] text-gray-400 w-14 flex-shrink-0">{meal.slot}</span>
+                  <span className="text-sm flex-1">{meal.name}</span>
+                  <span className="text-xs">{icon}</span>
+                  {hasOffer && <span className="text-[10px]">💰</span>}
+                </div>
+              )
+            })}
+          </div>
+        )
+      })}
+    </div>
+  )
+}
+
+function ShoppingListView({ shoppingList, checked, onToggle }) {
+  const totalItems = Object.values(shoppingList).flat().length
+  const checkedCount = Object.values(checked).filter(Boolean).length
+
+  return (
+    <div className="px-4 py-4">
+      <div className="flex items-center justify-between mb-3">
+        <h2 className="text-base font-bold">🛒 Einkaufsliste</h2>
+        <span className="text-xs bg-forest-100 dark:bg-forest-900/40 text-forest-700 dark:text-forest-300 px-2 py-1 rounded-full">
+          {checkedCount} / {totalItems} ✓
+        </span>
+      </div>
+      <div className="space-y-4">
+        {Object.entries(shoppingList).map(([category, items]) => {
+          if (!items.length) return null
+          return (
+            <div key={category}>
+              <h3 className="text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1.5 uppercase tracking-wide">
+                {category}
+              </h3>
+              <div className="card divide-y divide-gray-50 dark:divide-gray-800">
+                {items.sort((a, b) => a.name.localeCompare(b.name)).map((item, i) => {
+                  const id = `${category}-${item.name}`
+                  const isChecked = checked[id] || false
+                  return (
+                    <label
+                      key={i}
+                      className={`flex items-center gap-3 px-3 py-2.5 cursor-pointer transition-colors ${isChecked ? 'bg-gray-50 dark:bg-gray-800/50' : ''}`}
+                    >
+                      <input
+                        type="checkbox"
+                        checked={isChecked}
+                        onChange={() => onToggle(id)}
+                        className="w-5 h-5 rounded accent-forest-600 flex-shrink-0"
+                      />
+                      <span className={`flex-1 text-sm transition-all ${isChecked ? 'line-through text-gray-400 dark:text-gray-500' : ''}`}>
+                        {item.name}
+                        {item.count > 1 && <span className="text-gray-400 ml-1">×{item.count}</span>}
+                      </span>
+                    </label>
+                  )
+                })}
+              </div>
+            </div>
+          )
+        })}
+      </div>
+      {checkedCount === totalItems && totalItems > 0 && (
+        <div className="mt-4 p-4 bg-forest-50 dark:bg-forest-900/30 rounded-2xl text-center">
+          <p className="text-2xl mb-1">🎉</p>
+          <p className="text-sm font-medium text-forest-700 dark:text-forest-300">Alles eingekauft!</p>
+        </div>
+      )}
+    </div>
+  )
+}
+
+// ─── Main App ───────────────────────────────────────────────────────
+
+export default function App() {
+  const kw = getKW()
+  const storageKey = `mealplan_kw${kw}`
+
+  const [dark, setDark] = useState(() => {
+    const saved = localStorage.getItem('mealplan_dark')
+    return saved !== 'false'
+  })
+  const [view, setView] = useState('plan')
+  const [checked, setChecked] = useState(() => {
+    try { return JSON.parse(localStorage.getItem(`${storageKey}_checked`) || '{}') } catch { return {} }
+  })
+  const [swipeIndex, setSwipeIndex] = useState(() => {
+    const today = new Date().getDay()
+    return today === 0 ? 6 : today - 1
+  })
+
+  useEffect(() => {
+    document.documentElement.classList.toggle('dark', dark)
+    localStorage.setItem('mealplan_dark', dark)
+  }, [dark])
+
+  useEffect(() => {
+    localStorage.setItem(`${storageKey}_checked`, JSON.stringify(checked))
+  }, [checked, storageKey])
+
+  const scoredMeals = useMemo(() => scoreMeals(mealsData.meals, offersData), [])
+  const plan = useMemo(() => selectWeek(scoredMeals), [scoredMeals])
+  const shoppingList = useMemo(() => buildShoppingList(plan), [plan])
+
+  const stats = useMemo(() => {
+    const s = { fleisch: 0, fisch: 0, vegan: 0, vegetarisch: 0 }
+    for (const m of plan) s[getProteinType(m)]++
+    return s
+  }, [plan])
+
+  const byDay = useMemo(() => {
+    const map = {}
+    for (const m of plan) {
+      if (!map[m.day]) map[m.day] = []
+      map[m.day].push(m)
+    }
+    return map
+  }, [plan])
+
+  const handleToggle = useCallback((id) => {
+    setChecked(prev => ({ ...prev, [id]: !prev[id] }))
+  }, [])
+
+  // Swipe handling
+  const touchStart = useRef(null)
+  const touchDelta = useRef(0)
+  const trackRef = useRef(null)
+
+  const onTouchStart = (e) => { touchStart.current = e.touches[0].clientX }
+  const onTouchMove = (e) => {
+    if (touchStart.current === null) return
+    touchDelta.current = e.touches[0].clientX - touchStart.current
+  }
+  const onTouchEnd = () => {
+    if (Math.abs(touchDelta.current) > 60) {
+      if (touchDelta.current < 0 && swipeIndex < 6) setSwipeIndex(i => i + 1)
+      if (touchDelta.current > 0 && swipeIndex > 0) setSwipeIndex(i => i - 1)
+    }
+    touchStart.current = null
+    touchDelta.current = 0
+  }
+
+  // Day dots nav
+  const DayDots = () => (
+    <div className="flex justify-center gap-1.5 py-2">
+      {DAYS.map((d, i) => (
+        <button
+          key={d}
+          onClick={() => setSwipeIndex(i)}
+          className={`w-2 h-2 rounded-full transition-all duration-200 ${i === swipeIndex ? 'bg-forest-600 dark:bg-forest-400 w-6' : 'bg-gray-300 dark:bg-gray-600'}`}
+        />
+      ))}
+    </div>
+  )
+
+  return (
+    <div className="min-h-screen max-w-lg mx-auto">
+      <Header kw={kw} stats={stats} dark={dark} onToggleDark={() => setDark(d => !d)} view={view} onViewChange={setView} />
+
+      {view === 'plan' ? (
+        <>
+          <div className="swipe-container" onTouchStart={onTouchStart} onTouchMove={onTouchMove} onTouchEnd={onTouchEnd}>
+            <div
+              ref={trackRef}
+              className="swipe-track"
+              style={{ transform: `translateX(-${swipeIndex * 100}%)` }}
+            >
+              {DAYS.map(day => (
+                <div key={day} className="swipe-page">
+                  <DayView day={day} meals={byDay[day] || []} />
+                </div>
+              ))}
+            </div>
+          </div>
+          <DayDots />
+          <div className="px-4 pb-4">
+            <button
+              onClick={() => setView('week')}
+              className="w-full text-xs text-center text-gray-400 dark:text-gray-500 py-2"
+            >
+              Woche anzeigen ↓
+            </button>
+          </div>
+        </>
+      ) : view === 'week' ? (
+        <>
+          <WeekView plan={plan} />
+          <div className="px-4 pb-4">
+            <button
+              onClick={() => setView('plan')}
+              className="w-full text-xs text-center text-gray-400 dark:text-gray-500 py-2"
+            >
+              Zurück zum Tagesplan ↑
+            </button>
+            <button
+              onClick={() => setView('list')}
+              className="w-full text-xs text-center text-gray-400 dark:text-gray-500 py-2"
+            >
+              Zur Einkaufsliste →
+            </button>
+          </div>
+        </>
+      ) : (
+        <>
+          <ShoppingListView shoppingList={shoppingList} checked={checked} onToggle={handleToggle} />
+          <div className="px-4 pb-4">
+            <button
+              onClick={() => setView('plan')}
+              className="w-full text-xs text-center text-gray-400 dark:text-gray-500 py-2"
+            >
+              ← Zurück zum Plan
+            </button>
+          </div>
+        </>
+      )}
+
+      <footer className="text-center text-[10px] text-gray-300 dark:text-gray-600 py-4 pb-8">
+        Hermes · KW {kw} · ALDI SÜD · 157 Gerichte
+      </footer>
+    </div>
+  )
+}

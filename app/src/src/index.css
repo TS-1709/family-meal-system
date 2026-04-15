@@ -1,60 +1,44 @@
 @import "tailwindcss";
 
-:root {
-  --green: #1a5c2e;
-  --green-light: #e8f5e9;
-  --orange: #e65100;
-  --orange-light: #fff3e0;
-  --blue: #1565c0;
-  --blue-light: #e3f2fd;
+@layer base {
+  :root {
+    --safe-top: env(safe-area-inset-top, 0px);
+    --safe-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  body {
+    @apply bg-gray-50 dark:bg-gray-950 text-gray-900 dark:text-gray-100 antialiased;
+    padding-top: var(--safe-top);
+    padding-bottom: var(--safe-bottom);
+    -webkit-tap-highlight-color: transparent;
+    overscroll-behavior: none;
+  }
 }
 
-* {
-  -webkit-tap-highlight-color: transparent;
-  user-select: none;
-}
+@layer components {
+  .card {
+    @apply bg-white dark:bg-gray-900 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-800;
+  }
+  .card-press {
+    @apply active:scale-[0.98] transition-transform duration-100;
+  }
+  .glass {
+    @apply bg-white/80 dark:bg-gray-900/80 backdrop-blur-xl;
+  }
+  .tag-meat { @apply bg-orange-100 dark:bg-orange-900/40 text-orange-700 dark:text-orange-300; }
+  .tag-fish { @apply bg-blue-100 dark:bg-blue-900/40 text-blue-700 dark:text-blue-300; }
+  .tag-vegan { @apply bg-emerald-100 dark:bg-emerald-900/40 text-emerald-700 dark:text-emerald-300; }
+  .tag-veggi { @apply bg-lime-100 dark:bg-lime-900/40 text-lime-700 dark:text-lime-300; }
+  .tag-offer { @apply bg-yellow-100 dark:bg-yellow-900/40 text-yellow-700 dark:text-yellow-300; }
+  .tag-kid { @apply bg-pink-100 dark:bg-pink-900/40 text-pink-700 dark:text-pink-300; }
 
-body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
-  overscroll-behavior: none;
-}
-
-.swipe-container {
-  touch-action: pan-y;
-}
-
-.day-card {
-  animation: slideIn 0.3s ease-out;
-}
-
-@keyframes slideIn {
-  from { opacity: 0; transform: translateX(30px); }
-  to { opacity: 1; transform: translateX(0); }
-}
-
-@keyframes slideInReverse {
-  from { opacity: 0; transform: translateX(-30px); }
-  to { opacity: 1; transform: translateX(0); }
-}
-
-.slide-left {
-  animation: slideIn 0.3s ease-out;
-}
-
-.slide-right {
-  animation: slideInReverse 0.3s ease-out;
-}
-
-.checkbox-done {
-  text-decoration: line-through;
-  opacity: 0.5;
-}
-
-.offer-badge {
-  animation: pulse 2s infinite;
-}
-
-@keyframes pulse {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.7; }
+  .swipe-container {
+    @apply overflow-hidden relative;
+    touch-action: pan-y;
+  }
+  .swipe-track {
+    @apply flex transition-transform duration-300 ease-out;
+  }
+  .swipe-page {
+    @apply w-full flex-shrink-0 px-4;
+  }
 }
