@@ -1,0 +1,205 @@
+{
+  "store": "ALDI SÜD",
+  "date": "2026-04-15",
+  "valid_from": "2026-04-13",
+  "valid_until": "2026-04-18",
+  "source": "aldi-sued.de",
+  "offers": [
+    {
+      "name": "NATUR LIEBLINGE Karotten 2 kg",
+      "price": 1.79,
+      "old_price": null,
+      "unit": "2000g",
+      "category": "gemuese"
+    },
+    {
+      "name": "NATUR LIEBLINGE Mix Paprika 500 g",
+      "price": 2.19,
+      "old_price": null,
+      "unit": "500g",
+      "category": "gemuese"
+    },
+    {
+      "name": "NATUR LIEBLINGE Champignons 400 g, weiß",
+      "price": 1.35,
+      "old_price": 1.99,
+      "unit": "400g",
+      "category": "gemuese"
+    },
+    {
+      "name": "NATUR LIEBLINGE Orangen 2 kg",
+      "price": 2.49,
+      "old_price": null,
+      "unit": "2000g",
+      "category": "obst"
+    },
+    {
+      "name": "NATUR LIEBLINGE Cocktailrispentomaten 500 g",
+      "price": 2.19,
+      "old_price": null,
+      "unit": "500g",
+      "category": "gemuese"
+    },
+    {
+      "name": "GOLDEN SEAFOOD Norwegisches Lachsfilet 300 g",
+      "price": 4.49,
+      "old_price": 5.79,
+      "unit": "300g",
+      "category": "fisch"
+    },
+    {
+      "name": "BIO Bio-Hackfleisch vom Rind 400 g",
+      "price": 4.79,
+      "old_price": 6.49,
+      "unit": "400g",
+      "category": "fleisch"
+    },
+    {
+      "name": "Lauchzwiebeln, Bund",
+      "price": 0.75,
+      "old_price": null,
+      "unit": "",
+      "category": "gemuese"
+    },
+    {
+      "name": "Kiwi grün Stück",
+      "price": 0.29,
+      "old_price": null,
+      "unit": "",
+      "category": "obst"
+    },
+    {
+      "name": "KLEINE SCHÄTZE Erdbeeren 400 g",
+      "price": 2.49,
+      "old_price": null,
+      "unit": "400g",
+      "category": "obst"
+    },
+    {
+      "name": "BESTES AUS DER REGION Bunter Salat mit Wurzelballen, Stück",
+      "price": 1.11,
+      "old_price": null,
+      "unit": "",
+      "category": "gemuese"
+    },
+    {
+      "name": "Heidelbeeren 150g",
+      "price": 1.69,
+      "old_price": null,
+      "unit": "150g",
+      "category": "obst"
+    },
+    {
+      "name": "DR. OETKER Vitalis 1,5 kg, Knusper Müsli Klassisch",
+      "price": 5.49,
+      "old_price": null,
+      "unit": "1500g",
+      "category": "trockenwaren"
+    },
+    {
+      "name": "MEINE METZGEREI Puten Schnitzel Wiener Art 800 g",
+      "price": 7.49,
+      "old_price": null,
+      "unit": "800g",
+      "category": "fleisch"
+    },
+    {
+      "name": "GOLDEN SEAFOOD Backfisch XXL 560 g",
+      "price": 5.49,
+      "old_price": null,
+      "unit": "560g",
+      "category": "fisch"
+    },
+    {
+      "name": "VALESS Crispy Sticks 160 g",
+      "price": 1.99,
+      "old_price": null,
+      "unit": "160g",
+      "category": "fleisch"
+    },
+    {
+      "name": "MILSANI Schmelzkäsezubereitung 200 g, Sahne",
+      "price": 1.49,
+      "old_price": null,
+      "unit": "200g",
+      "category": "milchprodukte"
+    },
+    {
+      "name": "MILSANI Schmelzkäsezubereitung 200 g, Kräuter",
+      "price": 1.49,
+      "old_price": null,
+      "unit": "200g",
+      "category": "milchprodukte"
+    },
+    {
+      "name": "MILSANI Schmelzkäsezubereitung 200 g, Leicht",
+      "price": 1.49,
+      "old_price": null,
+      "unit": "200g",
+      "category": "milchprodukte"
+    },
+    {
+      "name": "MILSANI Schmelzkäsezubereitung 200 g, Gouda",
+      "price": 1.49,
+      "old_price": null,
+      "unit": "200g",
+      "category": "milchprodukte"
+    },
+    {
+      "name": "LYTTOS Weißkäse in Salzlake 1 kg",
+      "price": 6.99,
+      "old_price": 7.29,
+      "unit": "1000g",
+      "category": "milchprodukte"
+    },
+    {
+      "name": "MILSANI Emmentaler 250 g",
+      "price": 2.29,
+      "old_price": 2.49,
+      "unit": "250g",
+      "category": "milchprodukte"
+    },
+    {
+      "name": "CUCINA Burrata 125 g",
+      "price": 1.89,
+      "old_price": 1.99,
+      "unit": "125g",
+      "category": "milchprodukte"
+    },
+    {
+      "name": "MILSANI Deutscher Camembert 125 g",
+      "price": 0.99,
+      "old_price": 1.09,
+      "unit": "125g",
+      "category": "milchprodukte"
+    },
+    {
+      "name": "CUCINA Grana Padano Hartkäse DOP 16 Monate 250 g",
+      "price": 4.99,
+      "old_price": 5.29,
+      "unit": "250g",
+      "category": "milchprodukte"
+    },
+    {
+      "name": "ROI DE TREFLE Französische Briespitze, 200 g",
+      "price": 1.89,
+      "old_price": 1.99,
+      "unit": "200g",
+      "category": "milchprodukte"
+    },
+    {
+      "name": "MEINE KÄSETHEKE Irischer Cheddar 200 g, Reibekäse",
+      "price": 2.19,
+      "old_price": 2.39,
+      "unit": "200g",
+      "category": "milchprodukte"
+    },
+    {
+      "name": "MILSANI Schmelzscheiben 250 g, Allgäu",
+      "price": 1.49,
+      "old_price": 1.69,
+      "unit": "250g",
+      "category": "milchprodukte"
+    }
+  ]
+}
